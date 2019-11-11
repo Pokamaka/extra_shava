@@ -59,6 +59,7 @@
             this.radioButton__middel = new System.Windows.Forms.RadioButton();
             this.radioButton__high = new System.Windows.Forms.RadioButton();
             this.radioButton__vhot = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox_osnova.SuspendLayout();
             this.groupBox_meat.SuspendLayout();
             this.groupBox_sauce.SuspendLayout();
@@ -412,11 +413,22 @@
             this.radioButton__vhot.Text = "Огненно";
             this.radioButton__vhot.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(17, 761);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(501, 32);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Стоимость Вашей шаурмы составит:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1259, 741);
+            this.ClientSize = new System.Drawing.Size(1259, 812);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox_hotly);
             this.Controls.Add(this.groupBox_doping);
             this.Controls.Add(this.groupBox_sauce);
@@ -439,6 +451,7 @@
             this.groupBox_doping.ResumeLayout(false);
             this.groupBox_doping.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -474,6 +487,7 @@
         private System.Windows.Forms.RadioButton radioButton__high;
         private System.Windows.Forms.RadioButton radioButton__middel;
         private System.Windows.Forms.RadioButton radioButton__min;
+        private System.Windows.Forms.Label label1;
     }
 }
 
