@@ -118,6 +118,7 @@
             this.radioButton_tarelka.TabStop = true;
             this.radioButton_tarelka.Text = "Тарелка";
             this.radioButton_tarelka.UseVisualStyleBackColor = true;
+            this.radioButton_tarelka.CheckedChanged += new System.EventHandler(this.radioButton_tarelka_CheckedChanged);
             // 
             // radioButton_pita
             // 
@@ -129,6 +130,7 @@
             this.radioButton_pita.TabStop = true;
             this.radioButton_pita.Text = "Пита";
             this.radioButton_pita.UseVisualStyleBackColor = true;
+            this.radioButton_pita.CheckedChanged += new System.EventHandler(this.radioButton_pita_CheckedChanged);
             // 
             // radioButton_lavash
             // 
@@ -140,6 +142,7 @@
             this.radioButton_lavash.TabStop = true;
             this.radioButton_lavash.Text = "Лаваш";
             this.radioButton_lavash.UseVisualStyleBackColor = true;
+            this.radioButton_lavash.CheckedChanged += new System.EventHandler(this.radioButton_lavash_CheckedChanged);
             // 
             // groupBox_meat
             // 
@@ -165,6 +168,7 @@
             this.radioButton_mutton.TabStop = true;
             this.radioButton_mutton.Text = "Баранина";
             this.radioButton_mutton.UseVisualStyleBackColor = true;
+            this.radioButton_mutton.CheckedChanged += new System.EventHandler(this.radioButton_mutton_CheckedChanged);
             // 
             // radioButton_pork
             // 
@@ -176,6 +180,7 @@
             this.radioButton_pork.TabStop = true;
             this.radioButton_pork.Text = "Свинина";
             this.radioButton_pork.UseVisualStyleBackColor = true;
+            this.radioButton_pork.CheckedChanged += new System.EventHandler(this.radioButton_pork_CheckedChanged);
             // 
             // radioButton_chiken
             // 
@@ -187,6 +192,7 @@
             this.radioButton_chiken.TabStop = true;
             this.radioButton_chiken.Text = "Курица";
             this.radioButton_chiken.UseVisualStyleBackColor = true;
+            this.radioButton_chiken.CheckedChanged += new System.EventHandler(this.radioButton_chiken_CheckedChanged);
             // 
             // groupBox_sauce
             // 
@@ -214,6 +220,7 @@
             this.radioButton_adjika.TabStop = true;
             this.radioButton_adjika.Text = "Аджика";
             this.radioButton_adjika.UseVisualStyleBackColor = true;
+            this.radioButton_adjika.CheckedChanged += new System.EventHandler(this.radioButton_adjika_CheckedChanged);
             // 
             // radioButton__super
             // 
@@ -225,6 +232,7 @@
             this.radioButton__super.TabStop = true;
             this.radioButton__super.Text = "Острый";
             this.radioButton__super.UseVisualStyleBackColor = true;
+            this.radioButton__super.CheckedChanged += new System.EventHandler(this.radioButton__super_CheckedChanged);
             // 
             // radioButton__cheesy
             // 
@@ -236,6 +244,7 @@
             this.radioButton__cheesy.TabStop = true;
             this.radioButton__cheesy.Text = "Сырный";
             this.radioButton__cheesy.UseVisualStyleBackColor = true;
+            this.radioButton__cheesy.CheckedChanged += new System.EventHandler(this.radioButton__cheesy_CheckedChanged);
             // 
             // radioButton__bbq
             // 
@@ -247,6 +256,7 @@
             this.radioButton__bbq.TabStop = true;
             this.radioButton__bbq.Text = "Барбекю";
             this.radioButton__bbq.UseVisualStyleBackColor = true;
+            this.radioButton__bbq.CheckedChanged += new System.EventHandler(this.radioButton__bbq_CheckedChanged);
             // 
             // radioButton__calssic
             // 
@@ -258,6 +268,7 @@
             this.radioButton__calssic.TabStop = true;
             this.radioButton__calssic.Text = "Класический";
             this.radioButton__calssic.UseVisualStyleBackColor = true;
+            this.radioButton__calssic.CheckedChanged += new System.EventHandler(this.radioButton__calssic_CheckedChanged);
             // 
             // groupBox_hotly
             // 
@@ -315,6 +326,7 @@
             this.checkBox_cucumber.TabIndex = 0;
             this.checkBox_cucumber.Text = "Огурцы";
             this.checkBox_cucumber.UseVisualStyleBackColor = true;
+            this.checkBox_cucumber.CheckedChanged += new System.EventHandler(this.checkBox_cucumber_CheckedChanged);
             // 
             // checkBox_mar_cucumber
             // 
@@ -325,6 +337,7 @@
             this.checkBox_mar_cucumber.TabIndex = 1;
             this.checkBox_mar_cucumber.Text = "Маринованые огурцы";
             this.checkBox_mar_cucumber.UseVisualStyleBackColor = true;
+            this.checkBox_mar_cucumber.CheckedChanged += new System.EventHandler(this.checkBox_mar_cucumber_CheckedChanged);
             // 
             // checkBox_tomato
             // 
@@ -335,6 +348,7 @@
             this.checkBox_tomato.TabIndex = 2;
             this.checkBox_tomato.Text = "Помидоры";
             this.checkBox_tomato.UseVisualStyleBackColor = true;
+            this.checkBox_tomato.CheckedChanged += new System.EventHandler(this.checkBox_tomato_CheckedChanged);
             // 
             // checkBox_carrot
             // 
@@ -345,6 +359,7 @@
             this.checkBox_carrot.TabIndex = 3;
             this.checkBox_carrot.Text = "Марковка";
             this.checkBox_carrot.UseVisualStyleBackColor = true;
+            this.checkBox_carrot.CheckedChanged += new System.EventHandler(this.checkBox_carrot_CheckedChanged);
             // 
             // checkBox_pepper
             // 
@@ -355,6 +370,7 @@
             this.checkBox_pepper.TabIndex = 4;
             this.checkBox_pepper.Text = "Болгарский перец";
             this.checkBox_pepper.UseVisualStyleBackColor = true;
+            this.checkBox_pepper.CheckedChanged += new System.EventHandler(this.checkBox_pepper_CheckedChanged);
             // 
             // checkBox_salad
             // 
@@ -365,6 +381,7 @@
             this.checkBox_salad.TabIndex = 5;
             this.checkBox_salad.Text = "Салатный лист";
             this.checkBox_salad.UseVisualStyleBackColor = true;
+            this.checkBox_salad.CheckedChanged += new System.EventHandler(this.checkBox_salad_CheckedChanged);
             // 
             // checkBox_mar_capusta
             // 
@@ -375,6 +392,7 @@
             this.checkBox_mar_capusta.TabIndex = 6;
             this.checkBox_mar_capusta.Text = "Маринованая капуста";
             this.checkBox_mar_capusta.UseVisualStyleBackColor = true;
+            this.checkBox_mar_capusta.CheckedChanged += new System.EventHandler(this.checkBox_mar_capusta_CheckedChanged);
             // 
             // checkBox_xalapen
             // 
@@ -385,6 +403,7 @@
             this.checkBox_xalapen.TabIndex = 7;
             this.checkBox_xalapen.Text = "Халапенью";
             this.checkBox_xalapen.UseVisualStyleBackColor = true;
+            this.checkBox_xalapen.CheckedChanged += new System.EventHandler(this.checkBox_xalapen_CheckedChanged);
             // 
             // checkBox_bill
             // 
@@ -395,6 +414,7 @@
             this.checkBox_bill.TabIndex = 8;
             this.checkBox_bill.Text = "Укроп";
             this.checkBox_bill.UseVisualStyleBackColor = true;
+            this.checkBox_bill.CheckedChanged += new System.EventHandler(this.checkBox_bill_CheckedChanged);
             // 
             // checkBox_onion
             // 
@@ -405,6 +425,7 @@
             this.checkBox_onion.TabIndex = 9;
             this.checkBox_onion.Text = "Лук";
             this.checkBox_onion.UseVisualStyleBackColor = true;
+            this.checkBox_onion.CheckedChanged += new System.EventHandler(this.checkBox_onion_CheckedChanged);
             // 
             // radioButton__min
             // 
@@ -416,6 +437,7 @@
             this.radioButton__min.TabStop = true;
             this.radioButton__min.Text = "Легко";
             this.radioButton__min.UseVisualStyleBackColor = true;
+            this.radioButton__min.CheckedChanged += new System.EventHandler(this.radioButton__min_CheckedChanged);
             // 
             // radioButton__middel
             // 
@@ -427,6 +449,7 @@
             this.radioButton__middel.TabStop = true;
             this.radioButton__middel.Text = "Нормально";
             this.radioButton__middel.UseVisualStyleBackColor = true;
+            this.radioButton__middel.CheckedChanged += new System.EventHandler(this.radioButton__middel_CheckedChanged);
             // 
             // radioButton__high
             // 
@@ -438,6 +461,7 @@
             this.radioButton__high.TabStop = true;
             this.radioButton__high.Text = "Остро";
             this.radioButton__high.UseVisualStyleBackColor = true;
+            this.radioButton__high.CheckedChanged += new System.EventHandler(this.radioButton__high_CheckedChanged);
             // 
             // radioButton__vhot
             // 
@@ -449,6 +473,7 @@
             this.radioButton__vhot.TabStop = true;
             this.radioButton__vhot.Text = "Огненно";
             this.radioButton__vhot.UseVisualStyleBackColor = true;
+            this.radioButton__vhot.CheckedChanged += new System.EventHandler(this.radioButton__vhot_CheckedChanged);
             // 
             // label_coastShava
             // 
@@ -572,6 +597,7 @@
             this.radioButton_ready_classic.TabStop = true;
             this.radioButton_ready_classic.Text = "Классическая";
             this.radioButton_ready_classic.UseVisualStyleBackColor = true;
+            this.radioButton_ready_classic.CheckedChanged += new System.EventHandler(this.radioButton_ready_classic_CheckedChanged);
             // 
             // radioButton_ready_cheesy
             // 
@@ -583,6 +609,7 @@
             this.radioButton_ready_cheesy.TabStop = true;
             this.radioButton_ready_cheesy.Text = "Сырная";
             this.radioButton_ready_cheesy.UseVisualStyleBackColor = true;
+            this.radioButton_ready_cheesy.CheckedChanged += new System.EventHandler(this.radioButton_ready_cheesy_CheckedChanged);
             // 
             // radioButton_ready_bbq
             // 
@@ -594,6 +621,7 @@
             this.radioButton_ready_bbq.TabStop = true;
             this.radioButton_ready_bbq.Text = "Барбекю";
             this.radioButton_ready_bbq.UseVisualStyleBackColor = true;
+            this.radioButton_ready_bbq.CheckedChanged += new System.EventHandler(this.radioButton_ready_bbq_CheckedChanged);
             // 
             // radioButton_ready_no
             // 
@@ -605,6 +633,7 @@
             this.radioButton_ready_no.TabStop = true;
             this.radioButton_ready_no.Text = "Я тут шеф";
             this.radioButton_ready_no.UseVisualStyleBackColor = true;
+            this.radioButton_ready_no.CheckedChanged += new System.EventHandler(this.radioButton_ready_no_CheckedChanged);
             // 
             // Form1
             // 
