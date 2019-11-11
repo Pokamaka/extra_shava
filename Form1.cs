@@ -188,6 +188,20 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //аджика
+        private void radioButton__1000island_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton__1000island.Checked == true)
+            {
+                Data.Summ = Data.Summ + 35;
+                Data.Callories = Data.Callories + 20;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 35;
+                Data.Callories = Data.Callories - 20;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
+        } //1000 островов
 
 
         //острота соуса
@@ -535,5 +549,7 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //лук
+
+        
     } 
 }

@@ -44,53 +44,55 @@
             this.radioButton__bbq = new System.Windows.Forms.RadioButton();
             this.radioButton__calssic = new System.Windows.Forms.RadioButton();
             this.groupBox_hotly = new System.Windows.Forms.GroupBox();
-            this.groupBox_doping = new System.Windows.Forms.GroupBox();
-            this.checkBox_cucumber = new System.Windows.Forms.CheckBox();
-            this.checkBox_mar_cucumber = new System.Windows.Forms.CheckBox();
-            this.checkBox_tomato = new System.Windows.Forms.CheckBox();
-            this.checkBox_carrot = new System.Windows.Forms.CheckBox();
-            this.checkBox_pepper = new System.Windows.Forms.CheckBox();
-            this.checkBox_salad = new System.Windows.Forms.CheckBox();
-            this.checkBox_mar_capusta = new System.Windows.Forms.CheckBox();
-            this.checkBox_xalapen = new System.Windows.Forms.CheckBox();
-            this.checkBox_bill = new System.Windows.Forms.CheckBox();
-            this.checkBox_onion = new System.Windows.Forms.CheckBox();
-            this.radioButton__min = new System.Windows.Forms.RadioButton();
-            this.radioButton__middel = new System.Windows.Forms.RadioButton();
-            this.radioButton__high = new System.Windows.Forms.RadioButton();
             this.radioButton__vhot = new System.Windows.Forms.RadioButton();
+            this.radioButton__high = new System.Windows.Forms.RadioButton();
+            this.radioButton__middel = new System.Windows.Forms.RadioButton();
+            this.radioButton__min = new System.Windows.Forms.RadioButton();
+            this.groupBox_doping = new System.Windows.Forms.GroupBox();
+            this.numeric_onion = new System.Windows.Forms.NumericUpDown();
+            this.numeric_dill = new System.Windows.Forms.NumericUpDown();
+            this.numeric_xalapen = new System.Windows.Forms.NumericUpDown();
+            this.numeric_mar_capusta = new System.Windows.Forms.NumericUpDown();
+            this.numeric_salad = new System.Windows.Forms.NumericUpDown();
+            this.numeric_pepper = new System.Windows.Forms.NumericUpDown();
+            this.numeric_carrot = new System.Windows.Forms.NumericUpDown();
+            this.numeric_tomato = new System.Windows.Forms.NumericUpDown();
+            this.numeric_mar_cucumber = new System.Windows.Forms.NumericUpDown();
+            this.numeric_cucumber = new System.Windows.Forms.NumericUpDown();
+            this.checkBox_onion = new System.Windows.Forms.CheckBox();
+            this.checkBox_bill = new System.Windows.Forms.CheckBox();
+            this.checkBox_xalapen = new System.Windows.Forms.CheckBox();
+            this.checkBox_mar_capusta = new System.Windows.Forms.CheckBox();
+            this.checkBox_salad = new System.Windows.Forms.CheckBox();
+            this.checkBox_pepper = new System.Windows.Forms.CheckBox();
+            this.checkBox_carrot = new System.Windows.Forms.CheckBox();
+            this.checkBox_tomato = new System.Windows.Forms.CheckBox();
+            this.checkBox_mar_cucumber = new System.Windows.Forms.CheckBox();
+            this.checkBox_cucumber = new System.Windows.Forms.CheckBox();
             this.label_coastShava = new System.Windows.Forms.Label();
             this.label__SummShava = new System.Windows.Forms.Label();
-            this.numeric_cucumber = new System.Windows.Forms.NumericUpDown();
-            this.numeric_mar_cucumber = new System.Windows.Forms.NumericUpDown();
-            this.numeric_tomato = new System.Windows.Forms.NumericUpDown();
-            this.numeric_carrot = new System.Windows.Forms.NumericUpDown();
-            this.numeric_pepper = new System.Windows.Forms.NumericUpDown();
-            this.numeric_salad = new System.Windows.Forms.NumericUpDown();
-            this.numeric_mar_capusta = new System.Windows.Forms.NumericUpDown();
-            this.numeric_xalapen = new System.Windows.Forms.NumericUpDown();
-            this.numeric_dill = new System.Windows.Forms.NumericUpDown();
-            this.numeric_onion = new System.Windows.Forms.NumericUpDown();
             this.groupBox_ready = new System.Windows.Forms.GroupBox();
-            this.radioButton_ready_classic = new System.Windows.Forms.RadioButton();
-            this.radioButton_ready_cheesy = new System.Windows.Forms.RadioButton();
-            this.radioButton_ready_bbq = new System.Windows.Forms.RadioButton();
             this.radioButton_ready_no = new System.Windows.Forms.RadioButton();
+            this.radioButton_ready_bbq = new System.Windows.Forms.RadioButton();
+            this.radioButton_ready_cheesy = new System.Windows.Forms.RadioButton();
+            this.radioButton_ready_classic = new System.Windows.Forms.RadioButton();
+            this.radioButton__1000island = new System.Windows.Forms.RadioButton();
+            this.radioButton__no = new System.Windows.Forms.RadioButton();
             this.groupBox_osnova.SuspendLayout();
             this.groupBox_meat.SuspendLayout();
             this.groupBox_sauce.SuspendLayout();
             this.groupBox_hotly.SuspendLayout();
             this.groupBox_doping.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_cucumber)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_mar_cucumber)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_tomato)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_carrot)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_pepper)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_salad)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_mar_capusta)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_xalapen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_dill)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_onion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_dill)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_xalapen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_mar_capusta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_salad)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_pepper)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_carrot)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_tomato)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_mar_cucumber)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_cucumber)).BeginInit();
             this.groupBox_ready.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -196,6 +198,8 @@
             // 
             // groupBox_sauce
             // 
+            this.groupBox_sauce.Controls.Add(this.radioButton__no);
+            this.groupBox_sauce.Controls.Add(this.radioButton__1000island);
             this.groupBox_sauce.Controls.Add(this.radioButton_adjika);
             this.groupBox_sauce.Controls.Add(this.radioButton__super);
             this.groupBox_sauce.Controls.Add(this.radioButton__cheesy);
@@ -205,7 +209,7 @@
             this.groupBox_sauce.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.groupBox_sauce.Name = "groupBox_sauce";
             this.groupBox_sauce.Padding = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.groupBox_sauce.Size = new System.Drawing.Size(290, 267);
+            this.groupBox_sauce.Size = new System.Drawing.Size(290, 340);
             this.groupBox_sauce.TabIndex = 2;
             this.groupBox_sauce.TabStop = false;
             this.groupBox_sauce.Text = "Выбери соус:";
@@ -286,6 +290,54 @@
             this.groupBox_hotly.Text = "Укажите острату:";
             this.groupBox_hotly.Visible = false;
             // 
+            // radioButton__vhot
+            // 
+            this.radioButton__vhot.AutoSize = true;
+            this.radioButton__vhot.Location = new System.Drawing.Point(34, 156);
+            this.radioButton__vhot.Name = "radioButton__vhot";
+            this.radioButton__vhot.Size = new System.Drawing.Size(139, 35);
+            this.radioButton__vhot.TabIndex = 3;
+            this.radioButton__vhot.TabStop = true;
+            this.radioButton__vhot.Text = "Огненно";
+            this.radioButton__vhot.UseVisualStyleBackColor = true;
+            this.radioButton__vhot.CheckedChanged += new System.EventHandler(this.radioButton__vhot_CheckedChanged);
+            // 
+            // radioButton__high
+            // 
+            this.radioButton__high.AutoSize = true;
+            this.radioButton__high.Location = new System.Drawing.Point(34, 115);
+            this.radioButton__high.Name = "radioButton__high";
+            this.radioButton__high.Size = new System.Drawing.Size(106, 35);
+            this.radioButton__high.TabIndex = 2;
+            this.radioButton__high.TabStop = true;
+            this.radioButton__high.Text = "Остро";
+            this.radioButton__high.UseVisualStyleBackColor = true;
+            this.radioButton__high.CheckedChanged += new System.EventHandler(this.radioButton__high_CheckedChanged);
+            // 
+            // radioButton__middel
+            // 
+            this.radioButton__middel.AutoSize = true;
+            this.radioButton__middel.Location = new System.Drawing.Point(34, 74);
+            this.radioButton__middel.Name = "radioButton__middel";
+            this.radioButton__middel.Size = new System.Drawing.Size(173, 35);
+            this.radioButton__middel.TabIndex = 1;
+            this.radioButton__middel.TabStop = true;
+            this.radioButton__middel.Text = "Нормально";
+            this.radioButton__middel.UseVisualStyleBackColor = true;
+            this.radioButton__middel.CheckedChanged += new System.EventHandler(this.radioButton__middel_CheckedChanged);
+            // 
+            // radioButton__min
+            // 
+            this.radioButton__min.AutoSize = true;
+            this.radioButton__min.Location = new System.Drawing.Point(34, 33);
+            this.radioButton__min.Name = "radioButton__min";
+            this.radioButton__min.Size = new System.Drawing.Size(106, 35);
+            this.radioButton__min.TabIndex = 0;
+            this.radioButton__min.TabStop = true;
+            this.radioButton__min.Text = "Легко";
+            this.radioButton__min.UseVisualStyleBackColor = true;
+            this.radioButton__min.CheckedChanged += new System.EventHandler(this.radioButton__min_CheckedChanged);
+            // 
             // groupBox_doping
             // 
             this.groupBox_doping.Controls.Add(this.numeric_onion);
@@ -317,104 +369,95 @@
             this.groupBox_doping.TabStop = false;
             this.groupBox_doping.Text = "Выбери допинг:";
             // 
-            // checkBox_cucumber
+            // numeric_onion
             // 
-            this.checkBox_cucumber.AutoSize = true;
-            this.checkBox_cucumber.Location = new System.Drawing.Point(34, 43);
-            this.checkBox_cucumber.Name = "checkBox_cucumber";
-            this.checkBox_cucumber.Size = new System.Drawing.Size(131, 35);
-            this.checkBox_cucumber.TabIndex = 0;
-            this.checkBox_cucumber.Text = "Огурцы";
-            this.checkBox_cucumber.UseVisualStyleBackColor = true;
-            this.checkBox_cucumber.CheckedChanged += new System.EventHandler(this.checkBox_cucumber_CheckedChanged);
+            this.numeric_onion.Location = new System.Drawing.Point(453, 411);
+            this.numeric_onion.Name = "numeric_onion";
+            this.numeric_onion.Size = new System.Drawing.Size(65, 39);
+            this.numeric_onion.TabIndex = 19;
+            this.numeric_onion.Visible = false;
+            this.numeric_onion.ValueChanged += new System.EventHandler(this.numeric_onion_ValueChanged);
             // 
-            // checkBox_mar_cucumber
+            // numeric_dill
             // 
-            this.checkBox_mar_cucumber.AutoSize = true;
-            this.checkBox_mar_cucumber.Location = new System.Drawing.Point(34, 83);
-            this.checkBox_mar_cucumber.Name = "checkBox_mar_cucumber";
-            this.checkBox_mar_cucumber.Size = new System.Drawing.Size(308, 35);
-            this.checkBox_mar_cucumber.TabIndex = 1;
-            this.checkBox_mar_cucumber.Text = "Маринованые огурцы";
-            this.checkBox_mar_cucumber.UseVisualStyleBackColor = true;
-            this.checkBox_mar_cucumber.CheckedChanged += new System.EventHandler(this.checkBox_mar_cucumber_CheckedChanged);
+            this.numeric_dill.Location = new System.Drawing.Point(453, 370);
+            this.numeric_dill.Name = "numeric_dill";
+            this.numeric_dill.Size = new System.Drawing.Size(65, 39);
+            this.numeric_dill.TabIndex = 18;
+            this.numeric_dill.Visible = false;
+            this.numeric_dill.ValueChanged += new System.EventHandler(this.numeric_dill_ValueChanged);
             // 
-            // checkBox_tomato
+            // numeric_xalapen
             // 
-            this.checkBox_tomato.AutoSize = true;
-            this.checkBox_tomato.Location = new System.Drawing.Point(34, 124);
-            this.checkBox_tomato.Name = "checkBox_tomato";
-            this.checkBox_tomato.Size = new System.Drawing.Size(165, 35);
-            this.checkBox_tomato.TabIndex = 2;
-            this.checkBox_tomato.Text = "Помидоры";
-            this.checkBox_tomato.UseVisualStyleBackColor = true;
-            this.checkBox_tomato.CheckedChanged += new System.EventHandler(this.checkBox_tomato_CheckedChanged);
+            this.numeric_xalapen.Location = new System.Drawing.Point(453, 328);
+            this.numeric_xalapen.Name = "numeric_xalapen";
+            this.numeric_xalapen.Size = new System.Drawing.Size(65, 39);
+            this.numeric_xalapen.TabIndex = 17;
+            this.numeric_xalapen.Visible = false;
+            this.numeric_xalapen.ValueChanged += new System.EventHandler(this.numeric_xalapen_ValueChanged);
             // 
-            // checkBox_carrot
+            // numeric_mar_capusta
             // 
-            this.checkBox_carrot.AutoSize = true;
-            this.checkBox_carrot.Location = new System.Drawing.Point(34, 165);
-            this.checkBox_carrot.Name = "checkBox_carrot";
-            this.checkBox_carrot.Size = new System.Drawing.Size(161, 35);
-            this.checkBox_carrot.TabIndex = 3;
-            this.checkBox_carrot.Text = "Марковка";
-            this.checkBox_carrot.UseVisualStyleBackColor = true;
-            this.checkBox_carrot.CheckedChanged += new System.EventHandler(this.checkBox_carrot_CheckedChanged);
+            this.numeric_mar_capusta.Location = new System.Drawing.Point(453, 287);
+            this.numeric_mar_capusta.Name = "numeric_mar_capusta";
+            this.numeric_mar_capusta.Size = new System.Drawing.Size(65, 39);
+            this.numeric_mar_capusta.TabIndex = 16;
+            this.numeric_mar_capusta.Visible = false;
+            this.numeric_mar_capusta.ValueChanged += new System.EventHandler(this.numeric_mar_capusta_ValueChanged);
             // 
-            // checkBox_pepper
+            // numeric_salad
             // 
-            this.checkBox_pepper.AutoSize = true;
-            this.checkBox_pepper.Location = new System.Drawing.Point(34, 206);
-            this.checkBox_pepper.Name = "checkBox_pepper";
-            this.checkBox_pepper.Size = new System.Drawing.Size(259, 35);
-            this.checkBox_pepper.TabIndex = 4;
-            this.checkBox_pepper.Text = "Болгарский перец";
-            this.checkBox_pepper.UseVisualStyleBackColor = true;
-            this.checkBox_pepper.CheckedChanged += new System.EventHandler(this.checkBox_pepper_CheckedChanged);
+            this.numeric_salad.Location = new System.Drawing.Point(453, 246);
+            this.numeric_salad.Name = "numeric_salad";
+            this.numeric_salad.Size = new System.Drawing.Size(65, 39);
+            this.numeric_salad.TabIndex = 15;
+            this.numeric_salad.Visible = false;
+            this.numeric_salad.ValueChanged += new System.EventHandler(this.numeric_salad_ValueChanged);
             // 
-            // checkBox_salad
+            // numeric_pepper
             // 
-            this.checkBox_salad.AutoSize = true;
-            this.checkBox_salad.Location = new System.Drawing.Point(34, 247);
-            this.checkBox_salad.Name = "checkBox_salad";
-            this.checkBox_salad.Size = new System.Drawing.Size(222, 35);
-            this.checkBox_salad.TabIndex = 5;
-            this.checkBox_salad.Text = "Салатный лист";
-            this.checkBox_salad.UseVisualStyleBackColor = true;
-            this.checkBox_salad.CheckedChanged += new System.EventHandler(this.checkBox_salad_CheckedChanged);
+            this.numeric_pepper.Location = new System.Drawing.Point(453, 205);
+            this.numeric_pepper.Name = "numeric_pepper";
+            this.numeric_pepper.Size = new System.Drawing.Size(65, 39);
+            this.numeric_pepper.TabIndex = 14;
+            this.numeric_pepper.Visible = false;
+            this.numeric_pepper.ValueChanged += new System.EventHandler(this.numeric_pepper_ValueChanged);
             // 
-            // checkBox_mar_capusta
+            // numeric_carrot
             // 
-            this.checkBox_mar_capusta.AutoSize = true;
-            this.checkBox_mar_capusta.Location = new System.Drawing.Point(34, 288);
-            this.checkBox_mar_capusta.Name = "checkBox_mar_capusta";
-            this.checkBox_mar_capusta.Size = new System.Drawing.Size(309, 35);
-            this.checkBox_mar_capusta.TabIndex = 6;
-            this.checkBox_mar_capusta.Text = "Маринованая капуста";
-            this.checkBox_mar_capusta.UseVisualStyleBackColor = true;
-            this.checkBox_mar_capusta.CheckedChanged += new System.EventHandler(this.checkBox_mar_capusta_CheckedChanged);
+            this.numeric_carrot.Location = new System.Drawing.Point(453, 164);
+            this.numeric_carrot.Name = "numeric_carrot";
+            this.numeric_carrot.Size = new System.Drawing.Size(65, 39);
+            this.numeric_carrot.TabIndex = 13;
+            this.numeric_carrot.Visible = false;
+            this.numeric_carrot.ValueChanged += new System.EventHandler(this.numeric_carrot_ValueChanged);
             // 
-            // checkBox_xalapen
+            // numeric_tomato
             // 
-            this.checkBox_xalapen.AutoSize = true;
-            this.checkBox_xalapen.Location = new System.Drawing.Point(34, 329);
-            this.checkBox_xalapen.Name = "checkBox_xalapen";
-            this.checkBox_xalapen.Size = new System.Drawing.Size(174, 35);
-            this.checkBox_xalapen.TabIndex = 7;
-            this.checkBox_xalapen.Text = "Халапенью";
-            this.checkBox_xalapen.UseVisualStyleBackColor = true;
-            this.checkBox_xalapen.CheckedChanged += new System.EventHandler(this.checkBox_xalapen_CheckedChanged);
+            this.numeric_tomato.Location = new System.Drawing.Point(453, 124);
+            this.numeric_tomato.Name = "numeric_tomato";
+            this.numeric_tomato.Size = new System.Drawing.Size(65, 39);
+            this.numeric_tomato.TabIndex = 12;
+            this.numeric_tomato.Visible = false;
+            this.numeric_tomato.ValueChanged += new System.EventHandler(this.numeric_tomato_ValueChanged);
             // 
-            // checkBox_bill
+            // numeric_mar_cucumber
             // 
-            this.checkBox_bill.AutoSize = true;
-            this.checkBox_bill.Location = new System.Drawing.Point(34, 371);
-            this.checkBox_bill.Name = "checkBox_bill";
-            this.checkBox_bill.Size = new System.Drawing.Size(112, 35);
-            this.checkBox_bill.TabIndex = 8;
-            this.checkBox_bill.Text = "Укроп";
-            this.checkBox_bill.UseVisualStyleBackColor = true;
-            this.checkBox_bill.CheckedChanged += new System.EventHandler(this.checkBox_bill_CheckedChanged);
+            this.numeric_mar_cucumber.Location = new System.Drawing.Point(453, 83);
+            this.numeric_mar_cucumber.Name = "numeric_mar_cucumber";
+            this.numeric_mar_cucumber.Size = new System.Drawing.Size(65, 39);
+            this.numeric_mar_cucumber.TabIndex = 11;
+            this.numeric_mar_cucumber.Visible = false;
+            this.numeric_mar_cucumber.ValueChanged += new System.EventHandler(this.numeric_mar_cucumber_ValueChanged);
+            // 
+            // numeric_cucumber
+            // 
+            this.numeric_cucumber.Location = new System.Drawing.Point(453, 42);
+            this.numeric_cucumber.Name = "numeric_cucumber";
+            this.numeric_cucumber.Size = new System.Drawing.Size(65, 39);
+            this.numeric_cucumber.TabIndex = 10;
+            this.numeric_cucumber.Visible = false;
+            this.numeric_cucumber.ValueChanged += new System.EventHandler(this.numeric_cucumber_ValueChanged);
             // 
             // checkBox_onion
             // 
@@ -427,59 +470,110 @@
             this.checkBox_onion.UseVisualStyleBackColor = true;
             this.checkBox_onion.CheckedChanged += new System.EventHandler(this.checkBox_onion_CheckedChanged);
             // 
-            // radioButton__min
+            // checkBox_bill
             // 
-            this.radioButton__min.AutoSize = true;
-            this.radioButton__min.Location = new System.Drawing.Point(34, 33);
-            this.radioButton__min.Name = "radioButton__min";
-            this.radioButton__min.Size = new System.Drawing.Size(106, 35);
-            this.radioButton__min.TabIndex = 0;
-            this.radioButton__min.TabStop = true;
-            this.radioButton__min.Text = "Легко";
-            this.radioButton__min.UseVisualStyleBackColor = true;
-            this.radioButton__min.CheckedChanged += new System.EventHandler(this.radioButton__min_CheckedChanged);
+            this.checkBox_bill.AutoSize = true;
+            this.checkBox_bill.Location = new System.Drawing.Point(34, 371);
+            this.checkBox_bill.Name = "checkBox_bill";
+            this.checkBox_bill.Size = new System.Drawing.Size(112, 35);
+            this.checkBox_bill.TabIndex = 8;
+            this.checkBox_bill.Text = "Укроп";
+            this.checkBox_bill.UseVisualStyleBackColor = true;
+            this.checkBox_bill.CheckedChanged += new System.EventHandler(this.checkBox_bill_CheckedChanged);
             // 
-            // radioButton__middel
+            // checkBox_xalapen
             // 
-            this.radioButton__middel.AutoSize = true;
-            this.radioButton__middel.Location = new System.Drawing.Point(34, 74);
-            this.radioButton__middel.Name = "radioButton__middel";
-            this.radioButton__middel.Size = new System.Drawing.Size(173, 35);
-            this.radioButton__middel.TabIndex = 1;
-            this.radioButton__middel.TabStop = true;
-            this.radioButton__middel.Text = "Нормально";
-            this.radioButton__middel.UseVisualStyleBackColor = true;
-            this.radioButton__middel.CheckedChanged += new System.EventHandler(this.radioButton__middel_CheckedChanged);
+            this.checkBox_xalapen.AutoSize = true;
+            this.checkBox_xalapen.Location = new System.Drawing.Point(34, 329);
+            this.checkBox_xalapen.Name = "checkBox_xalapen";
+            this.checkBox_xalapen.Size = new System.Drawing.Size(174, 35);
+            this.checkBox_xalapen.TabIndex = 7;
+            this.checkBox_xalapen.Text = "Халапенью";
+            this.checkBox_xalapen.UseVisualStyleBackColor = true;
+            this.checkBox_xalapen.CheckedChanged += new System.EventHandler(this.checkBox_xalapen_CheckedChanged);
             // 
-            // radioButton__high
+            // checkBox_mar_capusta
             // 
-            this.radioButton__high.AutoSize = true;
-            this.radioButton__high.Location = new System.Drawing.Point(34, 115);
-            this.radioButton__high.Name = "radioButton__high";
-            this.radioButton__high.Size = new System.Drawing.Size(106, 35);
-            this.radioButton__high.TabIndex = 2;
-            this.radioButton__high.TabStop = true;
-            this.radioButton__high.Text = "Остро";
-            this.radioButton__high.UseVisualStyleBackColor = true;
-            this.radioButton__high.CheckedChanged += new System.EventHandler(this.radioButton__high_CheckedChanged);
+            this.checkBox_mar_capusta.AutoSize = true;
+            this.checkBox_mar_capusta.Location = new System.Drawing.Point(34, 288);
+            this.checkBox_mar_capusta.Name = "checkBox_mar_capusta";
+            this.checkBox_mar_capusta.Size = new System.Drawing.Size(309, 35);
+            this.checkBox_mar_capusta.TabIndex = 6;
+            this.checkBox_mar_capusta.Text = "Маринованая капуста";
+            this.checkBox_mar_capusta.UseVisualStyleBackColor = true;
+            this.checkBox_mar_capusta.CheckedChanged += new System.EventHandler(this.checkBox_mar_capusta_CheckedChanged);
             // 
-            // radioButton__vhot
+            // checkBox_salad
             // 
-            this.radioButton__vhot.AutoSize = true;
-            this.radioButton__vhot.Location = new System.Drawing.Point(34, 156);
-            this.radioButton__vhot.Name = "radioButton__vhot";
-            this.radioButton__vhot.Size = new System.Drawing.Size(139, 35);
-            this.radioButton__vhot.TabIndex = 3;
-            this.radioButton__vhot.TabStop = true;
-            this.radioButton__vhot.Text = "Огненно";
-            this.radioButton__vhot.UseVisualStyleBackColor = true;
-            this.radioButton__vhot.CheckedChanged += new System.EventHandler(this.radioButton__vhot_CheckedChanged);
+            this.checkBox_salad.AutoSize = true;
+            this.checkBox_salad.Location = new System.Drawing.Point(34, 247);
+            this.checkBox_salad.Name = "checkBox_salad";
+            this.checkBox_salad.Size = new System.Drawing.Size(222, 35);
+            this.checkBox_salad.TabIndex = 5;
+            this.checkBox_salad.Text = "Салатный лист";
+            this.checkBox_salad.UseVisualStyleBackColor = true;
+            this.checkBox_salad.CheckedChanged += new System.EventHandler(this.checkBox_salad_CheckedChanged);
+            // 
+            // checkBox_pepper
+            // 
+            this.checkBox_pepper.AutoSize = true;
+            this.checkBox_pepper.Location = new System.Drawing.Point(34, 206);
+            this.checkBox_pepper.Name = "checkBox_pepper";
+            this.checkBox_pepper.Size = new System.Drawing.Size(259, 35);
+            this.checkBox_pepper.TabIndex = 4;
+            this.checkBox_pepper.Text = "Болгарский перец";
+            this.checkBox_pepper.UseVisualStyleBackColor = true;
+            this.checkBox_pepper.CheckedChanged += new System.EventHandler(this.checkBox_pepper_CheckedChanged);
+            // 
+            // checkBox_carrot
+            // 
+            this.checkBox_carrot.AutoSize = true;
+            this.checkBox_carrot.Location = new System.Drawing.Point(34, 165);
+            this.checkBox_carrot.Name = "checkBox_carrot";
+            this.checkBox_carrot.Size = new System.Drawing.Size(161, 35);
+            this.checkBox_carrot.TabIndex = 3;
+            this.checkBox_carrot.Text = "Марковка";
+            this.checkBox_carrot.UseVisualStyleBackColor = true;
+            this.checkBox_carrot.CheckedChanged += new System.EventHandler(this.checkBox_carrot_CheckedChanged);
+            // 
+            // checkBox_tomato
+            // 
+            this.checkBox_tomato.AutoSize = true;
+            this.checkBox_tomato.Location = new System.Drawing.Point(34, 124);
+            this.checkBox_tomato.Name = "checkBox_tomato";
+            this.checkBox_tomato.Size = new System.Drawing.Size(165, 35);
+            this.checkBox_tomato.TabIndex = 2;
+            this.checkBox_tomato.Text = "Помидоры";
+            this.checkBox_tomato.UseVisualStyleBackColor = true;
+            this.checkBox_tomato.CheckedChanged += new System.EventHandler(this.checkBox_tomato_CheckedChanged);
+            // 
+            // checkBox_mar_cucumber
+            // 
+            this.checkBox_mar_cucumber.AutoSize = true;
+            this.checkBox_mar_cucumber.Location = new System.Drawing.Point(34, 83);
+            this.checkBox_mar_cucumber.Name = "checkBox_mar_cucumber";
+            this.checkBox_mar_cucumber.Size = new System.Drawing.Size(308, 35);
+            this.checkBox_mar_cucumber.TabIndex = 1;
+            this.checkBox_mar_cucumber.Text = "Маринованые огурцы";
+            this.checkBox_mar_cucumber.UseVisualStyleBackColor = true;
+            this.checkBox_mar_cucumber.CheckedChanged += new System.EventHandler(this.checkBox_mar_cucumber_CheckedChanged);
+            // 
+            // checkBox_cucumber
+            // 
+            this.checkBox_cucumber.AutoSize = true;
+            this.checkBox_cucumber.Location = new System.Drawing.Point(34, 43);
+            this.checkBox_cucumber.Name = "checkBox_cucumber";
+            this.checkBox_cucumber.Size = new System.Drawing.Size(131, 35);
+            this.checkBox_cucumber.TabIndex = 0;
+            this.checkBox_cucumber.Text = "Огурцы";
+            this.checkBox_cucumber.UseVisualStyleBackColor = true;
+            this.checkBox_cucumber.CheckedChanged += new System.EventHandler(this.checkBox_cucumber_CheckedChanged);
             // 
             // label_coastShava
             // 
             this.label_coastShava.AutoSize = true;
             this.label_coastShava.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_coastShava.Location = new System.Drawing.Point(17, 761);
+            this.label_coastShava.Location = new System.Drawing.Point(17, 818);
             this.label_coastShava.Name = "label_coastShava";
             this.label_coastShava.Size = new System.Drawing.Size(501, 32);
             this.label_coastShava.TabIndex = 5;
@@ -488,101 +582,11 @@
             // label__SummShava
             // 
             this.label__SummShava.AutoSize = true;
-            this.label__SummShava.Location = new System.Drawing.Point(524, 762);
+            this.label__SummShava.Location = new System.Drawing.Point(524, 818);
             this.label__SummShava.Name = "label__SummShava";
             this.label__SummShava.Size = new System.Drawing.Size(85, 31);
             this.label__SummShava.TabIndex = 6;
             this.label__SummShava.Text = "label2";
-            // 
-            // numeric_cucumber
-            // 
-            this.numeric_cucumber.Location = new System.Drawing.Point(453, 42);
-            this.numeric_cucumber.Name = "numeric_cucumber";
-            this.numeric_cucumber.Size = new System.Drawing.Size(65, 39);
-            this.numeric_cucumber.TabIndex = 10;
-            this.numeric_cucumber.Visible = false;
-            this.numeric_cucumber.ValueChanged += new System.EventHandler(this.numeric_cucumber_ValueChanged);
-            // 
-            // numeric_mar_cucumber
-            // 
-            this.numeric_mar_cucumber.Location = new System.Drawing.Point(453, 83);
-            this.numeric_mar_cucumber.Name = "numeric_mar_cucumber";
-            this.numeric_mar_cucumber.Size = new System.Drawing.Size(65, 39);
-            this.numeric_mar_cucumber.TabIndex = 11;
-            this.numeric_mar_cucumber.Visible = false;
-            this.numeric_mar_cucumber.ValueChanged += new System.EventHandler(this.numeric_mar_cucumber_ValueChanged);
-            // 
-            // numeric_tomato
-            // 
-            this.numeric_tomato.Location = new System.Drawing.Point(453, 124);
-            this.numeric_tomato.Name = "numeric_tomato";
-            this.numeric_tomato.Size = new System.Drawing.Size(65, 39);
-            this.numeric_tomato.TabIndex = 12;
-            this.numeric_tomato.Visible = false;
-            this.numeric_tomato.ValueChanged += new System.EventHandler(this.numeric_tomato_ValueChanged);
-            // 
-            // numeric_carrot
-            // 
-            this.numeric_carrot.Location = new System.Drawing.Point(453, 164);
-            this.numeric_carrot.Name = "numeric_carrot";
-            this.numeric_carrot.Size = new System.Drawing.Size(65, 39);
-            this.numeric_carrot.TabIndex = 13;
-            this.numeric_carrot.Visible = false;
-            this.numeric_carrot.ValueChanged += new System.EventHandler(this.numeric_carrot_ValueChanged);
-            // 
-            // numeric_pepper
-            // 
-            this.numeric_pepper.Location = new System.Drawing.Point(453, 205);
-            this.numeric_pepper.Name = "numeric_pepper";
-            this.numeric_pepper.Size = new System.Drawing.Size(65, 39);
-            this.numeric_pepper.TabIndex = 14;
-            this.numeric_pepper.Visible = false;
-            this.numeric_pepper.ValueChanged += new System.EventHandler(this.numeric_pepper_ValueChanged);
-            // 
-            // numeric_salad
-            // 
-            this.numeric_salad.Location = new System.Drawing.Point(453, 246);
-            this.numeric_salad.Name = "numeric_salad";
-            this.numeric_salad.Size = new System.Drawing.Size(65, 39);
-            this.numeric_salad.TabIndex = 15;
-            this.numeric_salad.Visible = false;
-            this.numeric_salad.ValueChanged += new System.EventHandler(this.numeric_salad_ValueChanged);
-            // 
-            // numeric_mar_capusta
-            // 
-            this.numeric_mar_capusta.Location = new System.Drawing.Point(453, 287);
-            this.numeric_mar_capusta.Name = "numeric_mar_capusta";
-            this.numeric_mar_capusta.Size = new System.Drawing.Size(65, 39);
-            this.numeric_mar_capusta.TabIndex = 16;
-            this.numeric_mar_capusta.Visible = false;
-            this.numeric_mar_capusta.ValueChanged += new System.EventHandler(this.numeric_mar_capusta_ValueChanged);
-            // 
-            // numeric_xalapen
-            // 
-            this.numeric_xalapen.Location = new System.Drawing.Point(453, 328);
-            this.numeric_xalapen.Name = "numeric_xalapen";
-            this.numeric_xalapen.Size = new System.Drawing.Size(65, 39);
-            this.numeric_xalapen.TabIndex = 17;
-            this.numeric_xalapen.Visible = false;
-            this.numeric_xalapen.ValueChanged += new System.EventHandler(this.numeric_xalapen_ValueChanged);
-            // 
-            // numeric_dill
-            // 
-            this.numeric_dill.Location = new System.Drawing.Point(453, 370);
-            this.numeric_dill.Name = "numeric_dill";
-            this.numeric_dill.Size = new System.Drawing.Size(65, 39);
-            this.numeric_dill.TabIndex = 18;
-            this.numeric_dill.Visible = false;
-            this.numeric_dill.ValueChanged += new System.EventHandler(this.numeric_dill_ValueChanged);
-            // 
-            // numeric_onion
-            // 
-            this.numeric_onion.Location = new System.Drawing.Point(453, 411);
-            this.numeric_onion.Name = "numeric_onion";
-            this.numeric_onion.Size = new System.Drawing.Size(65, 39);
-            this.numeric_onion.TabIndex = 19;
-            this.numeric_onion.Visible = false;
-            this.numeric_onion.ValueChanged += new System.EventHandler(this.numeric_onion_ValueChanged);
             // 
             // groupBox_ready
             // 
@@ -597,29 +601,17 @@
             this.groupBox_ready.TabStop = false;
             this.groupBox_ready.Text = "Готовые рецепты:";
             // 
-            // radioButton_ready_classic
+            // radioButton_ready_no
             // 
-            this.radioButton_ready_classic.AutoSize = true;
-            this.radioButton_ready_classic.Location = new System.Drawing.Point(35, 33);
-            this.radioButton_ready_classic.Name = "radioButton_ready_classic";
-            this.radioButton_ready_classic.Size = new System.Drawing.Size(205, 35);
-            this.radioButton_ready_classic.TabIndex = 0;
-            this.radioButton_ready_classic.TabStop = true;
-            this.radioButton_ready_classic.Text = "Классическая";
-            this.radioButton_ready_classic.UseVisualStyleBackColor = true;
-            this.radioButton_ready_classic.CheckedChanged += new System.EventHandler(this.radioButton_ready_classic_CheckedChanged);
-            // 
-            // radioButton_ready_cheesy
-            // 
-            this.radioButton_ready_cheesy.AutoSize = true;
-            this.radioButton_ready_cheesy.Location = new System.Drawing.Point(35, 74);
-            this.radioButton_ready_cheesy.Name = "radioButton_ready_cheesy";
-            this.radioButton_ready_cheesy.Size = new System.Drawing.Size(133, 35);
-            this.radioButton_ready_cheesy.TabIndex = 1;
-            this.radioButton_ready_cheesy.TabStop = true;
-            this.radioButton_ready_cheesy.Text = "Сырная";
-            this.radioButton_ready_cheesy.UseVisualStyleBackColor = true;
-            this.radioButton_ready_cheesy.CheckedChanged += new System.EventHandler(this.radioButton_ready_cheesy_CheckedChanged);
+            this.radioButton_ready_no.AutoSize = true;
+            this.radioButton_ready_no.Location = new System.Drawing.Point(35, 156);
+            this.radioButton_ready_no.Name = "radioButton_ready_no";
+            this.radioButton_ready_no.Size = new System.Drawing.Size(155, 35);
+            this.radioButton_ready_no.TabIndex = 3;
+            this.radioButton_ready_no.TabStop = true;
+            this.radioButton_ready_no.Text = "Я тут шеф";
+            this.radioButton_ready_no.UseVisualStyleBackColor = true;
+            this.radioButton_ready_no.CheckedChanged += new System.EventHandler(this.radioButton_ready_no_CheckedChanged);
             // 
             // radioButton_ready_bbq
             // 
@@ -633,23 +625,58 @@
             this.radioButton_ready_bbq.UseVisualStyleBackColor = true;
             this.radioButton_ready_bbq.CheckedChanged += new System.EventHandler(this.radioButton_ready_bbq_CheckedChanged);
             // 
-            // radioButton_ready_no
+            // radioButton_ready_cheesy
             // 
-            this.radioButton_ready_no.AutoSize = true;
-            this.radioButton_ready_no.Location = new System.Drawing.Point(35, 156);
-            this.radioButton_ready_no.Name = "radioButton_ready_no";
-            this.radioButton_ready_no.Size = new System.Drawing.Size(155, 35);
-            this.radioButton_ready_no.TabIndex = 3;
-            this.radioButton_ready_no.TabStop = true;
-            this.radioButton_ready_no.Text = "Я тут шеф";
-            this.radioButton_ready_no.UseVisualStyleBackColor = true;
-            this.radioButton_ready_no.CheckedChanged += new System.EventHandler(this.radioButton_ready_no_CheckedChanged);
+            this.radioButton_ready_cheesy.AutoSize = true;
+            this.radioButton_ready_cheesy.Location = new System.Drawing.Point(35, 74);
+            this.radioButton_ready_cheesy.Name = "radioButton_ready_cheesy";
+            this.radioButton_ready_cheesy.Size = new System.Drawing.Size(133, 35);
+            this.radioButton_ready_cheesy.TabIndex = 1;
+            this.radioButton_ready_cheesy.TabStop = true;
+            this.radioButton_ready_cheesy.Text = "Сырная";
+            this.radioButton_ready_cheesy.UseVisualStyleBackColor = true;
+            this.radioButton_ready_cheesy.CheckedChanged += new System.EventHandler(this.radioButton_ready_cheesy_CheckedChanged);
+            // 
+            // radioButton_ready_classic
+            // 
+            this.radioButton_ready_classic.AutoSize = true;
+            this.radioButton_ready_classic.Location = new System.Drawing.Point(35, 33);
+            this.radioButton_ready_classic.Name = "radioButton_ready_classic";
+            this.radioButton_ready_classic.Size = new System.Drawing.Size(205, 35);
+            this.radioButton_ready_classic.TabIndex = 0;
+            this.radioButton_ready_classic.TabStop = true;
+            this.radioButton_ready_classic.Text = "Классическая";
+            this.radioButton_ready_classic.UseVisualStyleBackColor = true;
+            this.radioButton_ready_classic.CheckedChanged += new System.EventHandler(this.radioButton_ready_classic_CheckedChanged);
+            // 
+            // radioButton__1000island
+            // 
+            this.radioButton__1000island.AutoSize = true;
+            this.radioButton__1000island.Location = new System.Drawing.Point(33, 247);
+            this.radioButton__1000island.Name = "radioButton__1000island";
+            this.radioButton__1000island.Size = new System.Drawing.Size(204, 35);
+            this.radioButton__1000island.TabIndex = 5;
+            this.radioButton__1000island.TabStop = true;
+            this.radioButton__1000island.Text = "1000 островов";
+            this.radioButton__1000island.UseVisualStyleBackColor = true;
+            this.radioButton__1000island.CheckedChanged += new System.EventHandler(this.radioButton__1000island_CheckedChanged);
+            // 
+            // radioButton__no
+            // 
+            this.radioButton__no.AutoSize = true;
+            this.radioButton__no.Location = new System.Drawing.Point(33, 288);
+            this.radioButton__no.Name = "radioButton__no";
+            this.radioButton__no.Size = new System.Drawing.Size(143, 35);
+            this.radioButton__no.TabIndex = 6;
+            this.radioButton__no.TabStop = true;
+            this.radioButton__no.Text = "Без соуса";
+            this.radioButton__no.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1259, 812);
+            this.ClientSize = new System.Drawing.Size(1259, 869);
             this.Controls.Add(this.groupBox_ready);
             this.Controls.Add(this.label__SummShava);
             this.Controls.Add(this.label_coastShava);
@@ -674,16 +701,16 @@
             this.groupBox_hotly.PerformLayout();
             this.groupBox_doping.ResumeLayout(false);
             this.groupBox_doping.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_cucumber)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_mar_cucumber)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_tomato)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_carrot)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_pepper)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_salad)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_mar_capusta)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_xalapen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numeric_dill)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_onion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_dill)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_xalapen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_mar_capusta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_salad)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_pepper)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_carrot)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_tomato)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_mar_cucumber)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_cucumber)).EndInit();
             this.groupBox_ready.ResumeLayout(false);
             this.groupBox_ready.PerformLayout();
             this.ResumeLayout(false);
@@ -740,6 +767,8 @@
         private System.Windows.Forms.RadioButton radioButton_ready_bbq;
         private System.Windows.Forms.RadioButton radioButton_ready_cheesy;
         private System.Windows.Forms.RadioButton radioButton_ready_classic;
+        private System.Windows.Forms.RadioButton radioButton__no;
+        private System.Windows.Forms.RadioButton radioButton__1000island;
     }
 }
 
