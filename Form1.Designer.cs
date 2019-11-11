@@ -78,6 +78,7 @@
             this.radioButton_ready_classic = new System.Windows.Forms.RadioButton();
             this.radioButton__1000island = new System.Windows.Forms.RadioButton();
             this.radioButton__no = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox_osnova.SuspendLayout();
             this.groupBox_meat.SuspendLayout();
             this.groupBox_sauce.SuspendLayout();
@@ -372,6 +373,11 @@
             // numeric_onion
             // 
             this.numeric_onion.Location = new System.Drawing.Point(453, 411);
+            this.numeric_onion.Maximum = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
             this.numeric_onion.Name = "numeric_onion";
             this.numeric_onion.Size = new System.Drawing.Size(65, 39);
             this.numeric_onion.TabIndex = 19;
@@ -381,6 +387,11 @@
             // numeric_dill
             // 
             this.numeric_dill.Location = new System.Drawing.Point(453, 370);
+            this.numeric_dill.Maximum = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
             this.numeric_dill.Name = "numeric_dill";
             this.numeric_dill.Size = new System.Drawing.Size(65, 39);
             this.numeric_dill.TabIndex = 18;
@@ -390,6 +401,11 @@
             // numeric_xalapen
             // 
             this.numeric_xalapen.Location = new System.Drawing.Point(453, 328);
+            this.numeric_xalapen.Maximum = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
             this.numeric_xalapen.Name = "numeric_xalapen";
             this.numeric_xalapen.Size = new System.Drawing.Size(65, 39);
             this.numeric_xalapen.TabIndex = 17;
@@ -399,6 +415,11 @@
             // numeric_mar_capusta
             // 
             this.numeric_mar_capusta.Location = new System.Drawing.Point(453, 287);
+            this.numeric_mar_capusta.Maximum = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
             this.numeric_mar_capusta.Name = "numeric_mar_capusta";
             this.numeric_mar_capusta.Size = new System.Drawing.Size(65, 39);
             this.numeric_mar_capusta.TabIndex = 16;
@@ -408,6 +429,11 @@
             // numeric_salad
             // 
             this.numeric_salad.Location = new System.Drawing.Point(453, 246);
+            this.numeric_salad.Maximum = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
             this.numeric_salad.Name = "numeric_salad";
             this.numeric_salad.Size = new System.Drawing.Size(65, 39);
             this.numeric_salad.TabIndex = 15;
@@ -417,6 +443,11 @@
             // numeric_pepper
             // 
             this.numeric_pepper.Location = new System.Drawing.Point(453, 205);
+            this.numeric_pepper.Maximum = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
             this.numeric_pepper.Name = "numeric_pepper";
             this.numeric_pepper.Size = new System.Drawing.Size(65, 39);
             this.numeric_pepper.TabIndex = 14;
@@ -426,6 +457,11 @@
             // numeric_carrot
             // 
             this.numeric_carrot.Location = new System.Drawing.Point(453, 164);
+            this.numeric_carrot.Maximum = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
             this.numeric_carrot.Name = "numeric_carrot";
             this.numeric_carrot.Size = new System.Drawing.Size(65, 39);
             this.numeric_carrot.TabIndex = 13;
@@ -435,6 +471,11 @@
             // numeric_tomato
             // 
             this.numeric_tomato.Location = new System.Drawing.Point(453, 124);
+            this.numeric_tomato.Maximum = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
             this.numeric_tomato.Name = "numeric_tomato";
             this.numeric_tomato.Size = new System.Drawing.Size(65, 39);
             this.numeric_tomato.TabIndex = 12;
@@ -444,6 +485,11 @@
             // numeric_mar_cucumber
             // 
             this.numeric_mar_cucumber.Location = new System.Drawing.Point(453, 83);
+            this.numeric_mar_cucumber.Maximum = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
             this.numeric_mar_cucumber.Name = "numeric_mar_cucumber";
             this.numeric_mar_cucumber.Size = new System.Drawing.Size(65, 39);
             this.numeric_mar_cucumber.TabIndex = 11;
@@ -453,6 +499,11 @@
             // numeric_cucumber
             // 
             this.numeric_cucumber.Location = new System.Drawing.Point(453, 42);
+            this.numeric_cucumber.Maximum = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
             this.numeric_cucumber.Name = "numeric_cucumber";
             this.numeric_cucumber.Size = new System.Drawing.Size(65, 39);
             this.numeric_cucumber.TabIndex = 10;
@@ -573,7 +624,7 @@
             // 
             this.label_coastShava.AutoSize = true;
             this.label_coastShava.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_coastShava.Location = new System.Drawing.Point(17, 818);
+            this.label_coastShava.Location = new System.Drawing.Point(17, 848);
             this.label_coastShava.Name = "label_coastShava";
             this.label_coastShava.Size = new System.Drawing.Size(501, 32);
             this.label_coastShava.TabIndex = 5;
@@ -582,7 +633,7 @@
             // label__SummShava
             // 
             this.label__SummShava.AutoSize = true;
-            this.label__SummShava.Location = new System.Drawing.Point(524, 818);
+            this.label__SummShava.Location = new System.Drawing.Point(512, 849);
             this.label__SummShava.Name = "label__SummShava";
             this.label__SummShava.Size = new System.Drawing.Size(85, 31);
             this.label__SummShava.TabIndex = 6;
@@ -672,11 +723,22 @@
             this.radioButton__no.Text = "Без соуса";
             this.radioButton__no.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 21.25F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(17, 810);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(223, 32);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Шкала остроты";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1259, 869);
+            this.ClientSize = new System.Drawing.Size(1259, 889);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox_ready);
             this.Controls.Add(this.label__SummShava);
             this.Controls.Add(this.label_coastShava);
@@ -769,6 +831,7 @@
         private System.Windows.Forms.RadioButton radioButton_ready_classic;
         private System.Windows.Forms.RadioButton radioButton__no;
         private System.Windows.Forms.RadioButton radioButton__1000island;
+        private System.Windows.Forms.Label label1;
     }
 }
 
