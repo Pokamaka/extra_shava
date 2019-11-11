@@ -501,6 +501,7 @@
             this.numeric_cucumber.Size = new System.Drawing.Size(65, 39);
             this.numeric_cucumber.TabIndex = 10;
             this.numeric_cucumber.Visible = false;
+            this.numeric_cucumber.ValueChanged += new System.EventHandler(this.numeric_cucumber_ValueChanged);
             // 
             // numeric_mar_cucumber
             // 
@@ -509,6 +510,7 @@
             this.numeric_mar_cucumber.Size = new System.Drawing.Size(65, 39);
             this.numeric_mar_cucumber.TabIndex = 11;
             this.numeric_mar_cucumber.Visible = false;
+            this.numeric_mar_cucumber.ValueChanged += new System.EventHandler(this.numeric_mar_cucumber_ValueChanged);
             // 
             // numeric_tomato
             // 
@@ -517,6 +519,7 @@
             this.numeric_tomato.Size = new System.Drawing.Size(65, 39);
             this.numeric_tomato.TabIndex = 12;
             this.numeric_tomato.Visible = false;
+            this.numeric_tomato.ValueChanged += new System.EventHandler(this.numeric_tomato_ValueChanged);
             // 
             // numeric_carrot
             // 
@@ -525,6 +528,7 @@
             this.numeric_carrot.Size = new System.Drawing.Size(65, 39);
             this.numeric_carrot.TabIndex = 13;
             this.numeric_carrot.Visible = false;
+            this.numeric_carrot.ValueChanged += new System.EventHandler(this.numeric_carrot_ValueChanged);
             // 
             // numeric_pepper
             // 
@@ -533,6 +537,7 @@
             this.numeric_pepper.Size = new System.Drawing.Size(65, 39);
             this.numeric_pepper.TabIndex = 14;
             this.numeric_pepper.Visible = false;
+            this.numeric_pepper.ValueChanged += new System.EventHandler(this.numeric_pepper_ValueChanged);
             // 
             // numeric_salad
             // 
@@ -541,6 +546,7 @@
             this.numeric_salad.Size = new System.Drawing.Size(65, 39);
             this.numeric_salad.TabIndex = 15;
             this.numeric_salad.Visible = false;
+            this.numeric_salad.ValueChanged += new System.EventHandler(this.numeric_salad_ValueChanged);
             // 
             // numeric_mar_capusta
             // 
@@ -549,6 +555,7 @@
             this.numeric_mar_capusta.Size = new System.Drawing.Size(65, 39);
             this.numeric_mar_capusta.TabIndex = 16;
             this.numeric_mar_capusta.Visible = false;
+            this.numeric_mar_capusta.ValueChanged += new System.EventHandler(this.numeric_mar_capusta_ValueChanged);
             // 
             // numeric_xalapen
             // 
@@ -557,6 +564,7 @@
             this.numeric_xalapen.Size = new System.Drawing.Size(65, 39);
             this.numeric_xalapen.TabIndex = 17;
             this.numeric_xalapen.Visible = false;
+            this.numeric_xalapen.ValueChanged += new System.EventHandler(this.numeric_xalapen_ValueChanged);
             // 
             // numeric_dill
             // 
@@ -565,6 +573,7 @@
             this.numeric_dill.Size = new System.Drawing.Size(65, 39);
             this.numeric_dill.TabIndex = 18;
             this.numeric_dill.Visible = false;
+            this.numeric_dill.ValueChanged += new System.EventHandler(this.numeric_dill_ValueChanged);
             // 
             // numeric_onion
             // 
@@ -573,6 +582,7 @@
             this.numeric_onion.Size = new System.Drawing.Size(65, 39);
             this.numeric_onion.TabIndex = 19;
             this.numeric_onion.Visible = false;
+            this.numeric_onion.ValueChanged += new System.EventHandler(this.numeric_onion_ValueChanged);
             // 
             // groupBox_ready
             // 

@@ -151,5 +151,47 @@ namespace Шава_мейкер_2._0
         {
 
         } //сам шеф
+
+        //выбор колличества допинга
+        private void numeric_cucumber_ValueChanged(object sender, EventArgs e)
+        {
+
+        } //огурцы
+        private void numeric_mar_cucumber_ValueChanged(object sender, EventArgs e)
+        {
+
+        } //маринованые огурцы
+        private void numeric_tomato_ValueChanged(object sender, EventArgs e)
+        {
+
+        } //помидоры
+        private void numeric_carrot_ValueChanged(object sender, EventArgs e)
+        {
+
+        } //марковка
+        private void numeric_pepper_ValueChanged(object sender, EventArgs e)
+        {
+
+        } //болгарский перец
+        private void numeric_salad_ValueChanged(object sender, EventArgs e)
+        {
+
+        } //салатный лист
+        private void numeric_mar_capusta_ValueChanged(object sender, EventArgs e)
+        {
+
+        } //квашенная капуста
+        private void numeric_xalapen_ValueChanged(object sender, EventArgs e)
+        {
+
+        } //халапенью
+        private void numeric_dill_ValueChanged(object sender, EventArgs e)
+        {
+
+        } //укров
+        private void numeric_onion_ValueChanged(object sender, EventArgs e)
+        {
+
+        } //лук
     } 
 }
