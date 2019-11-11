@@ -79,6 +79,19 @@
             this.radioButton__1000island = new System.Windows.Forms.RadioButton();
             this.radioButton__no = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox_tarelka = new System.Windows.Forms.PictureBox();
+            this.pictureBox_pita = new System.Windows.Forms.PictureBox();
+            this.pictureBox_lavash = new System.Windows.Forms.PictureBox();
+            this.pictureBox_cucumber = new System.Windows.Forms.PictureBox();
+            this.pictureBox_mar_cucumber = new System.Windows.Forms.PictureBox();
+            this.pictureBox_tomato = new System.Windows.Forms.PictureBox();
+            this.pictureBox_carrot = new System.Windows.Forms.PictureBox();
+            this.pictureBox_pepper = new System.Windows.Forms.PictureBox();
+            this.pictureBox_salad = new System.Windows.Forms.PictureBox();
+            this.pictureBox_mar_capusta = new System.Windows.Forms.PictureBox();
+            this.pictureBox_xalapen = new System.Windows.Forms.PictureBox();
+            this.pictureBox_dill = new System.Windows.Forms.PictureBox();
+            this.pictureBox_onion = new System.Windows.Forms.PictureBox();
             this.groupBox_osnova.SuspendLayout();
             this.groupBox_meat.SuspendLayout();
             this.groupBox_sauce.SuspendLayout();
@@ -95,6 +108,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.numeric_mar_cucumber)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_cucumber)).BeginInit();
             this.groupBox_ready.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_tarelka)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pita)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_lavash)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_cucumber)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_mar_cucumber)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_tomato)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_carrot)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pepper)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_salad)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_mar_capusta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_xalapen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_dill)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_onion)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox_osnova
@@ -733,11 +759,160 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Шкала остроты";
             // 
+            // pictureBox_tarelka
+            // 
+            this.pictureBox_tarelka.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_tarelka.Image")));
+            this.pictureBox_tarelka.Location = new System.Drawing.Point(908, 43);
+            this.pictureBox_tarelka.Name = "pictureBox_tarelka";
+            this.pictureBox_tarelka.Size = new System.Drawing.Size(361, 342);
+            this.pictureBox_tarelka.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_tarelka.TabIndex = 9;
+            this.pictureBox_tarelka.TabStop = false;
+            this.pictureBox_tarelka.Visible = false;
+            this.pictureBox_tarelka.WaitOnLoad = true;
+            // 
+            // pictureBox_pita
+            // 
+            this.pictureBox_pita.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_pita.Image")));
+            this.pictureBox_pita.Location = new System.Drawing.Point(908, 43);
+            this.pictureBox_pita.Name = "pictureBox_pita";
+            this.pictureBox_pita.Size = new System.Drawing.Size(361, 342);
+            this.pictureBox_pita.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_pita.TabIndex = 10;
+            this.pictureBox_pita.TabStop = false;
+            this.pictureBox_pita.Visible = false;
+            this.pictureBox_pita.WaitOnLoad = true;
+            // 
+            // pictureBox_lavash
+            // 
+            this.pictureBox_lavash.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_lavash.Image")));
+            this.pictureBox_lavash.Location = new System.Drawing.Point(908, 43);
+            this.pictureBox_lavash.Name = "pictureBox_lavash";
+            this.pictureBox_lavash.Size = new System.Drawing.Size(361, 342);
+            this.pictureBox_lavash.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_lavash.TabIndex = 11;
+            this.pictureBox_lavash.TabStop = false;
+            this.pictureBox_lavash.Visible = false;
+            this.pictureBox_lavash.WaitOnLoad = true;
+            // 
+            // pictureBox_cucumber
+            // 
+            this.pictureBox_cucumber.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_cucumber.Image")));
+            this.pictureBox_cucumber.Location = new System.Drawing.Point(1263, 43);
+            this.pictureBox_cucumber.Name = "pictureBox_cucumber";
+            this.pictureBox_cucumber.Size = new System.Drawing.Size(79, 73);
+            this.pictureBox_cucumber.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_cucumber.TabIndex = 12;
+            this.pictureBox_cucumber.TabStop = false;
+            // 
+            // pictureBox_mar_cucumber
+            // 
+            this.pictureBox_mar_cucumber.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_mar_cucumber.Image")));
+            this.pictureBox_mar_cucumber.Location = new System.Drawing.Point(1263, 113);
+            this.pictureBox_mar_cucumber.Name = "pictureBox_mar_cucumber";
+            this.pictureBox_mar_cucumber.Size = new System.Drawing.Size(79, 73);
+            this.pictureBox_mar_cucumber.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_mar_cucumber.TabIndex = 13;
+            this.pictureBox_mar_cucumber.TabStop = false;
+            // 
+            // pictureBox_tomato
+            // 
+            this.pictureBox_tomato.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_tomato.Image")));
+            this.pictureBox_tomato.Location = new System.Drawing.Point(1263, 184);
+            this.pictureBox_tomato.Name = "pictureBox_tomato";
+            this.pictureBox_tomato.Size = new System.Drawing.Size(79, 73);
+            this.pictureBox_tomato.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_tomato.TabIndex = 14;
+            this.pictureBox_tomato.TabStop = false;
+            // 
+            // pictureBox_carrot
+            // 
+            this.pictureBox_carrot.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_carrot.Image")));
+            this.pictureBox_carrot.Location = new System.Drawing.Point(1263, 256);
+            this.pictureBox_carrot.Name = "pictureBox_carrot";
+            this.pictureBox_carrot.Size = new System.Drawing.Size(79, 73);
+            this.pictureBox_carrot.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_carrot.TabIndex = 15;
+            this.pictureBox_carrot.TabStop = false;
+            // 
+            // pictureBox_pepper
+            // 
+            this.pictureBox_pepper.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_pepper.Image")));
+            this.pictureBox_pepper.Location = new System.Drawing.Point(1263, 321);
+            this.pictureBox_pepper.Name = "pictureBox_pepper";
+            this.pictureBox_pepper.Size = new System.Drawing.Size(79, 73);
+            this.pictureBox_pepper.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_pepper.TabIndex = 16;
+            this.pictureBox_pepper.TabStop = false;
+            // 
+            // pictureBox_salad
+            // 
+            this.pictureBox_salad.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_salad.Image")));
+            this.pictureBox_salad.Location = new System.Drawing.Point(899, 379);
+            this.pictureBox_salad.Name = "pictureBox_salad";
+            this.pictureBox_salad.Size = new System.Drawing.Size(79, 73);
+            this.pictureBox_salad.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_salad.TabIndex = 17;
+            this.pictureBox_salad.TabStop = false;
+            // 
+            // pictureBox_mar_capusta
+            // 
+            this.pictureBox_mar_capusta.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_mar_capusta.Image")));
+            this.pictureBox_mar_capusta.Location = new System.Drawing.Point(973, 379);
+            this.pictureBox_mar_capusta.Name = "pictureBox_mar_capusta";
+            this.pictureBox_mar_capusta.Size = new System.Drawing.Size(79, 73);
+            this.pictureBox_mar_capusta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_mar_capusta.TabIndex = 18;
+            this.pictureBox_mar_capusta.TabStop = false;
+            // 
+            // pictureBox_xalapen
+            // 
+            this.pictureBox_xalapen.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_xalapen.Image")));
+            this.pictureBox_xalapen.Location = new System.Drawing.Point(1046, 379);
+            this.pictureBox_xalapen.Name = "pictureBox_xalapen";
+            this.pictureBox_xalapen.Size = new System.Drawing.Size(79, 73);
+            this.pictureBox_xalapen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_xalapen.TabIndex = 19;
+            this.pictureBox_xalapen.TabStop = false;
+            // 
+            // pictureBox_dill
+            // 
+            this.pictureBox_dill.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_dill.Image")));
+            this.pictureBox_dill.Location = new System.Drawing.Point(1122, 379);
+            this.pictureBox_dill.Name = "pictureBox_dill";
+            this.pictureBox_dill.Size = new System.Drawing.Size(79, 73);
+            this.pictureBox_dill.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_dill.TabIndex = 20;
+            this.pictureBox_dill.TabStop = false;
+            // 
+            // pictureBox_onion
+            // 
+            this.pictureBox_onion.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_onion.Image")));
+            this.pictureBox_onion.Location = new System.Drawing.Point(1199, 379);
+            this.pictureBox_onion.Name = "pictureBox_onion";
+            this.pictureBox_onion.Size = new System.Drawing.Size(79, 73);
+            this.pictureBox_onion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_onion.TabIndex = 21;
+            this.pictureBox_onion.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1259, 889);
+            this.ClientSize = new System.Drawing.Size(1367, 889);
+            this.Controls.Add(this.pictureBox_onion);
+            this.Controls.Add(this.pictureBox_dill);
+            this.Controls.Add(this.pictureBox_xalapen);
+            this.Controls.Add(this.pictureBox_mar_capusta);
+            this.Controls.Add(this.pictureBox_salad);
+            this.Controls.Add(this.pictureBox_pepper);
+            this.Controls.Add(this.pictureBox_carrot);
+            this.Controls.Add(this.pictureBox_tomato);
+            this.Controls.Add(this.pictureBox_mar_cucumber);
+            this.Controls.Add(this.pictureBox_cucumber);
+            this.Controls.Add(this.pictureBox_lavash);
+            this.Controls.Add(this.pictureBox_pita);
+            this.Controls.Add(this.pictureBox_tarelka);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox_ready);
             this.Controls.Add(this.label__SummShava);
@@ -775,6 +950,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.numeric_cucumber)).EndInit();
             this.groupBox_ready.ResumeLayout(false);
             this.groupBox_ready.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_tarelka)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pita)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_lavash)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_cucumber)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_mar_cucumber)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_tomato)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_carrot)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pepper)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_salad)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_mar_capusta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_xalapen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_dill)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_onion)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -832,6 +1020,19 @@
         private System.Windows.Forms.RadioButton radioButton__no;
         private System.Windows.Forms.RadioButton radioButton__1000island;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox_tarelka;
+        private System.Windows.Forms.PictureBox pictureBox_pita;
+        private System.Windows.Forms.PictureBox pictureBox_lavash;
+        private System.Windows.Forms.PictureBox pictureBox_cucumber;
+        private System.Windows.Forms.PictureBox pictureBox_mar_cucumber;
+        private System.Windows.Forms.PictureBox pictureBox_tomato;
+        private System.Windows.Forms.PictureBox pictureBox_carrot;
+        private System.Windows.Forms.PictureBox pictureBox_pepper;
+        private System.Windows.Forms.PictureBox pictureBox_salad;
+        private System.Windows.Forms.PictureBox pictureBox_mar_capusta;
+        private System.Windows.Forms.PictureBox pictureBox_xalapen;
+        private System.Windows.Forms.PictureBox pictureBox_dill;
+        private System.Windows.Forms.PictureBox pictureBox_onion;
     }
 }
 
