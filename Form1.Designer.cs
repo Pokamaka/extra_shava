@@ -38,6 +38,8 @@
             this.radioButton_pork = new System.Windows.Forms.RadioButton();
             this.radioButton_chiken = new System.Windows.Forms.RadioButton();
             this.groupBox_sauce = new System.Windows.Forms.GroupBox();
+            this.radioButton__no = new System.Windows.Forms.RadioButton();
+            this.radioButton__1000island = new System.Windows.Forms.RadioButton();
             this.radioButton_adjika = new System.Windows.Forms.RadioButton();
             this.radioButton__super = new System.Windows.Forms.RadioButton();
             this.radioButton__cheesy = new System.Windows.Forms.RadioButton();
@@ -76,8 +78,6 @@
             this.radioButton_ready_bbq = new System.Windows.Forms.RadioButton();
             this.radioButton_ready_cheesy = new System.Windows.Forms.RadioButton();
             this.radioButton_ready_classic = new System.Windows.Forms.RadioButton();
-            this.radioButton__1000island = new System.Windows.Forms.RadioButton();
-            this.radioButton__no = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox_tarelka = new System.Windows.Forms.PictureBox();
             this.pictureBox_pita = new System.Windows.Forms.PictureBox();
@@ -250,6 +250,29 @@
             this.groupBox_sauce.TabIndex = 2;
             this.groupBox_sauce.TabStop = false;
             this.groupBox_sauce.Text = "Выбери соус:";
+            // 
+            // radioButton__no
+            // 
+            this.radioButton__no.AutoSize = true;
+            this.radioButton__no.Location = new System.Drawing.Point(33, 288);
+            this.radioButton__no.Name = "radioButton__no";
+            this.radioButton__no.Size = new System.Drawing.Size(143, 35);
+            this.radioButton__no.TabIndex = 6;
+            this.radioButton__no.TabStop = true;
+            this.radioButton__no.Text = "Без соуса";
+            this.radioButton__no.UseVisualStyleBackColor = true;
+            // 
+            // radioButton__1000island
+            // 
+            this.radioButton__1000island.AutoSize = true;
+            this.radioButton__1000island.Location = new System.Drawing.Point(33, 247);
+            this.radioButton__1000island.Name = "radioButton__1000island";
+            this.radioButton__1000island.Size = new System.Drawing.Size(204, 35);
+            this.radioButton__1000island.TabIndex = 5;
+            this.radioButton__1000island.TabStop = true;
+            this.radioButton__1000island.Text = "1000 островов";
+            this.radioButton__1000island.UseVisualStyleBackColor = true;
+            this.radioButton__1000island.CheckedChanged += new System.EventHandler(this.radioButton__1000island_CheckedChanged);
             // 
             // radioButton_adjika
             // 
@@ -736,29 +759,6 @@
             this.radioButton_ready_classic.UseVisualStyleBackColor = true;
             this.radioButton_ready_classic.CheckedChanged += new System.EventHandler(this.radioButton_ready_classic_CheckedChanged);
             // 
-            // radioButton__1000island
-            // 
-            this.radioButton__1000island.AutoSize = true;
-            this.radioButton__1000island.Location = new System.Drawing.Point(33, 247);
-            this.radioButton__1000island.Name = "radioButton__1000island";
-            this.radioButton__1000island.Size = new System.Drawing.Size(204, 35);
-            this.radioButton__1000island.TabIndex = 5;
-            this.radioButton__1000island.TabStop = true;
-            this.radioButton__1000island.Text = "1000 островов";
-            this.radioButton__1000island.UseVisualStyleBackColor = true;
-            this.radioButton__1000island.CheckedChanged += new System.EventHandler(this.radioButton__1000island_CheckedChanged);
-            // 
-            // radioButton__no
-            // 
-            this.radioButton__no.AutoSize = true;
-            this.radioButton__no.Location = new System.Drawing.Point(33, 288);
-            this.radioButton__no.Name = "radioButton__no";
-            this.radioButton__no.Size = new System.Drawing.Size(143, 35);
-            this.radioButton__no.TabIndex = 6;
-            this.radioButton__no.TabStop = true;
-            this.radioButton__no.Text = "Без соуса";
-            this.radioButton__no.UseVisualStyleBackColor = true;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -1053,7 +1053,6 @@
             this.Controls.Add(this.groupBox_meat);
             this.Controls.Add(this.groupBox_osnova);
             this.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
