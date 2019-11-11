@@ -403,6 +403,7 @@ namespace Шава_мейкер_2._0
                 znach[a] = b;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
+            this.label_cucumber.Text = $"x{Convert.ToString((int)this.numeric_cucumber.Value)}";
 
         } //огурцы
         private void numeric_mar_cucumber_ValueChanged(object sender, EventArgs e)

@@ -92,6 +92,16 @@
             this.pictureBox_xalapen = new System.Windows.Forms.PictureBox();
             this.pictureBox_dill = new System.Windows.Forms.PictureBox();
             this.pictureBox_onion = new System.Windows.Forms.PictureBox();
+            this.label_cucumber = new System.Windows.Forms.Label();
+            this.label_mar_cucumber = new System.Windows.Forms.Label();
+            this.label_tomato = new System.Windows.Forms.Label();
+            this.label_carrot = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.groupBox_osnova.SuspendLayout();
             this.groupBox_meat.SuspendLayout();
             this.groupBox_sauce.SuspendLayout();
@@ -895,11 +905,131 @@
             this.pictureBox_onion.TabIndex = 21;
             this.pictureBox_onion.TabStop = false;
             // 
+            // label_cucumber
+            // 
+            this.label_cucumber.AutoSize = true;
+            this.label_cucumber.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_cucumber.Location = new System.Drawing.Point(1312, 90);
+            this.label_cucumber.Name = "label_cucumber";
+            this.label_cucumber.Size = new System.Drawing.Size(29, 22);
+            this.label_cucumber.TabIndex = 22;
+            this.label_cucumber.Text = "x2";
+            this.label_cucumber.Visible = false;
+            // 
+            // label_mar_cucumber
+            // 
+            this.label_mar_cucumber.AutoSize = true;
+            this.label_mar_cucumber.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_mar_cucumber.Location = new System.Drawing.Point(1312, 162);
+            this.label_mar_cucumber.Name = "label_mar_cucumber";
+            this.label_mar_cucumber.Size = new System.Drawing.Size(29, 22);
+            this.label_mar_cucumber.TabIndex = 23;
+            this.label_mar_cucumber.Text = "x2";
+            this.label_mar_cucumber.Visible = false;
+            // 
+            // label_tomato
+            // 
+            this.label_tomato.AutoSize = true;
+            this.label_tomato.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_tomato.Location = new System.Drawing.Point(1312, 233);
+            this.label_tomato.Name = "label_tomato";
+            this.label_tomato.Size = new System.Drawing.Size(29, 22);
+            this.label_tomato.TabIndex = 24;
+            this.label_tomato.Text = "x2";
+            this.label_tomato.Visible = false;
+            // 
+            // label_carrot
+            // 
+            this.label_carrot.AutoSize = true;
+            this.label_carrot.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_carrot.Location = new System.Drawing.Point(1312, 298);
+            this.label_carrot.Name = "label_carrot";
+            this.label_carrot.Size = new System.Drawing.Size(29, 22);
+            this.label_carrot.TabIndex = 25;
+            this.label_carrot.Text = "x2";
+            this.label_carrot.Visible = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(1312, 370);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(29, 22);
+            this.label5.TabIndex = 26;
+            this.label5.Text = "x2";
+            this.label5.Visible = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(941, 429);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(29, 22);
+            this.label6.TabIndex = 27;
+            this.label6.Text = "x2";
+            this.label6.Visible = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(1014, 429);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(29, 22);
+            this.label7.TabIndex = 28;
+            this.label7.Text = "x2";
+            this.label7.Visible = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.Location = new System.Drawing.Point(1093, 429);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(29, 22);
+            this.label8.TabIndex = 29;
+            this.label8.Text = "x2";
+            this.label8.Visible = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.Location = new System.Drawing.Point(1172, 429);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(29, 22);
+            this.label9.TabIndex = 30;
+            this.label9.Text = "x2";
+            this.label9.Visible = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.Location = new System.Drawing.Point(1249, 429);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(29, 22);
+            this.label10.TabIndex = 31;
+            this.label10.Text = "x2";
+            this.label10.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1367, 889);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label_carrot);
+            this.Controls.Add(this.label_tomato);
+            this.Controls.Add(this.label_mar_cucumber);
+            this.Controls.Add(this.label_cucumber);
             this.Controls.Add(this.pictureBox_onion);
             this.Controls.Add(this.pictureBox_dill);
             this.Controls.Add(this.pictureBox_xalapen);
@@ -1033,6 +1163,16 @@
         private System.Windows.Forms.PictureBox pictureBox_xalapen;
         private System.Windows.Forms.PictureBox pictureBox_dill;
         private System.Windows.Forms.PictureBox pictureBox_onion;
+        private System.Windows.Forms.Label label_cucumber;
+        private System.Windows.Forms.Label label_mar_cucumber;
+        private System.Windows.Forms.Label label_tomato;
+        private System.Windows.Forms.Label label_carrot;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
     }
 }
 
