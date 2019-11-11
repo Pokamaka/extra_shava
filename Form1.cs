@@ -17,7 +17,8 @@ namespace Шава_мейкер_2._0
             InitializeComponent();
         }
 
-        double[] znach = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, }; //буфер для значения numeric
+        //буфер для значения numeric
+        double[] znach = { 0, 0, 0, 0 }; 
         double[] znach_2 = { 0, 0, 0 };
         double[] znach_3 = { 0, 0, 0 };
         double[] znach_4 = { 0, 0, 0 };
@@ -34,76 +35,209 @@ namespace Шава_мейкер_2._0
         {
             if (radioButton_lavash.Checked == true)
             {
-                
+                Data.Summ = Data.Summ + 30;
+                Data.Callories = Data.Callories + 20;
             }
             else
             {
-
+                Data.Summ = Data.Summ - 30;
+                Data.Callories = Data.Callories - 20;
             }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //лаваш
         private void radioButton_pita_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton_pita.Checked == true)
+            {
+                Data.Summ = Data.Summ + 15;
+                Data.Callories = Data.Callories + 25;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 15;
+                Data.Callories = Data.Callories - 25;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //пита
         private void radioButton_tarelka_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton_tarelka.Checked == true)
+            {
+                Data.Summ = Data.Summ + 50;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 50;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //тарелка
 
         //выбор мяса
         private void radioButton_chiken_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton_chiken.Checked == true)
+            {
+                Data.Summ = Data.Summ + 30;
+                Data.Callories = Data.Callories + 200;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 30;
+                Data.Callories = Data.Callories - 200;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //курица
         private void radioButton_pork_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton_pork.Checked == true)
+            {
+                Data.Summ = Data.Summ + 15;
+                Data.Callories = Data.Callories + 220;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 15;
+                Data.Callories = Data.Callories - 220;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //свинина
         private void radioButton_mutton_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton_mutton.Checked == true)
+            {
+                Data.Summ = Data.Summ + 40;
+                Data.Callories = Data.Callories + 210;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 40;
+                Data.Callories = Data.Callories - 210;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //баранина
 
 
         //выбор соуса
         private void radioButton__calssic_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton__calssic.Checked == true)
+            {
+                Data.Summ = Data.Summ + 25;
+                Data.Callories = Data.Callories + 20;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 25;
+                Data.Callories = Data.Callories - 20;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //классический 
         private void radioButton__bbq_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton__bbq.Checked == true)
+            {
+                Data.Summ = Data.Summ + 35;
+                Data.Callories = Data.Callories + 25;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 35;
+                Data.Callories = Data.Callories - 25;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //bbq
         private void radioButton__cheesy_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton__cheesy.Checked == true)
+            {
+                Data.Summ = Data.Summ + 30;
+                Data.Callories = Data.Callories + 25;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 30;
+                Data.Callories = Data.Callories - 25;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //сырный
         private void radioButton__super_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton__super.Checked == true)
+            {
+                Data.Summ = Data.Summ + 40;
+                Data.Callories = Data.Callories + 25;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 40;
+                Data.Callories = Data.Callories - 25;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //острый
         private void radioButton_adjika_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton_adjika.Checked == true)
+            {
+                Data.Summ = Data.Summ + 40;
+                Data.Callories = Data.Callories + 25;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 40;
+                Data.Callories = Data.Callories - 25;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //аджика
 
 
         //острота соуса
         private void radioButton__min_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton__min.Checked == true)
+            {
+                Data.Summ = Data.Summ + 5;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 5;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //минималка
         private void radioButton__middel_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton__middel.Checked == true)
+            {
+                Data.Summ = Data.Summ + 10;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 10;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //норм
         private void radioButton__high_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton__high.Checked == true)
+            {
+                Data.Summ = Data.Summ + 15;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 15;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //остренько
         private void radioButton__vhot_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton__vhot.Checked == true)
+            {
+                Data.Summ = Data.Summ + 20;
+            }
+            else
+            {
+                Data.Summ = Data.Summ - 20;
+            }
+            this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //пожар
    
         
