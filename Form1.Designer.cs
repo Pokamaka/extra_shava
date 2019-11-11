@@ -59,12 +59,33 @@
             this.radioButton__middel = new System.Windows.Forms.RadioButton();
             this.radioButton__high = new System.Windows.Forms.RadioButton();
             this.radioButton__vhot = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label_coastShava = new System.Windows.Forms.Label();
+            this.label__SummShava = new System.Windows.Forms.Label();
+            this.numeric_cucumber = new System.Windows.Forms.NumericUpDown();
+            this.numeric_mar_cucumber = new System.Windows.Forms.NumericUpDown();
+            this.numeric_tomato = new System.Windows.Forms.NumericUpDown();
+            this.numeric_carrot = new System.Windows.Forms.NumericUpDown();
+            this.numeric_pepper = new System.Windows.Forms.NumericUpDown();
+            this.numeric_salad = new System.Windows.Forms.NumericUpDown();
+            this.numeric_mar_capusta = new System.Windows.Forms.NumericUpDown();
+            this.numeric_xalapen = new System.Windows.Forms.NumericUpDown();
+            this.numeric_dill = new System.Windows.Forms.NumericUpDown();
+            this.numeric_onion = new System.Windows.Forms.NumericUpDown();
             this.groupBox_osnova.SuspendLayout();
             this.groupBox_meat.SuspendLayout();
             this.groupBox_sauce.SuspendLayout();
             this.groupBox_hotly.SuspendLayout();
             this.groupBox_doping.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_cucumber)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_mar_cucumber)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_tomato)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_carrot)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_pepper)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_salad)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_mar_capusta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_xalapen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_dill)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_onion)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox_osnova
@@ -250,6 +271,16 @@
             // 
             // groupBox_doping
             // 
+            this.groupBox_doping.Controls.Add(this.numeric_onion);
+            this.groupBox_doping.Controls.Add(this.numeric_dill);
+            this.groupBox_doping.Controls.Add(this.numeric_xalapen);
+            this.groupBox_doping.Controls.Add(this.numeric_mar_capusta);
+            this.groupBox_doping.Controls.Add(this.numeric_salad);
+            this.groupBox_doping.Controls.Add(this.numeric_pepper);
+            this.groupBox_doping.Controls.Add(this.numeric_carrot);
+            this.groupBox_doping.Controls.Add(this.numeric_tomato);
+            this.groupBox_doping.Controls.Add(this.numeric_mar_cucumber);
+            this.groupBox_doping.Controls.Add(this.numeric_cucumber);
             this.groupBox_doping.Controls.Add(this.checkBox_onion);
             this.groupBox_doping.Controls.Add(this.checkBox_bill);
             this.groupBox_doping.Controls.Add(this.checkBox_xalapen);
@@ -352,7 +383,7 @@
             // checkBox_bill
             // 
             this.checkBox_bill.AutoSize = true;
-            this.checkBox_bill.Location = new System.Drawing.Point(34, 367);
+            this.checkBox_bill.Location = new System.Drawing.Point(34, 371);
             this.checkBox_bill.Name = "checkBox_bill";
             this.checkBox_bill.Size = new System.Drawing.Size(112, 35);
             this.checkBox_bill.TabIndex = 8;
@@ -362,7 +393,7 @@
             // checkBox_onion
             // 
             this.checkBox_onion.AutoSize = true;
-            this.checkBox_onion.Location = new System.Drawing.Point(34, 408);
+            this.checkBox_onion.Location = new System.Drawing.Point(34, 412);
             this.checkBox_onion.Name = "checkBox_onion";
             this.checkBox_onion.Size = new System.Drawing.Size(81, 35);
             this.checkBox_onion.TabIndex = 9;
@@ -413,22 +444,112 @@
             this.radioButton__vhot.Text = "Огненно";
             this.radioButton__vhot.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // label_coastShava
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(17, 761);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(501, 32);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Стоимость Вашей шаурмы составит:";
+            this.label_coastShava.AutoSize = true;
+            this.label_coastShava.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_coastShava.Location = new System.Drawing.Point(17, 761);
+            this.label_coastShava.Name = "label_coastShava";
+            this.label_coastShava.Size = new System.Drawing.Size(501, 32);
+            this.label_coastShava.TabIndex = 5;
+            this.label_coastShava.Text = "Стоимость Вашей шаурмы составит:";
+            // 
+            // label__SummShava
+            // 
+            this.label__SummShava.AutoSize = true;
+            this.label__SummShava.Location = new System.Drawing.Point(524, 762);
+            this.label__SummShava.Name = "label__SummShava";
+            this.label__SummShava.Size = new System.Drawing.Size(85, 31);
+            this.label__SummShava.TabIndex = 6;
+            this.label__SummShava.Text = "label2";
+            // 
+            // numeric_cucumber
+            // 
+            this.numeric_cucumber.Location = new System.Drawing.Point(434, 42);
+            this.numeric_cucumber.Name = "numeric_cucumber";
+            this.numeric_cucumber.Size = new System.Drawing.Size(65, 39);
+            this.numeric_cucumber.TabIndex = 10;
+            this.numeric_cucumber.Visible = false;
+            // 
+            // numeric_mar_cucumber
+            // 
+            this.numeric_mar_cucumber.Location = new System.Drawing.Point(434, 83);
+            this.numeric_mar_cucumber.Name = "numeric_mar_cucumber";
+            this.numeric_mar_cucumber.Size = new System.Drawing.Size(65, 39);
+            this.numeric_mar_cucumber.TabIndex = 11;
+            this.numeric_mar_cucumber.Visible = false;
+            // 
+            // numeric_tomato
+            // 
+            this.numeric_tomato.Location = new System.Drawing.Point(434, 124);
+            this.numeric_tomato.Name = "numeric_tomato";
+            this.numeric_tomato.Size = new System.Drawing.Size(65, 39);
+            this.numeric_tomato.TabIndex = 12;
+            this.numeric_tomato.Visible = false;
+            // 
+            // numeric_carrot
+            // 
+            this.numeric_carrot.Location = new System.Drawing.Point(434, 164);
+            this.numeric_carrot.Name = "numeric_carrot";
+            this.numeric_carrot.Size = new System.Drawing.Size(65, 39);
+            this.numeric_carrot.TabIndex = 13;
+            this.numeric_carrot.Visible = false;
+            // 
+            // numeric_pepper
+            // 
+            this.numeric_pepper.Location = new System.Drawing.Point(434, 205);
+            this.numeric_pepper.Name = "numeric_pepper";
+            this.numeric_pepper.Size = new System.Drawing.Size(65, 39);
+            this.numeric_pepper.TabIndex = 14;
+            this.numeric_pepper.Visible = false;
+            // 
+            // numeric_salad
+            // 
+            this.numeric_salad.Location = new System.Drawing.Point(434, 246);
+            this.numeric_salad.Name = "numeric_salad";
+            this.numeric_salad.Size = new System.Drawing.Size(65, 39);
+            this.numeric_salad.TabIndex = 15;
+            this.numeric_salad.Visible = false;
+            // 
+            // numeric_mar_capusta
+            // 
+            this.numeric_mar_capusta.Location = new System.Drawing.Point(434, 287);
+            this.numeric_mar_capusta.Name = "numeric_mar_capusta";
+            this.numeric_mar_capusta.Size = new System.Drawing.Size(65, 39);
+            this.numeric_mar_capusta.TabIndex = 16;
+            this.numeric_mar_capusta.Visible = false;
+            // 
+            // numeric_xalapen
+            // 
+            this.numeric_xalapen.Location = new System.Drawing.Point(434, 328);
+            this.numeric_xalapen.Name = "numeric_xalapen";
+            this.numeric_xalapen.Size = new System.Drawing.Size(65, 39);
+            this.numeric_xalapen.TabIndex = 17;
+            this.numeric_xalapen.Visible = false;
+            // 
+            // numeric_dill
+            // 
+            this.numeric_dill.Location = new System.Drawing.Point(434, 370);
+            this.numeric_dill.Name = "numeric_dill";
+            this.numeric_dill.Size = new System.Drawing.Size(65, 39);
+            this.numeric_dill.TabIndex = 18;
+            this.numeric_dill.Visible = false;
+            // 
+            // numeric_onion
+            // 
+            this.numeric_onion.Location = new System.Drawing.Point(434, 411);
+            this.numeric_onion.Name = "numeric_onion";
+            this.numeric_onion.Size = new System.Drawing.Size(65, 39);
+            this.numeric_onion.TabIndex = 19;
+            this.numeric_onion.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1259, 812);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label__SummShava);
+            this.Controls.Add(this.label_coastShava);
             this.Controls.Add(this.groupBox_hotly);
             this.Controls.Add(this.groupBox_doping);
             this.Controls.Add(this.groupBox_sauce);
@@ -450,6 +571,16 @@
             this.groupBox_hotly.PerformLayout();
             this.groupBox_doping.ResumeLayout(false);
             this.groupBox_doping.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_cucumber)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_mar_cucumber)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_tomato)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_carrot)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_pepper)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_salad)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_mar_capusta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_xalapen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_dill)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_onion)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -487,7 +618,18 @@
         private System.Windows.Forms.RadioButton radioButton__high;
         private System.Windows.Forms.RadioButton radioButton__middel;
         private System.Windows.Forms.RadioButton radioButton__min;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label_coastShava;
+        private System.Windows.Forms.Label label__SummShava;
+        private System.Windows.Forms.NumericUpDown numeric_onion;
+        private System.Windows.Forms.NumericUpDown numeric_dill;
+        private System.Windows.Forms.NumericUpDown numeric_xalapen;
+        private System.Windows.Forms.NumericUpDown numeric_mar_capusta;
+        private System.Windows.Forms.NumericUpDown numeric_salad;
+        private System.Windows.Forms.NumericUpDown numeric_pepper;
+        private System.Windows.Forms.NumericUpDown numeric_carrot;
+        private System.Windows.Forms.NumericUpDown numeric_tomato;
+        private System.Windows.Forms.NumericUpDown numeric_mar_cucumber;
+        private System.Windows.Forms.NumericUpDown numeric_cucumber;
     }
 }
 
