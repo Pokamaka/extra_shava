@@ -154,11 +154,13 @@ namespace Шава_мейкер_2._0
             {
                 Data.Summ = Data.Summ + 30;
                 Data.Callories = Data.Callories + 200;
+                this.pictureBox_chiken.Visible = true;
             }
             else
             {
                 Data.Summ = Data.Summ - 30;
                 Data.Callories = Data.Callories - 200;
+                this.pictureBox_chiken.Visible = false;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //курица
@@ -168,11 +170,13 @@ namespace Шава_мейкер_2._0
             {
                 Data.Summ = Data.Summ + 15;
                 Data.Callories = Data.Callories + 220;
+                this.pictureBox_pork.Visible = true;
             }
             else
             {
                 Data.Summ = Data.Summ - 15;
                 Data.Callories = Data.Callories - 220;
+                this.pictureBox_pork.Visible = false;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //свинина
@@ -182,11 +186,13 @@ namespace Шава_мейкер_2._0
             {
                 Data.Summ = Data.Summ + 40;
                 Data.Callories = Data.Callories + 210;
+                this.pictureBox_mutton.Visible = true;
             }
             else
             {
                 Data.Summ = Data.Summ - 40;
                 Data.Callories = Data.Callories - 210;
+                this.pictureBox_mutton.Visible = false;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //баранина
@@ -199,11 +205,13 @@ namespace Шава_мейкер_2._0
             {
                 Data.Summ = Data.Summ + 25;
                 Data.Callories = Data.Callories + 20;
+                this.pictureBox_classic.Visible = true;
             }
             else
             {
                 Data.Summ = Data.Summ - 25;
                 Data.Callories = Data.Callories - 20;
+                this.pictureBox_classic.Visible = false;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //классический 
@@ -213,11 +221,13 @@ namespace Шава_мейкер_2._0
             {
                 Data.Summ = Data.Summ + 35;
                 Data.Callories = Data.Callories + 25;
+                this.pictureBox_bbq.Visible = true;
             }
             else
             {
                 Data.Summ = Data.Summ - 35;
                 Data.Callories = Data.Callories - 25;
+                this.pictureBox_bbq.Visible = false;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //bbq
@@ -227,11 +237,13 @@ namespace Шава_мейкер_2._0
             {
                 Data.Summ = Data.Summ + 30;
                 Data.Callories = Data.Callories + 25;
+                this.pictureBox_cheesy.Visible = true;
             }
             else
             {
                 Data.Summ = Data.Summ - 30;
                 Data.Callories = Data.Callories - 25;
+                this.pictureBox_cheesy.Visible = false;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //сырный
@@ -242,12 +254,14 @@ namespace Шава_мейкер_2._0
                 Data.Summ = Data.Summ + 40;
                 Data.Callories = Data.Callories + 25;
                 this.groupBox_hotly.Visible = true;
+                this.pictureBox_super.Visible = true;
             }
             else
             {
                 Data.Summ = Data.Summ - 40;
                 Data.Callories = Data.Callories - 25;
                 this.groupBox_hotly.Visible = false;
+                this.pictureBox_super.Visible = false;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //острый
@@ -258,12 +272,14 @@ namespace Шава_мейкер_2._0
                 Data.Summ = Data.Summ + 40;
                 Data.Callories = Data.Callories + 25;
                 this.groupBox_hotly.Visible = true;
+                this.pictureBox_adjika.Visible = true;
             }
             else
             {
                 Data.Summ = Data.Summ - 40;
                 Data.Callories = Data.Callories - 25;
                 this.groupBox_hotly.Visible = false;
+                this.pictureBox_adjika.Visible = false;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //аджика
@@ -273,11 +289,13 @@ namespace Шава_мейкер_2._0
             {
                 Data.Summ = Data.Summ + 35;
                 Data.Callories = Data.Callories + 20;
+                this.pictureBox_1000island.Visible = true;
             }
             else
             {
                 Data.Summ = Data.Summ - 35;
                 Data.Callories = Data.Callories - 20;
+                this.pictureBox_1000island.Visible = false;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //1000 островов
