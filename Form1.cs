@@ -32,13 +32,13 @@ namespace Шава_мейкер_2._0
         double[] znach_9 = { 0, 0, 0 };
         double[] znach_10 = { 0, 0, 0 };
 
+
         //тут подсказки и подгрузка эллементов
         public void Form1_Load(object sender, EventArgs e)
         {
             this.radioButton_lavash.Checked = true; //по умолчанию лаваш
             this.radioButton_chiken.Checked = true; //по умолчанию курица
             this.radioButton__calssic.Checked = true; //по умолчанию класический соус
-            this.radioButton__middel.Checked = true; //по умолчанию нормальная осттрата
 
             ToolTip t = new ToolTip();
 
@@ -79,6 +79,7 @@ namespace Шава_мейкер_2._0
             t.SetToolTip(radioButton_ready_no, "Сам себе барин");
         }
 
+   
         //контексное меню
         private void готовыеРецептыToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -95,6 +96,7 @@ namespace Шава_мейкер_2._0
         {
             MessageBox.Show("Приложения для создания идеальной шавермы \n                    PokaSotka Inc. 2019 год", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
         } //показ инфо окна (справка)
+
 
         //выбор основы
         public void radioButton_lavash_CheckedChanged(object sender, EventArgs e)
@@ -144,6 +146,7 @@ namespace Шава_мейкер_2._0
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //тарелка
 
+   
         //выбор мяса
         public void radioButton_chiken_CheckedChanged(object sender, EventArgs e)
         {
@@ -723,7 +726,6 @@ namespace Шава_мейкер_2._0
             this.radioButton_lavash.Checked = true; //по умолчанию лаваш
             this.radioButton_chiken.Checked = true; //по умолчанию курица
             this.radioButton__calssic.Checked = true; //по умолчанию класический соус
-            this.radioButton__middel.Checked = true; //по умолчанию нормальная осттрата
             this.checkBox_cucumber.Checked = false;
             this.checkBox_salad.Checked = false;
             this.checkBox_tomato.Checked = false;
@@ -909,6 +911,7 @@ namespace Шава_мейкер_2._0
             this.label_onion.Text = $"x{Convert.ToString((int)this.numeric_onion.Value)}";
         } //лук
 
+
         //кнопка "Скрутить шавуху"
         public void button_go_Click(object sender, EventArgs e)
         {
@@ -916,6 +919,7 @@ namespace Шава_мейкер_2._0
             this.Hide();
             f2.Show();
         }
+
 
         //для коретного выхода
         public void Form1_FormClosed(object sender, FormClosedEventArgs e)
