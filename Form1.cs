@@ -32,6 +32,69 @@ namespace Шава_мейкер_2._0
         double[] znach_9 = { 0, 0, 0 };
         double[] znach_10 = { 0, 0, 0 };
 
+        //тут подсказки и подгрузка эллементов
+        public void Form1_Load(object sender, EventArgs e)
+        {
+            this.radioButton_lavash.Checked = true; //по умолчанию лаваш
+            this.radioButton_chiken.Checked = true; //по умолчанию курица
+            this.radioButton__calssic.Checked = true; //по умолчанию класический соус
+            this.radioButton__middel.Checked = true; //по умолчанию нормальная осттрата
+
+            ToolTip t = new ToolTip();
+
+            t.SetToolTip(radioButton_lavash, "Свежий, хрустящий лаваш");
+            t.SetToolTip(radioButton_pita, "Вкусаная, магкая, пита блитсящая");
+            t.SetToolTip(radioButton_tarelka, "Тарелка, только для самых богатых");
+
+            t.SetToolTip(radioButton_chiken, "Ко-ко-ко");
+            t.SetToolTip(radioButton_pork, "Хрю-Хрю-Хрю");
+            t.SetToolTip(radioButton_mutton, "Бе-бе-бе");
+
+            t.SetToolTip(radioButton__calssic, "Классический, чесночно-сливочный соус, самое то!");
+            t.SetToolTip(radioButton__cheesy, "Мощныйший сырный соус, идеально подходит для любителей сыра");
+            t.SetToolTip(radioButton__bbq, "Соус барбекю, идеально подходит к свинине");
+            t.SetToolTip(radioButton_adjika, "Домашняя, выдерженная острая аджика, идеально дополнит любое блюдо");
+            t.SetToolTip(radioButton__1000island, "Пикантный соус 1000 островов, для любителей лёгкой заправки");
+            t.SetToolTip(radioButton__super, "Для любителей острой кухни!");
+            t.SetToolTip(radioButton__no, "Ну и странный Вы человек!");
+
+            t.SetToolTip(radioButton__min, "Чуть-чуть пощекочет Ваш язык");
+            t.SetToolTip(radioButton__middel, "Самое то если хочеться чего-нибдь остренького");
+            t.SetToolTip(radioButton__high, "Будет остро, но терпимо. Рекомендую!");
+            t.SetToolTip(radioButton__super, "Яркое пламя, пронзит Ваш язык. Возьмите еще молоко!");
+
+            t.SetToolTip(checkBox_cucumber, "Огурцы с нашей грядки, только свежие и вкусные");
+            t.SetToolTip(checkBox_mar_cucumber, "Мариновыные огурчики, изящно поддчеркнут вкус Вашего блюда");
+            t.SetToolTip(checkBox_tomato, "Помидорка добавит сочности к шаверме и непердоваемый вкус");
+            t.SetToolTip(checkBox_mar_capusta, "Бабушкина, квашеная капуста, ни кого не оставен равнодушним");
+            t.SetToolTip(checkBox_carrot, "Оранжевая марковка, никогда не будет лишней!");
+            t.SetToolTip(checkBox_xalapen, "Халапенью, добавит капельку остроты в Ваше блюдо");
+            t.SetToolTip(checkBox_salad, "Без него просто ни куда!");
+            t.SetToolTip(checkBox_bill, "Просто вкусно");
+            t.SetToolTip(checkBox_onion, "Вкусее, только с луком!");
+
+            t.SetToolTip(radioButton_ready_classic, "Лаваш, курица, класический соус, огурцы, салатный лист, помидоры, лук, маринованые огурчики");
+            t.SetToolTip(radioButton_ready_bbq, "Лаваш, курица, соус BBQ, огурцы, салат, помидоры, лук, маринованый огурцы, болгарский перец, халапенью");
+            t.SetToolTip(radioButton_ready_cheesy, "Лаваш, курица, сырный соус, огурцы, салат, помидоры, лук, мариновыный огурчики, болгарский перец");
+            t.SetToolTip(radioButton_ready_no, "Сам себе барин");
+        }
+
+        //контексное меню
+        private void готовыеРецептыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (this.готовыеРецептыToolStripMenuItem.Checked == true)
+            {
+                this.groupBox_ready.Visible = true;
+            }
+            else
+            {
+                this.groupBox_ready.Visible = false;
+            }
+        } //показ гоотвых сборок (готовые рецепты)
+        private void справкаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Приложения для создания идеальной шавермы \n                    PokaSotka Inc. 2019 год", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        } //показ инфо окна (справка)
 
         //выбор основы
         public void radioButton_lavash_CheckedChanged(object sender, EventArgs e)
@@ -616,19 +679,61 @@ namespace Шава_мейкер_2._0
         //готовые рецепты
         public void radioButton_ready_classic_CheckedChanged(object sender, EventArgs e)
         {
-
+            this.radioButton_lavash.Checked = true;
+            this.radioButton_chiken.Checked = true;
+            this.radioButton__calssic.Checked = true;
+            this.checkBox_cucumber.Checked = true;
+            this.checkBox_salad.Checked = true;
+            this.checkBox_tomato.Checked = true;
+            this.checkBox_onion.Checked = true;
+            this.checkBox_mar_cucumber.Checked = true;
+            this.radioButton__cheesy.Checked = false;
+            this.checkBox_pepper.Checked = false;
+            this.checkBox_xalapen.Checked = false;
         } //класика
         public void radioButton_ready_cheesy_CheckedChanged(object sender, EventArgs e)
         {
-
+            this.radioButton_lavash.Checked = true;
+            this.radioButton_chiken.Checked = true;
+            this.radioButton__cheesy.Checked = true;
+            this.checkBox_cucumber.Checked = true;
+            this.checkBox_salad.Checked = true;
+            this.checkBox_tomato.Checked = true;
+            this.checkBox_onion.Checked = true;
+            this.checkBox_mar_cucumber.Checked = true;
+            this.checkBox_pepper.Checked = true;
+            this.checkBox_xalapen.Checked = false;
         } //сырная
         public void radioButton_ready_bbq_CheckedChanged(object sender, EventArgs e)
         {
-
+            this.radioButton_lavash.Checked = true;
+            this.radioButton_chiken.Checked = true;
+            this.radioButton__bbq.Checked = true;
+            this.checkBox_cucumber.Checked = true;
+            this.checkBox_salad.Checked = true;
+            this.checkBox_tomato.Checked = true;
+            this.checkBox_onion.Checked = false;
+            this.checkBox_mar_cucumber.Checked = false;
+            this.checkBox_pepper.Checked = true;
+            this.checkBox_xalapen.Checked = true;
+            this.radioButton__cheesy.Checked = false;   
         } //bbq
         public void radioButton_ready_no_CheckedChanged(object sender, EventArgs e)
         {
-
+            this.radioButton_lavash.Checked = true; //по умолчанию лаваш
+            this.radioButton_chiken.Checked = true; //по умолчанию курица
+            this.radioButton__calssic.Checked = true; //по умолчанию класический соус
+            this.radioButton__middel.Checked = true; //по умолчанию нормальная осттрата
+            this.checkBox_cucumber.Checked = false;
+            this.checkBox_salad.Checked = false;
+            this.checkBox_tomato.Checked = false;
+            this.checkBox_onion.Checked = false;
+            this.checkBox_mar_cucumber.Checked = false;
+            this.checkBox_pepper.Checked = false;
+            this.checkBox_xalapen.Checked = false;
+            this.checkBox_carrot.Checked = false;
+            this.checkBox_bill.Checked = false;
+            this.checkBox_mar_capusta.Checked = false;
         } //сам шеф
 
 
@@ -810,47 +915,6 @@ namespace Шава_мейкер_2._0
             Form2 f2 = new Form2(); //для обращения ко второй форме
             this.Hide();
             f2.Show();
-        }
-
-        //тут подсказки и подгрузка эллементов
-        public void Form1_Load(object sender, EventArgs e)
-        {
-            ToolTip t = new ToolTip();
-            t.SetToolTip(radioButton_lavash, "Свежий, хрустящий лаваш");
-            t.SetToolTip(radioButton_pita, "Вкусаная, магкая, пита блитсящая");
-            t.SetToolTip(radioButton_tarelka, "Тарелка, только для самых богатых");
-
-            t.SetToolTip(radioButton_chiken, "Ко-ко-ко");
-            t.SetToolTip(radioButton_pork, "Хрю-Хрю-Хрю");
-            t.SetToolTip(radioButton_mutton, "Бе-бе-бе");
-
-            t.SetToolTip(radioButton__calssic, "Классический, чесночно-сливочный соус, самое то!");
-            t.SetToolTip(radioButton__cheesy, "Мощныйший сырный соус, идеально подходит для любителей сыра");
-            t.SetToolTip(radioButton__bbq, "Соус барбекю, идеально подходит к свинине");
-            t.SetToolTip(radioButton_adjika, "Домашняя, выдерженная острая аджика, идеально дополнит любое блюдо");
-            t.SetToolTip(radioButton__1000island, "Пикантный соус 1000 островов, для любителей лёгкой заправки");
-            t.SetToolTip(radioButton__super, "Для любителей острой кухни!");
-            t.SetToolTip(radioButton__no, "Ну и странный Вы человек!");
-
-            t.SetToolTip(radioButton__min, "Чуть-чуть пощекочет Ваш язык");
-            t.SetToolTip(radioButton__middel, "Самое то если хочеться чего-нибдь остренького");
-            t.SetToolTip(radioButton__high, "Будет остро, но терпимо. Рекомендую!");
-            t.SetToolTip(radioButton__super, "Яркое пламя, пронзит Ваш язык. Возьмите еще молоко!");
-
-            t.SetToolTip(checkBox_cucumber, "Огурцы с нашей грядки, только свежие и вкусные");
-            t.SetToolTip(checkBox_mar_cucumber, "Мариновыные огурчики, изящно поддчеркнут вкус Вашего блюда");
-            t.SetToolTip(checkBox_tomato, "Помидорка добавит сочности к шаверме и непердоваемый вкус");
-            t.SetToolTip(checkBox_mar_capusta, "Бабушкина, квашеная капуста, ни кого не оставен равнодушним");
-            t.SetToolTip(checkBox_carrot, "Оранжевая марковка, никогда не будет лишней!");
-            t.SetToolTip(checkBox_xalapen, "Халапенью, добавит капельку остроты в Ваше блюдо");
-            t.SetToolTip(checkBox_salad, "Без него просто ни куда!");
-            t.SetToolTip(checkBox_bill, "Просто вкусно");
-            t.SetToolTip(checkBox_onion, "Вкусее, только с луком!");
-
-            t.SetToolTip(radioButton_ready_classic, "Лаваш, курица, класический соус, огурцы, салатный лист, помидоры, лук, маринованые огурчики");
-            t.SetToolTip(radioButton_ready_bbq, "Лаваш, курица, соус BBQ, огурцы, салат, помидоры, лук, маринованый огурцы, болгарский перец, халапенью");
-            t.SetToolTip(radioButton_ready_cheesy, "Лаваш, курица, сырный соус, огурцы, салат, помидоры, лук, мариновыный огурчики, болгарский перец");
-            t.SetToolTip(radioButton_ready_no, "Сам себе барин");
         }
 
         //для коретного выхода

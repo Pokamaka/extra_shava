@@ -106,6 +106,9 @@
             this.pictureBox_3 = new System.Windows.Forms.PictureBox();
             this.pictureBox_4 = new System.Windows.Forms.PictureBox();
             this.pictureBox_5 = new System.Windows.Forms.PictureBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.готовыеРецептыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox_osnova.SuspendLayout();
             this.groupBox_meat.SuspendLayout();
             this.groupBox_sauce.SuspendLayout();
@@ -140,6 +143,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_5)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox_osnova
@@ -719,6 +723,7 @@
             this.groupBox_ready.TabIndex = 7;
             this.groupBox_ready.TabStop = false;
             this.groupBox_ready.Text = "Готовые рецепты:";
+            this.groupBox_ready.Visible = false;
             // 
             // radioButton_ready_no
             // 
@@ -1079,11 +1084,36 @@
             this.pictureBox_5.TabStop = false;
             this.pictureBox_5.Visible = false;
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.готовыеРецептыToolStripMenuItem,
+            this.справкаToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 70);
+            // 
+            // готовыеРецептыToolStripMenuItem
+            // 
+            this.готовыеРецептыToolStripMenuItem.CheckOnClick = true;
+            this.готовыеРецептыToolStripMenuItem.DoubleClickEnabled = true;
+            this.готовыеРецептыToolStripMenuItem.Name = "готовыеРецептыToolStripMenuItem";
+            this.готовыеРецептыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.готовыеРецептыToolStripMenuItem.Text = "Готовые рецепты";
+            this.готовыеРецептыToolStripMenuItem.Click += new System.EventHandler(this.готовыеРецептыToolStripMenuItem_Click);
+            // 
+            // справкаToolStripMenuItem
+            // 
+            this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
+            this.справкаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.справкаToolStripMenuItem.Text = "Справка";
+            this.справкаToolStripMenuItem.Click += new System.EventHandler(this.справкаToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1367, 889);
+            this.ContextMenuStrip = this.contextMenuStrip1;
             this.Controls.Add(this.pictureBox_5);
             this.Controls.Add(this.pictureBox_4);
             this.Controls.Add(this.pictureBox_3);
@@ -1170,6 +1200,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_5)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1258,6 +1289,9 @@
         public System.Windows.Forms.PictureBox pictureBox_3;
         public System.Windows.Forms.PictureBox pictureBox_4;
         public System.Windows.Forms.PictureBox pictureBox_5;
+        public System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem готовыеРецептыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem справкаToolStripMenuItem;
     }
 }
 
