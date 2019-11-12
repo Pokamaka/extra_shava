@@ -34,7 +34,7 @@ namespace Шава_мейкер_2._0
         //корректное закрытие
         public void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
-
+            Application.Exit();
         }
 
         //загрузка формы и данных

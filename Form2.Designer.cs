@@ -38,7 +38,6 @@
             this.label_ost = new System.Windows.Forms.Label();
             this.label_callories = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox_recept = new System.Windows.Forms.TextBox();
             this.button_one_more = new System.Windows.Forms.Button();
             this.button_exit = new System.Windows.Forms.Button();
             this.pictureBox_1 = new System.Windows.Forms.PictureBox();
@@ -46,6 +45,7 @@
             this.pictureBox_3 = new System.Windows.Forms.PictureBox();
             this.pictureBox_4 = new System.Windows.Forms.PictureBox();
             this.pictureBox_5 = new System.Windows.Forms.PictureBox();
+            this.listBox_recept = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_2)).BeginInit();
@@ -144,16 +144,6 @@
             this.label8.TabIndex = 8;
             this.label8.Text = "Вот Ваш рецепт:";
             // 
-            // textBox_recept
-            // 
-            this.textBox_recept.Location = new System.Drawing.Point(340, 266);
-            this.textBox_recept.Multiline = true;
-            this.textBox_recept.Name = "textBox_recept";
-            this.textBox_recept.ReadOnly = true;
-            this.textBox_recept.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox_recept.Size = new System.Drawing.Size(446, 276);
-            this.textBox_recept.TabIndex = 9;
-            // 
             // button_one_more
             // 
             this.button_one_more.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -231,11 +221,20 @@
             this.pictureBox_5.TabStop = false;
             this.pictureBox_5.Visible = false;
             // 
+            // listBox_recept
+            // 
+            this.listBox_recept.FormattingEnabled = true;
+            this.listBox_recept.Location = new System.Drawing.Point(340, 260);
+            this.listBox_recept.Name = "listBox_recept";
+            this.listBox_recept.Size = new System.Drawing.Size(434, 277);
+            this.listBox_recept.TabIndex = 17;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 577);
+            this.Controls.Add(this.listBox_recept);
             this.Controls.Add(this.pictureBox_5);
             this.Controls.Add(this.pictureBox_4);
             this.Controls.Add(this.pictureBox_3);
@@ -243,7 +242,6 @@
             this.Controls.Add(this.pictureBox_1);
             this.Controls.Add(this.button_exit);
             this.Controls.Add(this.button_one_more);
-            this.Controls.Add(this.textBox_recept);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label_callories);
             this.Controls.Add(this.label_ost);
@@ -271,7 +269,6 @@
         }
 
         #endregion
-        public System.Windows.Forms.TextBox textBox_recept;
         public System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.Label label1;
         public System.Windows.Forms.Label label2;
@@ -288,5 +285,6 @@
         public System.Windows.Forms.PictureBox pictureBox_3;
         public System.Windows.Forms.PictureBox pictureBox_4;
         public System.Windows.Forms.PictureBox pictureBox_5;
+        public System.Windows.Forms.ListBox listBox_recept;
     }
 }

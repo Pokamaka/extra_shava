@@ -32,6 +32,20 @@ namespace Шава_мейкер_2._0
         double[] znach_9 = { 0, 0, 0 };
         double[] znach_10 = { 0, 0, 0 };
 
+        int local_main = 0;
+        int local_meat = 0;
+        int local_souce = 0;
+        int local_cucumber = 0;
+        int local_mar_cucumber = 0;
+        int local_tomato = 0;
+        int local_carrot = 0;
+        int local_pepper = 0;
+        int local_salad = 0;
+        int local_mar_capusta = 0;
+        int local_xalapen = 0;
+        int local_dill = 0;
+        int local_onion = 0;
+
 
         //тут подсказки и подгрузка эллементов
         public void Form1_Load(object sender, EventArgs e)
@@ -106,7 +120,8 @@ namespace Шава_мейкер_2._0
             {
                 Data.Summ = Data.Summ + 30;
                 Data.Callories = Data.Callories + 20;
-                this.pictureBox_lavash.Visible = true;                             
+                this.pictureBox_lavash.Visible = true;
+                local_main = 1;
             }
             else
             {
@@ -123,6 +138,7 @@ namespace Шава_мейкер_2._0
                 Data.Summ = Data.Summ + 15;
                 Data.Callories = Data.Callories + 25;
                 this.pictureBox_pita.Visible = true;
+                local_main = 2;
             }
             else
             {
@@ -138,6 +154,7 @@ namespace Шава_мейкер_2._0
             {
                 Data.Summ = Data.Summ + 50;
                 this.pictureBox_tarelka.Visible = true;
+                local_main = 3;
             }
             else
             {
@@ -156,6 +173,7 @@ namespace Шава_мейкер_2._0
                 Data.Summ = Data.Summ + 30;
                 Data.Callories = Data.Callories + 200;
                 this.pictureBox_chiken.Visible = true;
+                local_meat = 1;
             }
             else
             {
@@ -172,6 +190,7 @@ namespace Шава_мейкер_2._0
                 Data.Summ = Data.Summ + 15;
                 Data.Callories = Data.Callories + 220;
                 this.pictureBox_pork.Visible = true;
+                local_meat = 2;
             }
             else
             {
@@ -188,6 +207,7 @@ namespace Шава_мейкер_2._0
                 Data.Summ = Data.Summ + 40;
                 Data.Callories = Data.Callories + 210;
                 this.pictureBox_mutton.Visible = true;
+                local_meat = 3;
             }
             else
             {
@@ -207,6 +227,7 @@ namespace Шава_мейкер_2._0
                 Data.Summ = Data.Summ + 25;
                 Data.Callories = Data.Callories + 20;
                 this.pictureBox_classic.Visible = true;
+                local_souce = 1;
             }
             else
             {
@@ -223,6 +244,7 @@ namespace Шава_мейкер_2._0
                 Data.Summ = Data.Summ + 35;
                 Data.Callories = Data.Callories + 25;
                 this.pictureBox_bbq.Visible = true;
+                local_souce = 2;
             }
             else
             {
@@ -239,6 +261,7 @@ namespace Шава_мейкер_2._0
                 Data.Summ = Data.Summ + 30;
                 Data.Callories = Data.Callories + 25;
                 this.pictureBox_cheesy.Visible = true;
+                local_souce = 3;
             }
             else
             {
@@ -256,6 +279,7 @@ namespace Шава_мейкер_2._0
                 Data.Callories = Data.Callories + 25;
                 this.groupBox_hotly.Visible = true;
                 this.pictureBox_super.Visible = true;
+                local_souce = 4;
             }
             else
             {
@@ -274,6 +298,7 @@ namespace Шава_мейкер_2._0
                 Data.Callories = Data.Callories + 25;
                 this.groupBox_hotly.Visible = true;
                 this.pictureBox_adjika.Visible = true;
+                local_souce = 5;
             }
             else
             {
@@ -291,6 +316,7 @@ namespace Шава_мейкер_2._0
                 Data.Summ = Data.Summ + 35;
                 Data.Callories = Data.Callories + 20;
                 this.pictureBox_1000island.Visible = true;
+                local_souce = 6;
             }
             else
             {
@@ -529,12 +555,14 @@ namespace Шава_мейкер_2._0
                 this.numeric_cucumber.Visible = true;
                 this.pictureBox_cucumber.Visible = true;
                 this.label_cucumber.Visible = true;
+                local_cucumber = 1;
             }
             else
             {
                 this.numeric_cucumber.Visible = false;
                 this.pictureBox_cucumber.Visible = false;
                 this.label_cucumber.Visible = false;
+                local_cucumber = 0;
             }
         } //огурцы
         public void checkBox_mar_cucumber_CheckedChanged(object sender, EventArgs e)
@@ -543,11 +571,13 @@ namespace Шава_мейкер_2._0
             {
                 this.numeric_mar_cucumber.Visible = true;
                 this.pictureBox_mar_cucumber.Visible = true;
+                local_mar_cucumber = 1;
             }
             else
             {
                 this.numeric_mar_cucumber.Visible = false;
                 this.pictureBox_mar_cucumber.Visible = false;
+                local_mar_cucumber = 0;
             }
         } //маринованые огурцы
         public void checkBox_tomato_CheckedChanged(object sender, EventArgs e)
@@ -556,11 +586,13 @@ namespace Шава_мейкер_2._0
             {
                 this.numeric_tomato.Visible = true;
                 this.pictureBox_tomato.Visible = true;
+                local_tomato = 1;
             }
             else
             {
                 this.numeric_tomato.Visible = false;
                 this.pictureBox_tomato.Visible = false;
+                local_tomato = 0;
             }
         } //помидоры
         public void checkBox_carrot_CheckedChanged(object sender, EventArgs e)
@@ -569,11 +601,13 @@ namespace Шава_мейкер_2._0
             {
                 this.numeric_carrot.Visible = true;
                 this.pictureBox_carrot.Visible = true;
+                local_carrot = 1;
             }
             else
             {
                 this.numeric_carrot.Visible = false;
                 this.pictureBox_carrot.Visible = false;
+                local_carrot = 0;
             }
         } //морковка
         public void checkBox_pepper_CheckedChanged(object sender, EventArgs e)
@@ -582,11 +616,13 @@ namespace Шава_мейкер_2._0
             {
                 this.numeric_pepper.Visible = true;
                 this.pictureBox_pepper.Visible = true;
+                local_pepper = 1;
             }
             else
             {
                 this.numeric_pepper.Visible = false;
                 this.pictureBox_pepper.Visible = false;
+                local_pepper = 0;
             }
         } //болгарский перец
         public void checkBox_salad_CheckedChanged(object sender, EventArgs e)
@@ -595,11 +631,13 @@ namespace Шава_мейкер_2._0
             {
                 this.numeric_salad.Visible = true;
                 this.pictureBox_salad.Visible = true;
+                local_salad = 1;
             }
             else
             {
                 this.numeric_salad.Visible = false;
                 this.pictureBox_salad.Visible = false;
+                local_salad = 0;
             }
         } //салатный лист
         public void checkBox_mar_capusta_CheckedChanged(object sender, EventArgs e)
@@ -608,11 +646,13 @@ namespace Шава_мейкер_2._0
             {
                 this.numeric_mar_capusta.Visible = true;
                 this.pictureBox_mar_capusta.Visible = true;
+                local_mar_capusta = 1;
             }
             else
             {
                 this.numeric_mar_capusta.Visible = false;
                 this.pictureBox_mar_capusta.Visible = false;
+                local_mar_capusta = 0;
             }
         } //квашенная капуста
         public void checkBox_xalapen_CheckedChanged(object sender, EventArgs e)
@@ -622,12 +662,14 @@ namespace Шава_мейкер_2._0
                 this.numeric_xalapen.Visible = true;
                 this.pictureBox_xalapen.Visible = true;
                 Data.Ost = Data.Ost + 1;
+                local_xalapen = 1;
             }
             else
             {
                 this.numeric_xalapen.Visible = false;
                 this.pictureBox_xalapen.Visible = false;
                 Data.Ost = Data.Ost - 1;
+                local_xalapen = 0;
             }
             if (Data.Ost == 1)
             {
@@ -676,11 +718,13 @@ namespace Шава_мейкер_2._0
             {
                 this.numeric_dill.Visible = true;
                 this.pictureBox_dill.Visible = true;
+                local_dill = 1;
             }
             else
             {
                 this.numeric_dill.Visible = false;
                 this.pictureBox_dill.Visible = false;
+                local_dill = 0;
             }
         } //укров
         public void checkBox_onion_CheckedChanged(object sender, EventArgs e)
@@ -689,11 +733,13 @@ namespace Шава_мейкер_2._0
             {
                 this.numeric_onion.Visible = true;
                 this.pictureBox_onion.Visible = true;
+                local_onion = 1;
             }
             else
             {
                 this.numeric_onion.Visible = false;
                 this.pictureBox_onion.Visible = false;
+                local_onion = 0;
             }
         } //лук
 
@@ -935,7 +981,76 @@ namespace Шава_мейкер_2._0
         public void button_go_Click(object sender, EventArgs e)
         {
             Form2 f2 = new Form2(); //для обращения ко второй форме
-            this.Hide();
+
+            //основа для рецепта
+            if (local_main == 1)
+            {
+                f2.listBox_recept.Items.Add("Лаваш ~ 200 гр");
+            }
+            else if (local_main == 2)
+            {
+                f2.listBox_recept.Items.Add("Пита ~ 200 гр");
+            }
+            else if (local_main == 3)
+            {
+                f2.listBox_recept.Items.Add("Всё на тарелке");
+            }
+            //мясо для рецепта
+            if (local_meat == 1)
+            {
+                f2.listBox_recept.Items.Add("Курица ~ 150 гр");
+            }
+            else if (local_meat == 2)
+            {
+                f2.listBox_recept.Items.Add("Свинина ~ 150 гр");
+            }
+            else if (local_meat == 3)
+            {
+                f2.listBox_recept.Items.Add("Баранина ~ 150 гр");
+            }
+
+            //соус для рецепта
+            if (local_souce == 1)
+            {
+                f2.listBox_recept.Items.Add("Классический соус ~ 80 гр");
+            }
+            else if (local_souce == 2)
+            {
+                f2.listBox_recept.Items.Add("Барбекю соус ~ 80 гр");
+            }
+            else if (local_souce == 3)
+            {
+                f2.listBox_recept.Items.Add("Сырный соус ~ 80 гр");
+            }
+            else if (local_souce == 4)
+            {
+                f2.listBox_recept.Items.Add("Острый соус ~ 80 гр");
+            }
+            else if (local_souce == 5)
+            {
+                f2.listBox_recept.Items.Add("Аджика ~ 80 гр");
+            }
+            else if (local_souce == 6)
+            {
+                f2.listBox_recept.Items.Add("1000 островов соус ~ 80 гр");
+            }
+
+            //допинги для рецепта
+            if (local_cucumber == 1) { f2.listBox_recept.Items.Add("Огурцы ~ 150 гр"); }
+                /*
+                    int local_cucumber = 0;
+                    int local_mar_cucumber = 0;
+                    int local_tomato = 0;
+                    int local_carrot = 0;
+                    int local_pepper = 0;
+                    int local_salad = 0;
+                    int local_mar_capusta = 0;
+                    int local_xalapen = 0;
+                    int local_dill = 0;
+                    int local_onion = 0;
+                */
+
+                this.Hide();
             f2.Show();
         }
 
