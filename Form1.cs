@@ -19,7 +19,7 @@ namespace Шава_мейкер_2._0
         }
         
         //буфер для значения numeric
-        double[] znach = { 0, 0, 0, 0 }; 
+        double[] znach = { 0, 0, 0 }; 
         double[] znach_2 = { 0, 0, 0 };
         double[] znach_3 = { 0, 0, 0 };
         double[] znach_4 = { 0, 0, 0 };
@@ -32,7 +32,7 @@ namespace Шава_мейкер_2._0
 
 
         //выбор основы
-        private void radioButton_lavash_CheckedChanged(object sender, EventArgs e)
+        public void radioButton_lavash_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton_lavash.Checked == true)
             {
@@ -48,7 +48,7 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //лаваш
-        private void radioButton_pita_CheckedChanged(object sender, EventArgs e)
+        public void radioButton_pita_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton_pita.Checked == true)
             {
@@ -64,7 +64,7 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //пита
-        private void radioButton_tarelka_CheckedChanged(object sender, EventArgs e)
+        public void radioButton_tarelka_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton_tarelka.Checked == true)
             {
@@ -80,7 +80,7 @@ namespace Шава_мейкер_2._0
         } //тарелка
 
         //выбор мяса
-        private void radioButton_chiken_CheckedChanged(object sender, EventArgs e)
+        public void radioButton_chiken_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton_chiken.Checked == true)
             {
@@ -94,7 +94,7 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //курица
-        private void radioButton_pork_CheckedChanged(object sender, EventArgs e)
+        public void radioButton_pork_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton_pork.Checked == true)
             {
@@ -108,7 +108,7 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //свинина
-        private void radioButton_mutton_CheckedChanged(object sender, EventArgs e)
+        public void radioButton_mutton_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton_mutton.Checked == true)
             {
@@ -125,7 +125,7 @@ namespace Шава_мейкер_2._0
 
 
         //выбор соуса
-        private void radioButton__calssic_CheckedChanged(object sender, EventArgs e)
+        public void radioButton__calssic_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton__calssic.Checked == true)
             {
@@ -139,7 +139,7 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //классический 
-        private void radioButton__bbq_CheckedChanged(object sender, EventArgs e)
+        public void radioButton__bbq_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton__bbq.Checked == true)
             {
@@ -153,7 +153,7 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //bbq
-        private void radioButton__cheesy_CheckedChanged(object sender, EventArgs e)
+        public void radioButton__cheesy_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton__cheesy.Checked == true)
             {
@@ -167,7 +167,7 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //сырный
-        private void radioButton__super_CheckedChanged(object sender, EventArgs e)
+        public void radioButton__super_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton__super.Checked == true)
             {
@@ -181,7 +181,7 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //острый
-        private void radioButton_adjika_CheckedChanged(object sender, EventArgs e)
+        public void radioButton_adjika_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton_adjika.Checked == true)
             {
@@ -195,7 +195,7 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //аджика
-        private void radioButton__1000island_CheckedChanged(object sender, EventArgs e)
+        public void radioButton__1000island_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton__1000island.Checked == true)
             {
@@ -212,7 +212,7 @@ namespace Шава_мейкер_2._0
 
 
         //острота соуса
-        private void radioButton__min_CheckedChanged(object sender, EventArgs e)
+        public void radioButton__min_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton__min.Checked == true)
             {
@@ -224,7 +224,7 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //минималка
-        private void radioButton__middel_CheckedChanged(object sender, EventArgs e)
+        public void radioButton__middel_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton__middel.Checked == true)
             {
@@ -236,7 +236,7 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //норм
-        private void radioButton__high_CheckedChanged(object sender, EventArgs e)
+        public void radioButton__high_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton__high.Checked == true)
             {
@@ -248,7 +248,7 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //остренько
-        private void radioButton__vhot_CheckedChanged(object sender, EventArgs e)
+        public void radioButton__vhot_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton__vhot.Checked == true)
             {
@@ -263,7 +263,7 @@ namespace Шава_мейкер_2._0
    
         
         //выбор допинга
-        private void checkBox_cucumber_CheckedChanged(object sender, EventArgs e)
+        public void checkBox_cucumber_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox_cucumber.Checked == true)
             {
@@ -278,7 +278,7 @@ namespace Шава_мейкер_2._0
                 this.label_cucumber.Visible = false;
             }
         } //огурцы
-        private void checkBox_mar_cucumber_CheckedChanged(object sender, EventArgs e)
+        public void checkBox_mar_cucumber_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox_mar_cucumber.Checked == true)
             {
@@ -291,7 +291,7 @@ namespace Шава_мейкер_2._0
                 this.pictureBox_mar_cucumber.Visible = false;
             }
         } //маринованые огурцы
-        private void checkBox_tomato_CheckedChanged(object sender, EventArgs e)
+        public void checkBox_tomato_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox_tomato.Checked == true)
             {
@@ -304,7 +304,7 @@ namespace Шава_мейкер_2._0
                 this.pictureBox_tomato.Visible = false;
             }
         } //помидоры
-        private void checkBox_carrot_CheckedChanged(object sender, EventArgs e)
+        public void checkBox_carrot_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox_carrot.Checked == true)
             {
@@ -317,7 +317,7 @@ namespace Шава_мейкер_2._0
                 this.pictureBox_carrot.Visible = false;
             }
         } //марковка
-        private void checkBox_pepper_CheckedChanged(object sender, EventArgs e)
+        public void checkBox_pepper_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox_pepper.Checked == true)
             {
@@ -330,7 +330,7 @@ namespace Шава_мейкер_2._0
                 this.pictureBox_pepper.Visible = false;
             }
         } //болгарский перец
-        private void checkBox_salad_CheckedChanged(object sender, EventArgs e)
+        public void checkBox_salad_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox_salad.Checked == true)
             {
@@ -343,7 +343,7 @@ namespace Шава_мейкер_2._0
                 this.pictureBox_salad.Visible = false;
             }
         } //салатный лист
-        private void checkBox_mar_capusta_CheckedChanged(object sender, EventArgs e)
+        public void checkBox_mar_capusta_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox_mar_capusta.Checked == true)
             {
@@ -356,7 +356,7 @@ namespace Шава_мейкер_2._0
                 this.pictureBox_mar_capusta.Visible = false;
             }
         } //квашенная капуста
-        private void checkBox_xalapen_CheckedChanged(object sender, EventArgs e)
+        public void checkBox_xalapen_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox_xalapen.Checked == true)
             {
@@ -369,7 +369,7 @@ namespace Шава_мейкер_2._0
                 this.pictureBox_xalapen.Visible = false;
             }
         } //халапенью
-        private void checkBox_bill_CheckedChanged(object sender, EventArgs e)
+        public void checkBox_bill_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox_bill.Checked == true)
             {
@@ -382,7 +382,7 @@ namespace Шава_мейкер_2._0
                 this.pictureBox_dill.Visible = false;
             }
         } //укров
-        private void checkBox_onion_CheckedChanged(object sender, EventArgs e)
+        public void checkBox_onion_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox_onion.Checked == true)
             {
@@ -398,26 +398,26 @@ namespace Шава_мейкер_2._0
 
 
         //готовые рецепты
-        private void radioButton_ready_classic_CheckedChanged(object sender, EventArgs e)
+        public void radioButton_ready_classic_CheckedChanged(object sender, EventArgs e)
         {
 
         } //класика
-        private void radioButton_ready_cheesy_CheckedChanged(object sender, EventArgs e)
+        public void radioButton_ready_cheesy_CheckedChanged(object sender, EventArgs e)
         {
 
         } //сырная
-        private void radioButton_ready_bbq_CheckedChanged(object sender, EventArgs e)
+        public void radioButton_ready_bbq_CheckedChanged(object sender, EventArgs e)
         {
 
         } //bbq
-        private void radioButton_ready_no_CheckedChanged(object sender, EventArgs e)
+        public void radioButton_ready_no_CheckedChanged(object sender, EventArgs e)
         {
 
         } //сам шеф
 
 
         //выбор колличества допинга
-        private void numeric_cucumber_ValueChanged(object sender, EventArgs e)
+        public void numeric_cucumber_ValueChanged(object sender, EventArgs e)
         {
             int a = Convert.ToInt32(((NumericUpDown)sender).Tag);
             double b = (double)((NumericUpDown)sender).Value;
@@ -435,7 +435,7 @@ namespace Шава_мейкер_2._0
             this.label_cucumber.Text = $"x{Convert.ToString((int)this.numeric_cucumber.Value)}";
 
         } //огурцы
-        private void numeric_mar_cucumber_ValueChanged(object sender, EventArgs e)
+        public void numeric_mar_cucumber_ValueChanged(object sender, EventArgs e)
         {
             int a = Convert.ToInt32(((NumericUpDown)sender).Tag);
             double b = (double)((NumericUpDown)sender).Value;
@@ -452,7 +452,7 @@ namespace Шава_мейкер_2._0
             this.label__SummShava.Text = $"{Data.Summ} руб.";
             this.label_mar_cucumber.Text = $"x{Convert.ToString((int)this.numeric_mar_cucumber.Value)}";
         } //маринованые огурцы
-        private void numeric_tomato_ValueChanged(object sender, EventArgs e)
+        public void numeric_tomato_ValueChanged(object sender, EventArgs e)
         {
             int a = Convert.ToInt32(((NumericUpDown)sender).Tag);
             double b = (double)((NumericUpDown)sender).Value;
@@ -469,7 +469,7 @@ namespace Шава_мейкер_2._0
             this.label__SummShava.Text = $"{Data.Summ} руб.";
             this.label_tomato.Text = $"x{Convert.ToString((int)this.numeric_tomato.Value)}";
         } //помидоры
-        private void numeric_carrot_ValueChanged(object sender, EventArgs e)
+        public void numeric_carrot_ValueChanged(object sender, EventArgs e)
         {
             int a = Convert.ToInt32(((NumericUpDown)sender).Tag);
             double b = (double)((NumericUpDown)sender).Value;
@@ -486,7 +486,7 @@ namespace Шава_мейкер_2._0
             this.label__SummShava.Text = $"{Data.Summ} руб.";
             this.label_carrot.Text = $"x{Convert.ToString((int)this.numeric_carrot.Value)}";
         } //марковка
-        private void numeric_pepper_ValueChanged(object sender, EventArgs e)
+        public void numeric_pepper_ValueChanged(object sender, EventArgs e)
         {
             int a = Convert.ToInt32(((NumericUpDown)sender).Tag);
             double b = (double)((NumericUpDown)sender).Value;
@@ -503,7 +503,7 @@ namespace Шава_мейкер_2._0
             this.label__SummShava.Text = $"{Data.Summ} руб.";
             this.label_pepper.Text = $"x{Convert.ToString((int)this.numeric_pepper.Value)}";
         } //болгарский перец
-        private void numeric_salad_ValueChanged(object sender, EventArgs e)
+        public void numeric_salad_ValueChanged(object sender, EventArgs e)
         {
             int a = Convert.ToInt32(((NumericUpDown)sender).Tag);
             double b = (double)((NumericUpDown)sender).Value;
@@ -520,7 +520,7 @@ namespace Шава_мейкер_2._0
             this.label__SummShava.Text = $"{Data.Summ} руб.";
             this.label_salad.Text = $"x{Convert.ToString((int)this.numeric_salad.Value)}";
         } //салатный лист
-        private void numeric_mar_capusta_ValueChanged(object sender, EventArgs e)
+        public void numeric_mar_capusta_ValueChanged(object sender, EventArgs e)
         {
             int a = Convert.ToInt32(((NumericUpDown)sender).Tag);
             double b = (double)((NumericUpDown)sender).Value;
@@ -537,7 +537,7 @@ namespace Шава_мейкер_2._0
             this.label__SummShava.Text = $"{Data.Summ} руб.";
             this.label_mar_capusta.Text = $"x{Convert.ToString((int)this.numeric_mar_capusta.Value)}";
         } //квашенная капуста
-        private void numeric_xalapen_ValueChanged(object sender, EventArgs e)
+        public void numeric_xalapen_ValueChanged(object sender, EventArgs e)
         {
             int a = Convert.ToInt32(((NumericUpDown)sender).Tag);
             double b = (double)((NumericUpDown)sender).Value;
@@ -554,7 +554,7 @@ namespace Шава_мейкер_2._0
             this.label__SummShava.Text = $"{Data.Summ} руб.";
             this.label_xalapen.Text = $"x{Convert.ToString((int)this.numeric_xalapen.Value)}";
         } //халапенью
-        private void numeric_dill_ValueChanged(object sender, EventArgs e)
+        public void numeric_dill_ValueChanged(object sender, EventArgs e)
         {
             int a = Convert.ToInt32(((NumericUpDown)sender).Tag);
             double b = (double)((NumericUpDown)sender).Value;
@@ -571,7 +571,7 @@ namespace Шава_мейкер_2._0
             this.label__SummShava.Text = $"{Data.Summ} руб.";
             this.label_dill.Text = $"x{Convert.ToString((int)this.numeric_dill.Value)}";
         } //укров
-        private void numeric_onion_ValueChanged(object sender, EventArgs e)
+        public void numeric_onion_ValueChanged(object sender, EventArgs e)
         {
             int a = Convert.ToInt32(((NumericUpDown)sender).Tag);
             double b = (double)((NumericUpDown)sender).Value;
@@ -590,7 +590,7 @@ namespace Шава_мейкер_2._0
         } //лук
 
         //кнопка "Скрутить шавуху"
-        private void button_go_Click(object sender, EventArgs e)
+        public void button_go_Click(object sender, EventArgs e)
         {
             Form2 f2 = new Form2(); //для обращения ко второй форме
             this.Hide();
@@ -598,7 +598,7 @@ namespace Шава_мейкер_2._0
         }
 
         //тут подсказки и подгрузка эллементов
-        private void Form1_Load(object sender, EventArgs e)
+        public void Form1_Load(object sender, EventArgs e)
         {
             ToolTip t = new ToolTip();
             t.SetToolTip(radioButton_lavash, "Свежий, хрустящий лаваш");
@@ -639,7 +639,7 @@ namespace Шава_мейкер_2._0
         }
 
         //для коретного выхода
-        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        public void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }

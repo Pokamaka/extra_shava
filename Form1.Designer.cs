@@ -5,7 +5,7 @@
         /// <summary>
         /// Обязательная переменная конструктора.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        public System.ComponentModel.IContainer components = null;
 
         /// <summary>
         /// Освободить все используемые ресурсы.
@@ -26,7 +26,7 @@
         /// Требуемый метод для поддержки конструктора — не изменяйте 
         /// содержимое этого метода с помощью редактора кода.
         /// </summary>
-        private void InitializeComponent()
+        public void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox_osnova = new System.Windows.Forms.GroupBox();
@@ -1103,81 +1103,81 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox_osnova;
-        private System.Windows.Forms.RadioButton radioButton_tarelka;
-        private System.Windows.Forms.RadioButton radioButton_pita;
-        private System.Windows.Forms.RadioButton radioButton_lavash;
-        private System.Windows.Forms.GroupBox groupBox_meat;
-        private System.Windows.Forms.RadioButton radioButton_mutton;
-        private System.Windows.Forms.RadioButton radioButton_pork;
-        private System.Windows.Forms.RadioButton radioButton_chiken;
-        private System.Windows.Forms.GroupBox groupBox_sauce;
-        private System.Windows.Forms.RadioButton radioButton_adjika;
-        private System.Windows.Forms.RadioButton radioButton__super;
-        private System.Windows.Forms.RadioButton radioButton__cheesy;
-        private System.Windows.Forms.RadioButton radioButton__bbq;
-        private System.Windows.Forms.RadioButton radioButton__calssic;
-        private System.Windows.Forms.GroupBox groupBox_hotly;
-        private System.Windows.Forms.GroupBox groupBox_doping;
-        private System.Windows.Forms.CheckBox checkBox_onion;
-        private System.Windows.Forms.CheckBox checkBox_bill;
-        private System.Windows.Forms.CheckBox checkBox_xalapen;
-        private System.Windows.Forms.CheckBox checkBox_mar_capusta;
-        private System.Windows.Forms.CheckBox checkBox_salad;
-        private System.Windows.Forms.CheckBox checkBox_pepper;
-        private System.Windows.Forms.CheckBox checkBox_carrot;
-        private System.Windows.Forms.CheckBox checkBox_tomato;
-        private System.Windows.Forms.CheckBox checkBox_mar_cucumber;
-        private System.Windows.Forms.CheckBox checkBox_cucumber;
-        private System.Windows.Forms.RadioButton radioButton__vhot;
-        private System.Windows.Forms.RadioButton radioButton__high;
-        private System.Windows.Forms.RadioButton radioButton__middel;
-        private System.Windows.Forms.RadioButton radioButton__min;
-        private System.Windows.Forms.Label label_coastShava;
-        private System.Windows.Forms.Label label__SummShava;
-        private System.Windows.Forms.NumericUpDown numeric_onion;
-        private System.Windows.Forms.NumericUpDown numeric_dill;
-        private System.Windows.Forms.NumericUpDown numeric_xalapen;
-        private System.Windows.Forms.NumericUpDown numeric_mar_capusta;
-        private System.Windows.Forms.NumericUpDown numeric_salad;
-        private System.Windows.Forms.NumericUpDown numeric_pepper;
-        private System.Windows.Forms.NumericUpDown numeric_carrot;
-        private System.Windows.Forms.NumericUpDown numeric_tomato;
-        private System.Windows.Forms.NumericUpDown numeric_mar_cucumber;
-        private System.Windows.Forms.NumericUpDown numeric_cucumber;
-        private System.Windows.Forms.GroupBox groupBox_ready;
-        private System.Windows.Forms.RadioButton radioButton_ready_no;
-        private System.Windows.Forms.RadioButton radioButton_ready_bbq;
-        private System.Windows.Forms.RadioButton radioButton_ready_cheesy;
-        private System.Windows.Forms.RadioButton radioButton_ready_classic;
-        private System.Windows.Forms.RadioButton radioButton__no;
-        private System.Windows.Forms.RadioButton radioButton__1000island;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox_tarelka;
-        private System.Windows.Forms.PictureBox pictureBox_pita;
-        private System.Windows.Forms.PictureBox pictureBox_lavash;
-        private System.Windows.Forms.PictureBox pictureBox_cucumber;
-        private System.Windows.Forms.PictureBox pictureBox_mar_cucumber;
-        private System.Windows.Forms.PictureBox pictureBox_tomato;
-        private System.Windows.Forms.PictureBox pictureBox_carrot;
-        private System.Windows.Forms.PictureBox pictureBox_pepper;
-        private System.Windows.Forms.PictureBox pictureBox_salad;
-        private System.Windows.Forms.PictureBox pictureBox_mar_capusta;
-        private System.Windows.Forms.PictureBox pictureBox_xalapen;
-        private System.Windows.Forms.PictureBox pictureBox_dill;
-        private System.Windows.Forms.PictureBox pictureBox_onion;
-        private System.Windows.Forms.Label label_cucumber;
-        private System.Windows.Forms.Label label_mar_cucumber;
-        private System.Windows.Forms.Label label_tomato;
-        private System.Windows.Forms.Label label_carrot;
-        private System.Windows.Forms.Label label_pepper;
-        private System.Windows.Forms.Label label_salad;
-        private System.Windows.Forms.Label label_mar_capusta;
-        private System.Windows.Forms.Label label_xalapen;
-        private System.Windows.Forms.Label label_dill;
-        private System.Windows.Forms.Label label_onion;
-        private System.Windows.Forms.Button button_go;
-        private System.Windows.Forms.ToolTip toolTip1;
+        public System.Windows.Forms.GroupBox groupBox_osnova;
+        public System.Windows.Forms.RadioButton radioButton_tarelka;
+        public System.Windows.Forms.RadioButton radioButton_pita;
+        public System.Windows.Forms.RadioButton radioButton_lavash;
+        public System.Windows.Forms.GroupBox groupBox_meat;
+        public System.Windows.Forms.RadioButton radioButton_mutton;
+        public System.Windows.Forms.RadioButton radioButton_pork;
+        public System.Windows.Forms.RadioButton radioButton_chiken;
+        public System.Windows.Forms.GroupBox groupBox_sauce;
+        public System.Windows.Forms.RadioButton radioButton_adjika;
+        public System.Windows.Forms.RadioButton radioButton__super;
+        public System.Windows.Forms.RadioButton radioButton__cheesy;
+        public System.Windows.Forms.RadioButton radioButton__bbq;
+        public System.Windows.Forms.RadioButton radioButton__calssic;
+        public System.Windows.Forms.GroupBox groupBox_hotly;
+        public System.Windows.Forms.GroupBox groupBox_doping;
+        public System.Windows.Forms.CheckBox checkBox_onion;
+        public System.Windows.Forms.CheckBox checkBox_bill;
+        public System.Windows.Forms.CheckBox checkBox_xalapen;
+        public System.Windows.Forms.CheckBox checkBox_mar_capusta;
+        public System.Windows.Forms.CheckBox checkBox_salad;
+        public System.Windows.Forms.CheckBox checkBox_pepper;
+        public System.Windows.Forms.CheckBox checkBox_carrot;
+        public System.Windows.Forms.CheckBox checkBox_tomato;
+        public System.Windows.Forms.CheckBox checkBox_mar_cucumber;
+        public System.Windows.Forms.CheckBox checkBox_cucumber;
+        public System.Windows.Forms.RadioButton radioButton__vhot;
+        public System.Windows.Forms.RadioButton radioButton__high;
+        public System.Windows.Forms.RadioButton radioButton__middel;
+        public System.Windows.Forms.RadioButton radioButton__min;
+        public System.Windows.Forms.Label label_coastShava;
+        public System.Windows.Forms.Label label__SummShava;
+        public System.Windows.Forms.NumericUpDown numeric_onion;
+        public System.Windows.Forms.NumericUpDown numeric_dill;
+        public System.Windows.Forms.NumericUpDown numeric_xalapen;
+        public System.Windows.Forms.NumericUpDown numeric_mar_capusta;
+        public System.Windows.Forms.NumericUpDown numeric_salad;
+        public System.Windows.Forms.NumericUpDown numeric_pepper;
+        public System.Windows.Forms.NumericUpDown numeric_carrot;
+        public System.Windows.Forms.NumericUpDown numeric_tomato;
+        public System.Windows.Forms.NumericUpDown numeric_mar_cucumber;
+        public System.Windows.Forms.NumericUpDown numeric_cucumber;
+        public System.Windows.Forms.GroupBox groupBox_ready;
+        public System.Windows.Forms.RadioButton radioButton_ready_no;
+        public System.Windows.Forms.RadioButton radioButton_ready_bbq;
+        public System.Windows.Forms.RadioButton radioButton_ready_cheesy;
+        public System.Windows.Forms.RadioButton radioButton_ready_classic;
+        public System.Windows.Forms.RadioButton radioButton__no;
+        public System.Windows.Forms.RadioButton radioButton__1000island;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.PictureBox pictureBox_tarelka;
+        public System.Windows.Forms.PictureBox pictureBox_pita;
+        public System.Windows.Forms.PictureBox pictureBox_lavash;
+        public System.Windows.Forms.PictureBox pictureBox_cucumber;
+        public System.Windows.Forms.PictureBox pictureBox_mar_cucumber;
+        public System.Windows.Forms.PictureBox pictureBox_tomato;
+        public System.Windows.Forms.PictureBox pictureBox_carrot;
+        public System.Windows.Forms.PictureBox pictureBox_pepper;
+        public System.Windows.Forms.PictureBox pictureBox_salad;
+        public System.Windows.Forms.PictureBox pictureBox_mar_capusta;
+        public System.Windows.Forms.PictureBox pictureBox_xalapen;
+        public System.Windows.Forms.PictureBox pictureBox_dill;
+        public System.Windows.Forms.PictureBox pictureBox_onion;
+        public System.Windows.Forms.Label label_cucumber;
+        public System.Windows.Forms.Label label_mar_cucumber;
+        public System.Windows.Forms.Label label_tomato;
+        public System.Windows.Forms.Label label_carrot;
+        public System.Windows.Forms.Label label_pepper;
+        public System.Windows.Forms.Label label_salad;
+        public System.Windows.Forms.Label label_mar_capusta;
+        public System.Windows.Forms.Label label_xalapen;
+        public System.Windows.Forms.Label label_dill;
+        public System.Windows.Forms.Label label_onion;
+        public System.Windows.Forms.Button button_go;
+        public System.Windows.Forms.ToolTip toolTip1;
     }
 }
 

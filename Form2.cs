@@ -18,13 +18,13 @@ namespace Шава_мейкер_2._0
         }
 
         //кнопка выхода из приложения
-        private void button_exit_Click(object sender, EventArgs e)
+        public void button_exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
         //кнопка повтора
-        private void button_one_more_Click(object sender, EventArgs e)
+        public void button_one_more_Click(object sender, EventArgs e)
         {
             Form1 f1 = new Form1(); //для обращения к первой форме
             this.Close();
@@ -32,13 +32,13 @@ namespace Шава_мейкер_2._0
         }
 
         //корректное закрытие
-        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        public void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
 
         }
 
         //загрузка формы и данных
-        private void Form2_Load(object sender, EventArgs e)
+        public void Form2_Load(object sender, EventArgs e)
         {
             this.label_symmShava.Text = $"{Data.Summ} руб.";
             this.label_callories.Text = $"{Data.Callories} cl.";
