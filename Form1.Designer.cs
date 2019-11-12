@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox_osnova = new System.Windows.Forms.GroupBox();
             this.radioButton_tarelka = new System.Windows.Forms.RadioButton();
             this.radioButton_pita = new System.Windows.Forms.RadioButton();
@@ -774,7 +773,7 @@
             // 
             // pictureBox_tarelka
             // 
-            this.pictureBox_tarelka.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_tarelka.Image")));
+            this.pictureBox_tarelka.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_tarelka_Image;
             this.pictureBox_tarelka.Location = new System.Drawing.Point(908, 43);
             this.pictureBox_tarelka.Name = "pictureBox_tarelka";
             this.pictureBox_tarelka.Size = new System.Drawing.Size(361, 342);
@@ -786,7 +785,7 @@
             // 
             // pictureBox_pita
             // 
-            this.pictureBox_pita.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_pita.Image")));
+            this.pictureBox_pita.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_pita_Image;
             this.pictureBox_pita.Location = new System.Drawing.Point(908, 43);
             this.pictureBox_pita.Name = "pictureBox_pita";
             this.pictureBox_pita.Size = new System.Drawing.Size(361, 342);
@@ -798,7 +797,7 @@
             // 
             // pictureBox_lavash
             // 
-            this.pictureBox_lavash.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_lavash.Image")));
+            this.pictureBox_lavash.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_lavash_Image;
             this.pictureBox_lavash.Location = new System.Drawing.Point(908, 43);
             this.pictureBox_lavash.Name = "pictureBox_lavash";
             this.pictureBox_lavash.Size = new System.Drawing.Size(361, 342);
@@ -810,7 +809,7 @@
             // 
             // pictureBox_cucumber
             // 
-            this.pictureBox_cucumber.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_cucumber.Image")));
+            this.pictureBox_cucumber.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_cucumber_Image;
             this.pictureBox_cucumber.Location = new System.Drawing.Point(1263, 43);
             this.pictureBox_cucumber.Name = "pictureBox_cucumber";
             this.pictureBox_cucumber.Size = new System.Drawing.Size(79, 73);
@@ -820,7 +819,7 @@
             // 
             // pictureBox_mar_cucumber
             // 
-            this.pictureBox_mar_cucumber.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_mar_cucumber.Image")));
+            this.pictureBox_mar_cucumber.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_mar_cucumber_Image;
             this.pictureBox_mar_cucumber.Location = new System.Drawing.Point(1263, 113);
             this.pictureBox_mar_cucumber.Name = "pictureBox_mar_cucumber";
             this.pictureBox_mar_cucumber.Size = new System.Drawing.Size(79, 73);
@@ -830,7 +829,7 @@
             // 
             // pictureBox_tomato
             // 
-            this.pictureBox_tomato.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_tomato.Image")));
+            this.pictureBox_tomato.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_tomato_Image;
             this.pictureBox_tomato.Location = new System.Drawing.Point(1263, 184);
             this.pictureBox_tomato.Name = "pictureBox_tomato";
             this.pictureBox_tomato.Size = new System.Drawing.Size(79, 73);
@@ -840,7 +839,7 @@
             // 
             // pictureBox_carrot
             // 
-            this.pictureBox_carrot.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_carrot.Image")));
+            this.pictureBox_carrot.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_carrot_Image;
             this.pictureBox_carrot.Location = new System.Drawing.Point(1263, 256);
             this.pictureBox_carrot.Name = "pictureBox_carrot";
             this.pictureBox_carrot.Size = new System.Drawing.Size(79, 73);
@@ -850,7 +849,7 @@
             // 
             // pictureBox_pepper
             // 
-            this.pictureBox_pepper.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_pepper.Image")));
+            this.pictureBox_pepper.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_pepper_Image;
             this.pictureBox_pepper.Location = new System.Drawing.Point(1263, 321);
             this.pictureBox_pepper.Name = "pictureBox_pepper";
             this.pictureBox_pepper.Size = new System.Drawing.Size(79, 73);
@@ -860,7 +859,7 @@
             // 
             // pictureBox_salad
             // 
-            this.pictureBox_salad.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_salad.Image")));
+            this.pictureBox_salad.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_salad_Image;
             this.pictureBox_salad.Location = new System.Drawing.Point(899, 379);
             this.pictureBox_salad.Name = "pictureBox_salad";
             this.pictureBox_salad.Size = new System.Drawing.Size(79, 73);
@@ -870,7 +869,7 @@
             // 
             // pictureBox_mar_capusta
             // 
-            this.pictureBox_mar_capusta.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_mar_capusta.Image")));
+            this.pictureBox_mar_capusta.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_mar_capusta_Image;
             this.pictureBox_mar_capusta.Location = new System.Drawing.Point(973, 379);
             this.pictureBox_mar_capusta.Name = "pictureBox_mar_capusta";
             this.pictureBox_mar_capusta.Size = new System.Drawing.Size(79, 73);
@@ -880,7 +879,7 @@
             // 
             // pictureBox_xalapen
             // 
-            this.pictureBox_xalapen.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_xalapen.Image")));
+            this.pictureBox_xalapen.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_xalapen_Image;
             this.pictureBox_xalapen.Location = new System.Drawing.Point(1046, 379);
             this.pictureBox_xalapen.Name = "pictureBox_xalapen";
             this.pictureBox_xalapen.Size = new System.Drawing.Size(79, 73);
@@ -890,7 +889,7 @@
             // 
             // pictureBox_dill
             // 
-            this.pictureBox_dill.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_dill.Image")));
+            this.pictureBox_dill.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_dill_Image;
             this.pictureBox_dill.Location = new System.Drawing.Point(1122, 379);
             this.pictureBox_dill.Name = "pictureBox_dill";
             this.pictureBox_dill.Size = new System.Drawing.Size(79, 73);
@@ -900,7 +899,7 @@
             // 
             // pictureBox_onion
             // 
-            this.pictureBox_onion.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_onion.Image")));
+            this.pictureBox_onion.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_onion_Image;
             this.pictureBox_onion.Location = new System.Drawing.Point(1199, 379);
             this.pictureBox_onion.Name = "pictureBox_onion";
             this.pictureBox_onion.Size = new System.Drawing.Size(79, 73);
