@@ -139,6 +139,7 @@
             this.textBox_recept.Location = new System.Drawing.Point(340, 266);
             this.textBox_recept.Multiline = true;
             this.textBox_recept.Name = "textBox_recept";
+            this.textBox_recept.ReadOnly = true;
             this.textBox_recept.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox_recept.Size = new System.Drawing.Size(446, 276);
             this.textBox_recept.TabIndex = 9;
@@ -152,6 +153,7 @@
             this.button_one_more.TabIndex = 10;
             this.button_one_more.Text = "Попробывать еще";
             this.button_one_more.UseVisualStyleBackColor = true;
+            this.button_one_more.Click += new System.EventHandler(this.button_one_more_Click);
             // 
             // button_exit
             // 
@@ -162,6 +164,7 @@
             this.button_exit.TabIndex = 11;
             this.button_exit.Text = "Выйти";
             this.button_exit.UseVisualStyleBackColor = true;
+            this.button_exit.Click += new System.EventHandler(this.button_exit_Click);
             // 
             // Form2
             // 
@@ -180,9 +183,12 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Шава мейкер 2.0";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

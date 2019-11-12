@@ -15,8 +15,9 @@ namespace Шава_мейкер_2._0
         public Form1()
         {
             InitializeComponent();
+            
         }
-
+        
         //буфер для значения numeric
         double[] znach = { 0, 0, 0, 0 }; 
         double[] znach_2 = { 0, 0, 0 };
@@ -591,7 +592,9 @@ namespace Шава_мейкер_2._0
         //кнопка "Скрутить шавуху"
         private void button_go_Click(object sender, EventArgs e)
         {
-
+            Form2 f2 = new Form2(); //для обращения ко второй форме
+            this.Hide();
+            f2.Show();
         }
 
         //тут подсказки и подгрузка эллементов
@@ -604,7 +607,7 @@ namespace Шава_мейкер_2._0
 
             t.SetToolTip(radioButton_chiken, "Ко-ко-ко");
             t.SetToolTip(radioButton_pork, "Хрю-Хрю-Хрю");
-            t.SetToolTip(radioButton_mutton, "Свежий, молочнй поросёнок");
+            t.SetToolTip(radioButton_mutton, "Бе-бе-бе");
 
             t.SetToolTip(radioButton__calssic, "Классический, чесночно-сливочный соус, самое то!");
             t.SetToolTip(radioButton__cheesy, "Мощныйший сырный соус, идеально подходит для любителей сыра");
@@ -633,6 +636,12 @@ namespace Шава_мейкер_2._0
             t.SetToolTip(radioButton_ready_bbq, "Лаваш, курица, соус BBQ, огурцы, салат, помидоры, лук, маринованый огурцы, болгарский перец, халапенью");
             t.SetToolTip(radioButton_ready_cheesy, "Лаваш, курица, сырный соус, огурцы, салат, помидоры, лук, мариновыный огурчики, болгарский перец");
             t.SetToolTip(radioButton_ready_no, "Сам себе барин");
+        }
+
+        //для коретного выхода
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     } 
 }

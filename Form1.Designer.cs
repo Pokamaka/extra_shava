@@ -809,7 +809,6 @@
             // 
             // pictureBox_cucumber
             // 
-            this.pictureBox_cucumber.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_cucumber_Image;
             this.pictureBox_cucumber.Location = new System.Drawing.Point(1263, 43);
             this.pictureBox_cucumber.Name = "pictureBox_cucumber";
             this.pictureBox_cucumber.Size = new System.Drawing.Size(79, 73);
@@ -875,7 +874,6 @@
             // 
             // pictureBox_mar_capusta
             // 
-            this.pictureBox_mar_capusta.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_mar_capusta_Image;
             this.pictureBox_mar_capusta.Location = new System.Drawing.Point(973, 379);
             this.pictureBox_mar_capusta.Name = "pictureBox_mar_capusta";
             this.pictureBox_mar_capusta.Size = new System.Drawing.Size(79, 73);
@@ -1056,10 +1054,12 @@
             this.Controls.Add(this.groupBox_meat);
             this.Controls.Add(this.groupBox_osnova);
             this.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Шава мейкер 2.0";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox_osnova.ResumeLayout(false);
             this.groupBox_osnova.PerformLayout();
