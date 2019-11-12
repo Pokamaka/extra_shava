@@ -25,6 +25,7 @@
         public void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox_osnova = new System.Windows.Forms.GroupBox();
             this.radioButton_tarelka = new System.Windows.Forms.RadioButton();
             this.radioButton_pita = new System.Windows.Forms.RadioButton();
@@ -100,7 +101,11 @@
             this.label_onion = new System.Windows.Forms.Label();
             this.button_go = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox_1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_5 = new System.Windows.Forms.PictureBox();
             this.groupBox_osnova.SuspendLayout();
             this.groupBox_meat.SuspendLayout();
             this.groupBox_sauce.SuspendLayout();
@@ -130,6 +135,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_xalapen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_dill)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_onion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_5)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox_osnova
@@ -764,9 +774,9 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 21.25F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(17, 810);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(223, 32);
+            this.label1.Size = new System.Drawing.Size(233, 32);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Шкала остроты";
+            this.label1.Text = "Шкала остроты:";
             // 
             // pictureBox_tarelka
             // 
@@ -1014,20 +1024,71 @@
             this.button_go.UseVisualStyleBackColor = true;
             this.button_go.Click += new System.EventHandler(this.button_go_Click);
             // 
-            // textBox1
+            // pictureBox_1
             // 
-            this.textBox1.Location = new System.Drawing.Point(953, 532);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(315, 158);
-            this.textBox1.TabIndex = 33;
+            this.pictureBox_1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_1.Image")));
+            this.pictureBox_1.Location = new System.Drawing.Point(256, 800);
+            this.pictureBox_1.Name = "pictureBox_1";
+            this.pictureBox_1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_1.TabIndex = 33;
+            this.pictureBox_1.TabStop = false;
+            this.pictureBox_1.Visible = false;
+            // 
+            // pictureBox_2
+            // 
+            this.pictureBox_2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_2.Image")));
+            this.pictureBox_2.Location = new System.Drawing.Point(303, 800);
+            this.pictureBox_2.Name = "pictureBox_2";
+            this.pictureBox_2.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_2.TabIndex = 34;
+            this.pictureBox_2.TabStop = false;
+            this.pictureBox_2.Visible = false;
+            // 
+            // pictureBox_3
+            // 
+            this.pictureBox_3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_3.Image")));
+            this.pictureBox_3.Location = new System.Drawing.Point(347, 800);
+            this.pictureBox_3.Name = "pictureBox_3";
+            this.pictureBox_3.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_3.TabIndex = 35;
+            this.pictureBox_3.TabStop = false;
+            this.pictureBox_3.Visible = false;
+            // 
+            // pictureBox_4
+            // 
+            this.pictureBox_4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_4.Image")));
+            this.pictureBox_4.Location = new System.Drawing.Point(395, 800);
+            this.pictureBox_4.Name = "pictureBox_4";
+            this.pictureBox_4.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_4.TabIndex = 36;
+            this.pictureBox_4.TabStop = false;
+            this.pictureBox_4.Visible = false;
+            // 
+            // pictureBox_5
+            // 
+            this.pictureBox_5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_5.Image")));
+            this.pictureBox_5.Location = new System.Drawing.Point(438, 800);
+            this.pictureBox_5.Name = "pictureBox_5";
+            this.pictureBox_5.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_5.TabIndex = 37;
+            this.pictureBox_5.TabStop = false;
+            this.pictureBox_5.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1367, 889);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.pictureBox_5);
+            this.Controls.Add(this.pictureBox_4);
+            this.Controls.Add(this.pictureBox_3);
+            this.Controls.Add(this.pictureBox_2);
+            this.Controls.Add(this.pictureBox_1);
             this.Controls.Add(this.button_go);
             this.Controls.Add(this.label_onion);
             this.Controls.Add(this.label_dill);
@@ -1104,6 +1165,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_xalapen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_dill)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_onion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1187,7 +1253,11 @@
         public System.Windows.Forms.Button button_go;
         public System.Windows.Forms.ToolTip toolTip1;
         private System.ComponentModel.IContainer components;
-        private System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.PictureBox pictureBox_1;
+        public System.Windows.Forms.PictureBox pictureBox_2;
+        public System.Windows.Forms.PictureBox pictureBox_3;
+        public System.Windows.Forms.PictureBox pictureBox_4;
+        public System.Windows.Forms.PictureBox pictureBox_5;
     }
 }
 

@@ -231,6 +231,46 @@ namespace Шава_мейкер_2._0
                 Data.Ost = Data.Ost - 1;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
+            if (Data.Ost == 1)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = false;
+                this.pictureBox_3.Visible = false;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 2)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = false;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 3)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 4)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = true;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost > 4)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = true;
+                this.pictureBox_5.Visible = true;
+            }
         } //минималка
         public void radioButton__middel_CheckedChanged(object sender, EventArgs e)
         {
@@ -245,6 +285,46 @@ namespace Шава_мейкер_2._0
                 Data.Ost = Data.Ost - 2;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
+            if (Data.Ost == 1)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = false;
+                this.pictureBox_3.Visible = false;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 2)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = false;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 3)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 4)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = true;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost > 4)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = true;
+                this.pictureBox_5.Visible = true;
+            }
         } //норм
         public void radioButton__high_CheckedChanged(object sender, EventArgs e)
         {
@@ -259,6 +339,46 @@ namespace Шава_мейкер_2._0
                 Data.Ost = Data.Ost - 3;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
+            if (Data.Ost == 1)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = false;
+                this.pictureBox_3.Visible = false;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 2)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = false;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 3)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 4)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = true;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost > 4)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = true;
+                this.pictureBox_5.Visible = true;
+            }
         } //остренько
         public void radioButton__vhot_CheckedChanged(object sender, EventArgs e)
         {
@@ -273,6 +393,46 @@ namespace Шава_мейкер_2._0
                 Data.Ost = Data.Ost - 4;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
+            if (Data.Ost == 1)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = false;
+                this.pictureBox_3.Visible = false;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 2)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = false;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 3)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 4)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = true;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost > 4)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = true;
+                this.pictureBox_5.Visible = true;
+            }
         } //пожар
    
         
@@ -383,6 +543,46 @@ namespace Шава_мейкер_2._0
                 this.numeric_xalapen.Visible = false;
                 this.pictureBox_xalapen.Visible = false;
                 Data.Ost = Data.Ost - 1;
+            }
+            if (Data.Ost == 1)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = false;
+                this.pictureBox_3.Visible = false;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 2)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = false;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 3)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = false;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost == 4)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = true;
+                this.pictureBox_5.Visible = false;
+            }
+            if (Data.Ost > 4)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = true;
+                this.pictureBox_5.Visible = true;
             }
         } //халапенью
         public void checkBox_bill_CheckedChanged(object sender, EventArgs e)
