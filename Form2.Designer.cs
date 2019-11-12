@@ -196,18 +196,17 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label_symmShava;
-        private System.Windows.Forms.Label label_ost;
-        private System.Windows.Forms.Label label_callories;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox_recept;
-        private System.Windows.Forms.Button button_one_more;
-        private System.Windows.Forms.Button button_exit;
+        public System.Windows.Forms.TextBox textBox_recept;
+        public System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Label label_symmShava;
+        public System.Windows.Forms.Label label_ost;
+        public System.Windows.Forms.Label label_callories;
+        public System.Windows.Forms.Label label8;
+        public System.Windows.Forms.Button button_one_more;
+        public System.Windows.Forms.Button button_exit;
     }
 }

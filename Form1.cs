@@ -17,7 +17,9 @@ namespace Шава_мейкер_2._0
             InitializeComponent();
             
         }
-        
+
+        Form2 f2 = new Form2(); //для обращения ко второй форме
+
         //буфер для значения numeric
         double[] znach = { 0, 0, 0 }; 
         double[] znach_2 = { 0, 0, 0 };
@@ -38,7 +40,7 @@ namespace Шава_мейкер_2._0
             {
                 Data.Summ = Data.Summ + 30;
                 Data.Callories = Data.Callories + 20;
-                this.pictureBox_lavash.Visible = true;
+                this.pictureBox_lavash.Visible = true;                             
             }
             else
             {
@@ -173,11 +175,13 @@ namespace Шава_мейкер_2._0
             {
                 Data.Summ = Data.Summ + 40;
                 Data.Callories = Data.Callories + 25;
+                this.groupBox_hotly.Visible = true;
             }
             else
             {
                 Data.Summ = Data.Summ - 40;
                 Data.Callories = Data.Callories - 25;
+                this.groupBox_hotly.Visible = false;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //острый
@@ -187,11 +191,13 @@ namespace Шава_мейкер_2._0
             {
                 Data.Summ = Data.Summ + 40;
                 Data.Callories = Data.Callories + 25;
+                this.groupBox_hotly.Visible = true;
             }
             else
             {
                 Data.Summ = Data.Summ - 40;
                 Data.Callories = Data.Callories - 25;
+                this.groupBox_hotly.Visible = false;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //аджика
@@ -217,10 +223,12 @@ namespace Шава_мейкер_2._0
             if (radioButton__min.Checked == true)
             {
                 Data.Summ = Data.Summ + 5;
+                Data.Ost = Data.Ost + 1;
             }
             else
             {
                 Data.Summ = Data.Summ - 5;
+                Data.Ost = Data.Ost - 1;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //минималка
@@ -229,10 +237,12 @@ namespace Шава_мейкер_2._0
             if (radioButton__middel.Checked == true)
             {
                 Data.Summ = Data.Summ + 10;
+                Data.Ost = Data.Ost + 2;
             }
             else
             {
                 Data.Summ = Data.Summ - 10;
+                Data.Ost = Data.Ost - 2;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //норм
@@ -241,10 +251,12 @@ namespace Шава_мейкер_2._0
             if (radioButton__high.Checked == true)
             {
                 Data.Summ = Data.Summ + 15;
+                Data.Ost = Data.Ost + 3;
             }
             else
             {
                 Data.Summ = Data.Summ - 15;
+                Data.Ost = Data.Ost - 3;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //остренько
@@ -253,10 +265,12 @@ namespace Шава_мейкер_2._0
             if (radioButton__vhot.Checked == true)
             {
                 Data.Summ = Data.Summ + 20;
+                Data.Ost = Data.Ost + 4;
             }
             else
             {
                 Data.Summ = Data.Summ - 20;
+                Data.Ost = Data.Ost - 4;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //пожар
@@ -362,11 +376,13 @@ namespace Шава_мейкер_2._0
             {
                 this.numeric_xalapen.Visible = true;
                 this.pictureBox_xalapen.Visible = true;
+                Data.Ost = Data.Ost + 1;
             }
             else
             {
                 this.numeric_xalapen.Visible = false;
                 this.pictureBox_xalapen.Visible = false;
+                Data.Ost = Data.Ost - 1;
             }
         } //халапенью
         public void checkBox_bill_CheckedChanged(object sender, EventArgs e)
@@ -432,8 +448,7 @@ namespace Шава_мейкер_2._0
                 znach[a] = b;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
-            this.label_cucumber.Text = $"x{Convert.ToString((int)this.numeric_cucumber.Value)}";
-
+            this.label_cucumber.Text = $"x{Convert.ToString((int)this.numeric_cucumber.Value)}";        
         } //огурцы
         public void numeric_mar_cucumber_ValueChanged(object sender, EventArgs e)
         {

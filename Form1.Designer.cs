@@ -2,10 +2,6 @@
 {
     partial class Form1
     {
-        /// <summary>
-        /// Обязательная переменная конструктора.
-        /// </summary>
-        public System.ComponentModel.IContainer components = null;
 
         /// <summary>
         /// Освободить все используемые ресурсы.
@@ -104,6 +100,7 @@
             this.label_onion = new System.Windows.Forms.Label();
             this.button_go = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox_osnova.SuspendLayout();
             this.groupBox_meat.SuspendLayout();
             this.groupBox_sauce.SuspendLayout();
@@ -809,6 +806,7 @@
             // 
             // pictureBox_cucumber
             // 
+            this.pictureBox_cucumber.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_cucumber_Image;
             this.pictureBox_cucumber.Location = new System.Drawing.Point(1263, 43);
             this.pictureBox_cucumber.Name = "pictureBox_cucumber";
             this.pictureBox_cucumber.Size = new System.Drawing.Size(79, 73);
@@ -874,6 +872,7 @@
             // 
             // pictureBox_mar_capusta
             // 
+            this.pictureBox_mar_capusta.Image = global::Шава_мейкер_2._0.Form1_desinger.pictureBox_mar_capusta_Image;
             this.pictureBox_mar_capusta.Location = new System.Drawing.Point(973, 379);
             this.pictureBox_mar_capusta.Name = "pictureBox_mar_capusta";
             this.pictureBox_mar_capusta.Size = new System.Drawing.Size(79, 73);
@@ -1015,11 +1014,20 @@
             this.button_go.UseVisualStyleBackColor = true;
             this.button_go.Click += new System.EventHandler(this.button_go_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(953, 532);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(315, 158);
+            this.textBox1.TabIndex = 33;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1367, 889);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button_go);
             this.Controls.Add(this.label_onion);
             this.Controls.Add(this.label_dill);
@@ -1178,6 +1186,8 @@
         public System.Windows.Forms.Label label_onion;
         public System.Windows.Forms.Button button_go;
         public System.Windows.Forms.ToolTip toolTip1;
+        private System.ComponentModel.IContainer components;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
