@@ -985,72 +985,72 @@ namespace Шава_мейкер_2._0
             //основа для рецепта
             if (local_main == 1)
             {
-                f2.listBox_recept.Items.Add("Лаваш ~ 200 гр");
+                f2.listBox_recept.Items.Add("- Лаваш ~ 200 гр");
             }
             else if (local_main == 2)
             {
-                f2.listBox_recept.Items.Add("Пита ~ 200 гр");
+                f2.listBox_recept.Items.Add("- Пита ~ 200 гр");
             }
             else if (local_main == 3)
             {
-                f2.listBox_recept.Items.Add("Всё на тарелке");
+                f2.listBox_recept.Items.Add("- Всё на тарелке");
             }
             //мясо для рецепта
+            f2.listBox_recept.Items.Add("------Мясо------");
             if (local_meat == 1)
             {
-                f2.listBox_recept.Items.Add("Курица ~ 150 гр");
+                f2.listBox_recept.Items.Add("- Курица ~ 150 гр");
             }
             else if (local_meat == 2)
             {
-                f2.listBox_recept.Items.Add("Свинина ~ 150 гр");
+                f2.listBox_recept.Items.Add("- Свинина ~ 150 гр");
             }
             else if (local_meat == 3)
             {
-                f2.listBox_recept.Items.Add("Баранина ~ 150 гр");
+                f2.listBox_recept.Items.Add("- Баранина ~ 150 гр");
             }
 
             //соус для рецепта
+            f2.listBox_recept.Items.Add("------Соус------");
             if (local_souce == 1)
             {
-                f2.listBox_recept.Items.Add("Классический соус ~ 80 гр");
+                f2.listBox_recept.Items.Add("- Классический соус ~ 80 гр");
             }
             else if (local_souce == 2)
             {
-                f2.listBox_recept.Items.Add("Барбекю соус ~ 80 гр");
+                f2.listBox_recept.Items.Add("- Барбекю соус ~ 80 гр");
             }
             else if (local_souce == 3)
             {
-                f2.listBox_recept.Items.Add("Сырный соус ~ 80 гр");
+                f2.listBox_recept.Items.Add("- Сырный соус ~ 80 гр");
             }
             else if (local_souce == 4)
             {
-                f2.listBox_recept.Items.Add("Острый соус ~ 80 гр");
+                f2.listBox_recept.Items.Add("- Острый соус ~ 80 гр");
             }
             else if (local_souce == 5)
             {
-                f2.listBox_recept.Items.Add("Аджика ~ 80 гр");
+                f2.listBox_recept.Items.Add("- Аджика ~ 80 гр");
             }
             else if (local_souce == 6)
             {
-                f2.listBox_recept.Items.Add("1000 островов соус ~ 80 гр");
+                f2.listBox_recept.Items.Add("- 1000 островов соус ~ 80 гр");
             }
 
             //допинги для рецепта
-            if (local_cucumber == 1) { f2.listBox_recept.Items.Add("Огурцы ~ 150 гр"); }
-                /*
-                    int local_cucumber = 0;
-                    int local_mar_cucumber = 0;
-                    int local_tomato = 0;
-                    int local_carrot = 0;
-                    int local_pepper = 0;
-                    int local_salad = 0;
-                    int local_mar_capusta = 0;
-                    int local_xalapen = 0;
-                    int local_dill = 0;
-                    int local_onion = 0;
-                */
+            f2.listBox_recept.Items.Add("------Допинги------");
+            if (local_cucumber == 1) { f2.listBox_recept.Items.Add($"- Огурцы - {Convert.ToString((int)this.numeric_cucumber.Value)} долек"); }
+            if (local_mar_cucumber == 1) { f2.listBox_recept.Items.Add($"- Маринованые огурйы - {Convert.ToString((int)this.numeric_cucumber.Value)} долек"); }
+            if (local_tomato == 1) { f2.listBox_recept.Items.Add($"- Помидоры - {Convert.ToString((int)this.numeric_cucumber.Value)} долек"); }
+            if (local_carrot == 1) { f2.listBox_recept.Items.Add($"- Морковка - {Convert.ToString((int)this.numeric_cucumber.Value)} долек"); }
+            if (local_pepper == 1) { f2.listBox_recept.Items.Add($"- Болгарский перец - {Convert.ToString((int)this.numeric_cucumber.Value)} долек"); }
+            if (local_salad == 1) { f2.listBox_recept.Items.Add($"- Салатный лист - {Convert.ToString((int)this.numeric_cucumber.Value)} шт"); }
+            if (local_mar_capusta == 1) { f2.listBox_recept.Items.Add($"- Квашеная капуста - {Convert.ToString((int)this.numeric_cucumber.Value)} гр"); }
+            if (local_xalapen == 1) { f2.listBox_recept.Items.Add($"- Халапенью - {Convert.ToString((int)this.numeric_cucumber.Value)} кусочек (-ов)"); }
+            if (local_dill == 1) { f2.listBox_recept.Items.Add($"- Укроп - {Convert.ToString((int)this.numeric_cucumber.Value)} шт"); }
+            if (local_onion == 1) { f2.listBox_recept.Items.Add($"- Лук - {Convert.ToString((int)this.numeric_cucumber.Value)} шт"); }
 
-                this.Hide();
+            this.Hide();
             f2.Show();
         }
 
