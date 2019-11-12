@@ -551,6 +551,10 @@ namespace Шава_мейкер_2._0
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //лук
 
-        
+        //кнопка "Скрутить шавуху"
+        private void button_go_Click(object sender, EventArgs e)
+        {
+
+        } 
     } 
 }

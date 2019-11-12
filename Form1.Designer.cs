@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox_osnova = new System.Windows.Forms.GroupBox();
             this.radioButton_tarelka = new System.Windows.Forms.RadioButton();
@@ -102,6 +103,8 @@
             this.label_xalapen = new System.Windows.Forms.Label();
             this.label_dill = new System.Windows.Forms.Label();
             this.label_onion = new System.Windows.Forms.Label();
+            this.button_go = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox_osnova.SuspendLayout();
             this.groupBox_meat.SuspendLayout();
             this.groupBox_sauce.SuspendLayout();
@@ -1015,11 +1018,22 @@
             this.label_onion.Text = "x2";
             this.label_onion.Visible = false;
             // 
+            // button_go
+            // 
+            this.button_go.Location = new System.Drawing.Point(1046, 800);
+            this.button_go.Name = "button_go";
+            this.button_go.Size = new System.Drawing.Size(295, 77);
+            this.button_go.TabIndex = 32;
+            this.button_go.Text = "Скрутить шавуху";
+            this.button_go.UseVisualStyleBackColor = true;
+            this.button_go.Click += new System.EventHandler(this.button_go_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1367, 889);
+            this.Controls.Add(this.button_go);
             this.Controls.Add(this.label_onion);
             this.Controls.Add(this.label_dill);
             this.Controls.Add(this.label_xalapen);
@@ -1172,6 +1186,8 @@
         private System.Windows.Forms.Label label_xalapen;
         private System.Windows.Forms.Label label_dill;
         private System.Windows.Forms.Label label_onion;
+        private System.Windows.Forms.Button button_go;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 
