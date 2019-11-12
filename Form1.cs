@@ -50,6 +50,10 @@ namespace Шава_мейкер_2._0
         //тут подсказки и подгрузка эллементов
         public void Form1_Load(object sender, EventArgs e)
         {
+            Data.Summ = 0; //обнуляем для повторного использования
+            Data.Callories = 0; //обнуляем для повторного использования
+            Data.Ost = 0; //обнуляем для повторного использования
+
             this.radioButton_lavash.Checked = true; //по умолчанию лаваш
             this.radioButton_chiken.Checked = true; //по умолчанию курица
             this.radioButton__calssic.Checked = true; //по умолчанию класический соус
@@ -977,7 +981,7 @@ namespace Шава_мейкер_2._0
         } //лук
 
 
-        //кнопка "Скрутить шавуху"
+        //кнопка "Скрутить шавуху" + вывод рецепта
         public void button_go_Click(object sender, EventArgs e)
         {
             Form2 f2 = new Form2(); //для обращения ко второй форме

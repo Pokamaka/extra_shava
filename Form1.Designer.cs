@@ -166,6 +166,7 @@
             // 
             // groupBox_osnova
             // 
+            this.groupBox_osnova.BackColor = System.Drawing.SystemColors.Control;
             this.groupBox_osnova.Controls.Add(this.radioButton_tarelka);
             this.groupBox_osnova.Controls.Add(this.radioButton_pita);
             this.groupBox_osnova.Controls.Add(this.radioButton_lavash);
@@ -1280,6 +1281,7 @@
             this.Controls.Add(this.groupBox_osnova);
             this.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
