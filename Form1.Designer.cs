@@ -673,7 +673,7 @@
             this.checkBox_carrot.Name = "checkBox_carrot";
             this.checkBox_carrot.Size = new System.Drawing.Size(161, 35);
             this.checkBox_carrot.TabIndex = 3;
-            this.checkBox_carrot.Text = "Марковка";
+            this.checkBox_carrot.Text = "морковка";
             this.checkBox_carrot.UseVisualStyleBackColor = true;
             this.checkBox_carrot.CheckedChanged += new System.EventHandler(this.checkBox_carrot_CheckedChanged);
             // 

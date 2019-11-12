@@ -53,7 +53,7 @@ namespace Шава_мейкер_2._0
             t.SetToolTip(radioButton__calssic, "Классический, чесночно-сливочный соус, самое то!");
             t.SetToolTip(radioButton__cheesy, "Мощныйший сырный соус, идеально подходит для любителей сыра");
             t.SetToolTip(radioButton__bbq, "Соус барбекю, идеально подходит к свинине");
-            t.SetToolTip(radioButton_adjika, "Домашняя, выдерженная острая аджика, идеально дополнит любое блюдо");
+            t.SetToolTip(radioButton_adjika, "Домашняя, выдерженная, острая аджика, идеально дополнит любое блюдо");
             t.SetToolTip(radioButton__1000island, "Пикантный соус 1000 островов, для любителей лёгкой заправки");
             t.SetToolTip(radioButton__super, "Для любителей острой кухни!");
             t.SetToolTip(radioButton__no, "Ну и странный Вы человек!");
@@ -66,8 +66,9 @@ namespace Шава_мейкер_2._0
             t.SetToolTip(checkBox_cucumber, "Огурцы с нашей грядки, только свежие и вкусные");
             t.SetToolTip(checkBox_mar_cucumber, "Мариновыные огурчики, изящно поддчеркнут вкус Вашего блюда");
             t.SetToolTip(checkBox_tomato, "Помидорка добавит сочности к шаверме и непердоваемый вкус");
+            t.SetToolTip(checkBox_pepper, "Перец примяком из Болгарии!");
             t.SetToolTip(checkBox_mar_capusta, "Бабушкина, квашеная капуста, ни кого не оставен равнодушним");
-            t.SetToolTip(checkBox_carrot, "Оранжевая марковка, никогда не будет лишней!");
+            t.SetToolTip(checkBox_carrot, "Оранжевая морковка, никогда не будет лишней!");
             t.SetToolTip(checkBox_xalapen, "Халапенью, добавит капельку остроты в Ваше блюдо");
             t.SetToolTip(checkBox_salad, "Без него просто ни куда!");
             t.SetToolTip(checkBox_bill, "Просто вкусно");
@@ -574,7 +575,7 @@ namespace Шава_мейкер_2._0
                 this.numeric_carrot.Visible = false;
                 this.pictureBox_carrot.Visible = false;
             }
-        } //марковка
+        } //морковка
         public void checkBox_pepper_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox_pepper.Checked == true)
@@ -825,7 +826,7 @@ namespace Шава_мейкер_2._0
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
             this.label_carrot.Text = $"x{Convert.ToString((int)this.numeric_carrot.Value)}";
-        } //марковка
+        } //морковка
         public void numeric_pepper_ValueChanged(object sender, EventArgs e)
         {
             int a = Convert.ToInt32(((NumericUpDown)sender).Tag);
