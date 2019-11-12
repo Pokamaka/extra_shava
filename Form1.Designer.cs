@@ -1071,6 +1071,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Шава мейкер 2.0";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox_osnova.ResumeLayout(false);
             this.groupBox_osnova.PerformLayout();
             this.groupBox_meat.ResumeLayout(false);
