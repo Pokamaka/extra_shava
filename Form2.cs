@@ -43,6 +43,37 @@ namespace Шава_мейкер_2._0
             this.label_symmShava.Text = $"{Data.Summ} руб.";
             this.label_callories.Text = $"{Data.Callories} cl.";
             this.label_ost.Text = $"{Data.Ost}";
+            if (Data.Ost == 1)
+            {
+                this.pictureBox_1.Visible = true;
+            }
+            if (Data.Ost == 2)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+            }
+            if (Data.Ost == 3)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+            }
+            if (Data.Ost == 4)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = true;
+            }
+            if (Data.Ost > 4)
+            {
+                this.pictureBox_1.Visible = true;
+                this.pictureBox_2.Visible = true;
+                this.pictureBox_3.Visible = true;
+                this.pictureBox_4.Visible = true;
+                this.pictureBox_5.Visible = true;
+            }
+
         }
     }
 }
