@@ -37,11 +37,13 @@ namespace Шава_мейкер_2._0
             {
                 Data.Summ = Data.Summ + 30;
                 Data.Callories = Data.Callories + 20;
+                this.pictureBox_lavash.Visible = true;
             }
             else
             {
                 Data.Summ = Data.Summ - 30;
                 Data.Callories = Data.Callories - 20;
+                this.pictureBox_lavash.Visible = false;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //лаваш
@@ -51,11 +53,13 @@ namespace Шава_мейкер_2._0
             {
                 Data.Summ = Data.Summ + 15;
                 Data.Callories = Data.Callories + 25;
+                this.pictureBox_pita.Visible = true;
             }
             else
             {
                 Data.Summ = Data.Summ - 15;
                 Data.Callories = Data.Callories - 25;
+                this.pictureBox_pita.Visible = false;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //пита
@@ -64,10 +68,12 @@ namespace Шава_мейкер_2._0
             if (radioButton_tarelka.Checked == true)
             {
                 Data.Summ = Data.Summ + 50;
+                this.pictureBox_tarelka.Visible = true;
             }
             else
             {
                 Data.Summ = Data.Summ - 50;
+                this.pictureBox_tarelka.Visible = false;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
         } //тарелка
@@ -261,10 +267,14 @@ namespace Шава_мейкер_2._0
             if (checkBox_cucumber.Checked == true)
             {
                 this.numeric_cucumber.Visible = true;
+                this.pictureBox_cucumber.Visible = true;
+                this.label_cucumber.Visible = true;
             }
             else
             {
                 this.numeric_cucumber.Visible = false;
+                this.pictureBox_cucumber.Visible = false;
+                this.label_cucumber.Visible = false;
             }
         } //огурцы
         private void checkBox_mar_cucumber_CheckedChanged(object sender, EventArgs e)
@@ -272,10 +282,12 @@ namespace Шава_мейкер_2._0
             if (checkBox_mar_cucumber.Checked == true)
             {
                 this.numeric_mar_cucumber.Visible = true;
+                this.pictureBox_mar_cucumber.Visible = true;
             }
             else
             {
                 this.numeric_mar_cucumber.Visible = false;
+                this.pictureBox_mar_cucumber.Visible = false;
             }
         } //маринованые огурцы
         private void checkBox_tomato_CheckedChanged(object sender, EventArgs e)
@@ -283,10 +295,12 @@ namespace Шава_мейкер_2._0
             if (checkBox_tomato.Checked == true)
             {
                 this.numeric_tomato.Visible = true;
+                this.pictureBox_tomato.Visible = true;
             }
             else
             {
                 this.numeric_tomato.Visible = false;
+                this.pictureBox_tomato.Visible = false;
             }
         } //помидоры
         private void checkBox_carrot_CheckedChanged(object sender, EventArgs e)
@@ -294,10 +308,12 @@ namespace Шава_мейкер_2._0
             if (checkBox_carrot.Checked == true)
             {
                 this.numeric_carrot.Visible = true;
+                this.pictureBox_carrot.Visible = true;
             }
             else
             {
                 this.numeric_carrot.Visible = false;
+                this.pictureBox_carrot.Visible = false;
             }
         } //марковка
         private void checkBox_pepper_CheckedChanged(object sender, EventArgs e)
@@ -305,10 +321,12 @@ namespace Шава_мейкер_2._0
             if (checkBox_pepper.Checked == true)
             {
                 this.numeric_pepper.Visible = true;
+                this.pictureBox_pepper.Visible = true;
             }
             else
             {
                 this.numeric_pepper.Visible = false;
+                this.pictureBox_pepper.Visible = false;
             }
         } //болгарский перец
         private void checkBox_salad_CheckedChanged(object sender, EventArgs e)
@@ -316,10 +334,12 @@ namespace Шава_мейкер_2._0
             if (checkBox_salad.Checked == true)
             {
                 this.numeric_salad.Visible = true;
+                this.pictureBox_salad.Visible = true;
             }
             else
             {
                 this.numeric_salad.Visible = false;
+                this.pictureBox_salad.Visible = false;
             }
         } //салатный лист
         private void checkBox_mar_capusta_CheckedChanged(object sender, EventArgs e)
@@ -327,10 +347,12 @@ namespace Шава_мейкер_2._0
             if (checkBox_mar_capusta.Checked == true)
             {
                 this.numeric_mar_capusta.Visible = true;
+                this.pictureBox_mar_capusta.Visible = true;
             }
             else
             {
                 this.numeric_mar_capusta.Visible = false;
+                this.pictureBox_mar_capusta.Visible = false;
             }
         } //квашенная капуста
         private void checkBox_xalapen_CheckedChanged(object sender, EventArgs e)
@@ -338,10 +360,12 @@ namespace Шава_мейкер_2._0
             if (checkBox_xalapen.Checked == true)
             {
                 this.numeric_xalapen.Visible = true;
+                this.pictureBox_xalapen.Visible = true;
             }
             else
             {
                 this.numeric_xalapen.Visible = false;
+                this.pictureBox_xalapen.Visible = false;
             }
         } //халапенью
         private void checkBox_bill_CheckedChanged(object sender, EventArgs e)
@@ -349,10 +373,12 @@ namespace Шава_мейкер_2._0
             if (checkBox_bill.Checked == true)
             {
                 this.numeric_dill.Visible = true;
+                this.pictureBox_dill.Visible = true;
             }
             else
             {
                 this.numeric_dill.Visible = false;
+                this.pictureBox_dill.Visible = false;
             }
         } //укров
         private void checkBox_onion_CheckedChanged(object sender, EventArgs e)
@@ -360,10 +386,12 @@ namespace Шава_мейкер_2._0
             if (checkBox_onion.Checked == true)
             {
                 this.numeric_onion.Visible = true;
+                this.pictureBox_onion.Visible = true;
             }
             else
             {
                 this.numeric_onion.Visible = false;
+                this.pictureBox_onion.Visible = false;
             }
         } //лук
 
@@ -421,6 +449,7 @@ namespace Шава_мейкер_2._0
                 znach_2[a] = b;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
+            this.label_mar_cucumber.Text = $"x{Convert.ToString((int)this.numeric_mar_cucumber.Value)}";
         } //маринованые огурцы
         private void numeric_tomato_ValueChanged(object sender, EventArgs e)
         {
@@ -437,6 +466,7 @@ namespace Шава_мейкер_2._0
                 znach_3[a] = b;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
+            this.label_tomato.Text = $"x{Convert.ToString((int)this.numeric_tomato.Value)}";
         } //помидоры
         private void numeric_carrot_ValueChanged(object sender, EventArgs e)
         {
@@ -453,6 +483,7 @@ namespace Шава_мейкер_2._0
                 znach_4[a] = b;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
+            this.label_carrot.Text = $"x{Convert.ToString((int)this.numeric_carrot.Value)}";
         } //марковка
         private void numeric_pepper_ValueChanged(object sender, EventArgs e)
         {
@@ -469,6 +500,7 @@ namespace Шава_мейкер_2._0
                 znach_5[a] = b;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
+            this.label_pepper.Text = $"x{Convert.ToString((int)this.numeric_pepper.Value)}";
         } //болгарский перец
         private void numeric_salad_ValueChanged(object sender, EventArgs e)
         {
@@ -485,6 +517,7 @@ namespace Шава_мейкер_2._0
                 znach_6[a] = b;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
+            this.label_salad.Text = $"x{Convert.ToString((int)this.numeric_salad.Value)}";
         } //салатный лист
         private void numeric_mar_capusta_ValueChanged(object sender, EventArgs e)
         {
@@ -501,6 +534,7 @@ namespace Шава_мейкер_2._0
                 znach_7[a] = b;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
+            this.label_mar_capusta.Text = $"x{Convert.ToString((int)this.numeric_mar_capusta.Value)}";
         } //квашенная капуста
         private void numeric_xalapen_ValueChanged(object sender, EventArgs e)
         {
@@ -517,6 +551,7 @@ namespace Шава_мейкер_2._0
                 znach_8[a] = b;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
+            this.label_xalapen.Text = $"x{Convert.ToString((int)this.numeric_xalapen.Value)}";
         } //халапенью
         private void numeric_dill_ValueChanged(object sender, EventArgs e)
         {
@@ -533,6 +568,7 @@ namespace Шава_мейкер_2._0
                 znach_9[a] = b;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
+            this.label_dill.Text = $"x{Convert.ToString((int)this.numeric_dill.Value)}";
         } //укров
         private void numeric_onion_ValueChanged(object sender, EventArgs e)
         {
@@ -549,6 +585,7 @@ namespace Шава_мейкер_2._0
                 znach_10[a] = b;
             }
             this.label__SummShava.Text = $"{Data.Summ} руб.";
+            this.label_onion.Text = $"x{Convert.ToString((int)this.numeric_onion.Value)}";
         } //лук
 
         //кнопка "Скрутить шавуху"

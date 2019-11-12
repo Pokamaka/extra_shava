@@ -816,6 +816,7 @@
             this.pictureBox_cucumber.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_cucumber.TabIndex = 12;
             this.pictureBox_cucumber.TabStop = false;
+            this.pictureBox_cucumber.Visible = false;
             // 
             // pictureBox_mar_cucumber
             // 
@@ -826,6 +827,7 @@
             this.pictureBox_mar_cucumber.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_mar_cucumber.TabIndex = 13;
             this.pictureBox_mar_cucumber.TabStop = false;
+            this.pictureBox_mar_cucumber.Visible = false;
             // 
             // pictureBox_tomato
             // 
@@ -836,6 +838,7 @@
             this.pictureBox_tomato.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_tomato.TabIndex = 14;
             this.pictureBox_tomato.TabStop = false;
+            this.pictureBox_tomato.Visible = false;
             // 
             // pictureBox_carrot
             // 
@@ -846,6 +849,7 @@
             this.pictureBox_carrot.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_carrot.TabIndex = 15;
             this.pictureBox_carrot.TabStop = false;
+            this.pictureBox_carrot.Visible = false;
             // 
             // pictureBox_pepper
             // 
@@ -856,6 +860,7 @@
             this.pictureBox_pepper.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_pepper.TabIndex = 16;
             this.pictureBox_pepper.TabStop = false;
+            this.pictureBox_pepper.Visible = false;
             // 
             // pictureBox_salad
             // 
@@ -866,6 +871,7 @@
             this.pictureBox_salad.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_salad.TabIndex = 17;
             this.pictureBox_salad.TabStop = false;
+            this.pictureBox_salad.Visible = false;
             // 
             // pictureBox_mar_capusta
             // 
@@ -876,6 +882,7 @@
             this.pictureBox_mar_capusta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_mar_capusta.TabIndex = 18;
             this.pictureBox_mar_capusta.TabStop = false;
+            this.pictureBox_mar_capusta.Visible = false;
             // 
             // pictureBox_xalapen
             // 
@@ -886,6 +893,7 @@
             this.pictureBox_xalapen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_xalapen.TabIndex = 19;
             this.pictureBox_xalapen.TabStop = false;
+            this.pictureBox_xalapen.Visible = false;
             // 
             // pictureBox_dill
             // 
@@ -896,6 +904,7 @@
             this.pictureBox_dill.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_dill.TabIndex = 20;
             this.pictureBox_dill.TabStop = false;
+            this.pictureBox_dill.Visible = false;
             // 
             // pictureBox_onion
             // 
@@ -906,6 +915,7 @@
             this.pictureBox_onion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_onion.TabIndex = 21;
             this.pictureBox_onion.TabStop = false;
+            this.pictureBox_onion.Visible = false;
             // 
             // label_cucumber
             // 
@@ -913,10 +923,8 @@
             this.label_cucumber.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_cucumber.Location = new System.Drawing.Point(1312, 90);
             this.label_cucumber.Name = "label_cucumber";
-            this.label_cucumber.Size = new System.Drawing.Size(29, 22);
+            this.label_cucumber.Size = new System.Drawing.Size(0, 22);
             this.label_cucumber.TabIndex = 22;
-            this.label_cucumber.Text = "x2";
-            this.label_cucumber.Visible = false;
             // 
             // label_mar_cucumber
             // 
@@ -924,10 +932,8 @@
             this.label_mar_cucumber.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_mar_cucumber.Location = new System.Drawing.Point(1312, 162);
             this.label_mar_cucumber.Name = "label_mar_cucumber";
-            this.label_mar_cucumber.Size = new System.Drawing.Size(29, 22);
+            this.label_mar_cucumber.Size = new System.Drawing.Size(0, 22);
             this.label_mar_cucumber.TabIndex = 23;
-            this.label_mar_cucumber.Text = "x2";
-            this.label_mar_cucumber.Visible = false;
             // 
             // label_tomato
             // 
@@ -935,10 +941,8 @@
             this.label_tomato.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_tomato.Location = new System.Drawing.Point(1312, 233);
             this.label_tomato.Name = "label_tomato";
-            this.label_tomato.Size = new System.Drawing.Size(29, 22);
+            this.label_tomato.Size = new System.Drawing.Size(0, 22);
             this.label_tomato.TabIndex = 24;
-            this.label_tomato.Text = "x2";
-            this.label_tomato.Visible = false;
             // 
             // label_carrot
             // 
@@ -946,10 +950,8 @@
             this.label_carrot.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_carrot.Location = new System.Drawing.Point(1312, 298);
             this.label_carrot.Name = "label_carrot";
-            this.label_carrot.Size = new System.Drawing.Size(29, 22);
+            this.label_carrot.Size = new System.Drawing.Size(0, 22);
             this.label_carrot.TabIndex = 25;
-            this.label_carrot.Text = "x2";
-            this.label_carrot.Visible = false;
             // 
             // label_pepper
             // 
@@ -957,10 +959,8 @@
             this.label_pepper.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_pepper.Location = new System.Drawing.Point(1312, 370);
             this.label_pepper.Name = "label_pepper";
-            this.label_pepper.Size = new System.Drawing.Size(29, 22);
+            this.label_pepper.Size = new System.Drawing.Size(0, 22);
             this.label_pepper.TabIndex = 26;
-            this.label_pepper.Text = "x2";
-            this.label_pepper.Visible = false;
             // 
             // label_salad
             // 
@@ -968,10 +968,8 @@
             this.label_salad.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_salad.Location = new System.Drawing.Point(941, 429);
             this.label_salad.Name = "label_salad";
-            this.label_salad.Size = new System.Drawing.Size(29, 22);
+            this.label_salad.Size = new System.Drawing.Size(0, 22);
             this.label_salad.TabIndex = 27;
-            this.label_salad.Text = "x2";
-            this.label_salad.Visible = false;
             // 
             // label_mar_capusta
             // 
@@ -979,10 +977,8 @@
             this.label_mar_capusta.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_mar_capusta.Location = new System.Drawing.Point(1014, 429);
             this.label_mar_capusta.Name = "label_mar_capusta";
-            this.label_mar_capusta.Size = new System.Drawing.Size(29, 22);
+            this.label_mar_capusta.Size = new System.Drawing.Size(0, 22);
             this.label_mar_capusta.TabIndex = 28;
-            this.label_mar_capusta.Text = "x2";
-            this.label_mar_capusta.Visible = false;
             // 
             // label_xalapen
             // 
@@ -990,10 +986,8 @@
             this.label_xalapen.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_xalapen.Location = new System.Drawing.Point(1093, 429);
             this.label_xalapen.Name = "label_xalapen";
-            this.label_xalapen.Size = new System.Drawing.Size(29, 22);
+            this.label_xalapen.Size = new System.Drawing.Size(0, 22);
             this.label_xalapen.TabIndex = 29;
-            this.label_xalapen.Text = "x2";
-            this.label_xalapen.Visible = false;
             // 
             // label_dill
             // 
@@ -1001,10 +995,8 @@
             this.label_dill.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_dill.Location = new System.Drawing.Point(1172, 429);
             this.label_dill.Name = "label_dill";
-            this.label_dill.Size = new System.Drawing.Size(29, 22);
+            this.label_dill.Size = new System.Drawing.Size(0, 22);
             this.label_dill.TabIndex = 30;
-            this.label_dill.Text = "x2";
-            this.label_dill.Visible = false;
             // 
             // label_onion
             // 
@@ -1012,10 +1004,8 @@
             this.label_onion.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_onion.Location = new System.Drawing.Point(1249, 429);
             this.label_onion.Name = "label_onion";
-            this.label_onion.Size = new System.Drawing.Size(29, 22);
+            this.label_onion.Size = new System.Drawing.Size(0, 22);
             this.label_onion.TabIndex = 31;
-            this.label_onion.Text = "x2";
-            this.label_onion.Visible = false;
             // 
             // button_go
             // 
